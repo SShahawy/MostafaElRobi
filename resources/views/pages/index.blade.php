@@ -25,6 +25,7 @@
 
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body class="counter-scroll">
@@ -906,6 +907,15 @@
     </section><!-- facts -->
 
 
+
+
+
+
+
+
+
+
+    
     <section class="practice-featured">
         <div class="practice-area practice-area-style2" >
             <div class="container">
@@ -917,6 +927,7 @@
                     <div class="row">
                         <div id="services1">
                             <div class="row">
+                                <div class="page1 row">
                                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                     <div class="image-box-law">
                                         <div class="featured-post">
@@ -985,6 +996,8 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="page2 row">
                                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                     <div class="image-box-law">
                                         <div class="featured-post">
@@ -1053,10 +1066,11 @@
                                         </div>
                                     </div>
                                 </div>
-    
+                            </div>
                             </div>
                     <div id="services2">
                         <div class="row">
+                            <div class="page3 row">
                             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div class="image-box-law">
                                     <div class="featured-post">
@@ -1125,6 +1139,8 @@
                                     </div>
                                 </div>
                             </div>
+                            </div>
+                            <div class="page4 row">
                             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div class="image-box-law">
                                     <div class="featured-post">
@@ -1193,11 +1209,13 @@
                                     </div>
                                 </div>
                             </div>
+                            </div>
 
                         </div>
 
                         <div id="services3">
                             <div class="row">
+                                <div class="page5 row">
                                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                     <div class="image-box-law">
                                         <div class="featured-post">
@@ -1266,6 +1284,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                </div>
+                                <div class="page6 row">
                                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                     <div class="image-box-law">
                                         <div class="featured-post">
@@ -1334,9 +1354,29 @@
                                         </div>
                                     </div>
                                 </div>
+                                </div>
+
+                            
                             </div>
+
                 </div>
+
             </div>
+            <center>
+                <div class="row" style="margin-left:30%;text-align:center;">
+            <a href="javascript:void(0);" class="circle" id="num1" onclick="page1()" >1&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num2" onclick="page2()" >2&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num3" onclick="page3()" >3&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num4" onclick="page4()" >4&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num5" onclick="page5()" >5&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num6" onclick="page6()" >6&emsp;</a> 
+            {{-- <a href="javascript:void(0);" onclick="page2()"><div class="circle" id="num2">2&emsp;</div></a> 
+            <a href="javascript:void(0);" onclick="page3()"><div class="circle" id="num3">3&emsp;</div></a>
+            <a href="javascript:void(0);" onclick="page4()"><div class="circle" id="num4">4&emsp;</div></a>
+            <a href="javascript:void(0);" onclick="page5()"><div class="circle" id="num5">5&emsp;</div></a>
+            <a href="javascript:void(0);" onclick="page6()"><div class="circle" id="num6">6&emsp;</div></a> --}}
+        </div>
+        </center>
             <br>
             
         </div><!-- practice -->
@@ -1438,7 +1478,7 @@
 
 
 
-      
+    
 
 
 

@@ -83,29 +83,34 @@
             <div class="title-section text-center">
                 <h3 class="flat-title">احجز استشاره</h3>
             </div>
-            <form action="#" method="post" class="form-message-pct">
+            <form action="{{ route('estshara') }}" method="post" class="form-message-pct">
+                @csrf
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">الاَسم</label>
-                        <input type="text" style="text-align: right;color:#3C2118;" class="your-name" placeholder="اسمك بالكامل">
+                        <input required type="text" name="name" style="text-align: right;color:#3C2118;" class="your-name" placeholder="اسمك بالكامل">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">إيميل</label>
-                        <input type="text" style="text-align: right;color:#3C2118" class="your-email" placeholder="إيميل">
+                        <input required type="email" name="email" style="text-align: right;color:#3C2118" class="your-email" placeholder="إيميل">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">رقم التليفون</label>
-                        <input type="text" style="text-align: right;color:#3C2118;" class="your-phone" placeholder="رقم التليفون">
+                        <input required type="text" name="phone" style="text-align: right;color:#3C2118;" class="your-phone" placeholder="رقم التليفون">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">تاريخ الأستشاره</label>
-                        <input type="date" class="your-email">
+                        <input required type="date" name="date" class="your-email">
                     </div>
                 </div>
-                <textarea name="comment" style="text-align: right;color:#3C2118;" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
-                <div class="fl-btn">
+                <textarea  name="details" required style="text-align: right;color:#3C2118;" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
+                {{-- 
                     <button class="hvr-vertical">احجز الاَن</button>
-                </div>
+                --}}
+                <div class="fl-btn">
+
+                <input type="submit"  class="hvr-vertical" value="احجز الاَن">
+            </div> 
             </form>
         </div>
     </div><!-- write-something -->
