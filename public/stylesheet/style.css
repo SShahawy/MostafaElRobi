@@ -2948,19 +2948,19 @@ input::-webkit-input-placeholder {
     line-height: 82px;
     font-weight: 700;
     /* color: #cca776; */
-    color: black;
+    color: 462B20;
 }
 .flat-counter .counter .content-counter .numb-bs {
     font-size: 60px;
     line-height: 82px;
     font-weight: 700;
     /* color: #cca776; */
-    color: black;
+    color: 462B20;
 }
 .flat-counter .counter .content-counter .name-count {
     font-size: 24px;
     font-weight: 700;
-    color: #fff;
+    color: #A44E31;
     margin-bottom: 46px;
 }
 .swal-wide{
@@ -2976,6 +2976,14 @@ input::-webkit-input-placeholder {
     /* background-position: bottom; */
 }
 
+.whitebox{
+    background-color:rgba(255, 255, 255, 0.72);
+    /* background-image: linear-gradient(#D6CABB,#ADB4AC); */
+     padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+ 
+}
 /* testimonial
 -------------------------------------------------------------- */
 .testimonial {
@@ -3453,9 +3461,19 @@ input::-webkit-input-placeholder {
     padding-top:35px;
     padding-bottom:20px;
     background-image: linear-gradient(#743b2665,#cca776c4,white ,#cca776c4,#743b265b ) !important;
+    
 }
 
 
+.iconbox-image img{
+    border: 0.1px white solid;
+    box-shadow:1px 2px 15px black;
+    border-radius : 4px;
+    width:300px;
+    margin-top:20px;
+    margin-right:50%;
+
+}
 .slidertitle a{
     
     font-size: 30px !important;

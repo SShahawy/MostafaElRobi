@@ -49,85 +49,7 @@
                             </div>
                          </div>
                         </div>
-                        <!-- Layers -->
-                        {{-- <div class="tp-caption tp-resizeme text-white font-weight-700 text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-140','-140']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-146','-146','-146','-146']"
-                        data-fontsize="['40','40','24','16']"
-                        data-lineheight="['70','70','36','30']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="700" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        مصطفي الروبي | محامون و مستشارون
-                        </div> --}}
-
-                        {{-- <div class="tp-caption tp-resizeme text-white font-weight-700 text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-70','-80']"
-                        data-fontsize="['72','72','52','40']"
-                        data-lineheight="['100','100','64','52']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        We stand for Justice
-                        </div> --}}
-{{-- 
-                        <div class="tp-caption tp-resizeme text-description  text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-80','-80']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-90','-90']"
-                        data-fontsize="['21','21','16','16']"
-                        data-lineheight="['33','33','28','28']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on"
-                        style="font-weight:bold;color:white; ">
-                        مؤسس ومدير مؤسسة مصطفي الروبي للمحاماة والتحكيم 
-                        التجاري الدولي
-                        </div>
-
-                        <div class="tp-caption text-center btn-read-more"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-100','-100']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','20','20']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        <a href="cv" style="font-size: 25px;" class="hvr-vertical">نبذة عننا </a></div> --}}
+                     
                     </li>
                     <!-- /End Slide 1 -->
 
@@ -144,288 +66,15 @@
                          </div>
                     
                         </div>
-                        <!-- Layers -->
-                        {{-- <div class="tp-caption tp-resizeme text-white font-weight-700 text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['-200','-200','-180','-180']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-146','-146','-146','-146']"
-                        data-fontsize="['40','40','24','16']"
-                        data-lineheight="['70','70','36','30']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="700" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                     مصطفي الروبي | محامون و مستشارون
-                        </div> --}}
-
-                        {{-- <div class="tp-caption tp-resizeme text-white font-weight-700 text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-70','-80']"
-                        data-fontsize="['72','72','52','40']"
-                        data-lineheight="['100','100','64','52']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        We stand for Justice
-                        </div> --}}
-
-                        {{-- <div class="tp-caption tp-resizeme text-description  text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-80','-80']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-90','-90']"
-                        data-fontsize="['21','21','16','16']"
-                        data-lineheight="['33','33','28','28']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on"
-                        style="font-weight:bold;color:white;">
-                        المحامي المقبول لدي محكمة النقض 
-                        </div> --}}
-
-                        {{-- <div class="tp-caption text-center btn-read-more"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-100','-100']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','20','20']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        <a href="cv" style="font-size: 25px;" class="hvr-vertical">نبذة عننا </a></div> --}}
+                       
                     </li>
                     
                     <!-- /End Slide 2 -->
-                    {{-- slide3 --}}
-
-                    <li data-transition="random">
-                        <!-- Main Image -->
-                        <div class="carousel-item active">
-                            <img src="images/transparent-head/mostafaelrobi.jpg"  class="d-block w-100"  alt="مصطفي الروبي" name="محامون مستشارون"  style="object-fit: cover;" data-bgposition="center center" data-no-retina>
-                            <div class="carousel-caption d-none d-md-block">
-           
-                                <div class="text-center btn-read-more wow fadeInUp" style="margin-top: -20%;" ><a href="cv" class="btn-read-more" style="font-size: 25px;" target="_blank" class=" cta hvr-vertical ">نبذة عننا</a>
-                            
-                                </div>
-                             </div>
-                        
-                            </div>
-                        <!-- Layers -->
-                        {{-- <div class="tp-caption tp-resizeme text-white font-weight-700 text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-140','-140']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-146','-146','-146','-146']"
-                        data-fontsize="['40','40','24','16']"
-                        data-lineheight="['70','70','36','30']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="700" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        مصطفي الروبي | محامون و مستشارون
-                        </div> --}}
-
-                        {{-- <div class="tp-caption tp-resizeme text-white font-weight-700 text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-70','-80']"
-                        data-fontsize="['72','72','52','40']"
-                        data-lineheight="['100','100','64','52']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        We stand for Justice
-                        </div> --}}
-{{-- 
-                        <div class="tp-caption tp-resizeme text-description  text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-80','-80']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-90','-90']"
-                        data-fontsize="['21','21','16','16']"
-                        data-lineheight="['33','33','28','28']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on"
-                        style="font-weight:bold;color:white;">
-                        المحامي المقبول لدي المحكمة الإدارية العليا 
-                        </div>
-
-                        <div class="tp-caption text-center btn-read-more"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-100','-100']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','20','20']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        <a href="cv" style="font-size: 25px;" class="hvr-vertical">نبذة عننا </a></div> --}}
-                    </li>
-                    {{-- end slide slide 3 --}}
-
-                    {{-- slide4 --}}
-
-                    <li data-transition="random">
-                        <!-- Main Image -->
-                       <div class="carousel-item active">
-                        <img src="images/transparent-head/mostafaelrobi2.jpg"  class="d-block w-100"  alt="مصطفي الروبي" name="محامون مستشارون"  style="object-fit: cover;" data-bgposition="center center" data-no-retina>
-                        <div class="carousel-caption d-none d-md-block" >
-       
-                            <div class="text-center btn-read-more wow fadeInUp" style="margin-top: -20%;" ><a href="cv" class="btn-read-more" style="font-size: 25px;" target="_blank" class=" cta hvr-vertical ">نبذة عننا</a>
-                            
-                            </div>
-                         </div>
-                    
-                        </div>
-                        <!-- Layers -->
-                        {{-- <div class="tp-caption tp-resizeme text-white font-weight-700 text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['-200','-200','-140','-140']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-146','-146','-146','-146']"
-                        data-fontsize="['40','40','24','16']"
-                        data-lineheight="['70','70','36','30']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="700" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        مصطفي الروبي | محامون و مستشارون
-                        </div> --}}
-
-                        {{-- <div class="tp-caption tp-resizeme text-white font-weight-700 text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-70','-80']"
-                        data-fontsize="['72','72','52','40']"
-                        data-lineheight="['100','100','64','52']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        We stand for Justice
-                        </div> --}}
-{{-- 
-                        <div class="tp-caption tp-resizeme text-description  text-center"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-80','-80']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-90','-90']"
-                        data-fontsize="['21','21','16','16']"
-                        data-lineheight="['33','33','28','28']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on"
-                        style="font-weight:bold;color:white;">
-                        المحامي المقبول لدي المحكمة الدستورية العليا
-                        </div>
-
-                        <div class="tp-caption text-center btn-read-more"
-                        data-x="['center','center','center','center']" data-hoffset="['-180','-180','-100','-100']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','20','20']"
-                        data-width="full"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:0px;y:[100%];" 
-                        data-mask_out="x:inherit;y:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on">
-                        <a href="cv" style="font-size: 25px;" class="hvr-vertical">نبذة عننا </a></div> --}}
-                    </li>
-                    {{-- end slide 4  --}}
+              
                 </ul>
            
         </div>
     </div><!-- flat-slider -->
-
-
-
-
-
-
-
-
 
 
 <center>
@@ -467,8 +116,9 @@
                                         <a href="#">read more</a>
                                     </div> --}}
                                 </div>
-                            <div style="border-bottom:2px black solid;height:20px;width:500px;position:relative;right:27px;background:color:white !important;">
-                                <img src="images/services/company.jpg" style="border: 0.1px white solid;box-shadow:1px 2px 15px black;border-radius : 4px;width:500px;margin-top:20px;margin-right:50%;" alt="images">
+                                <br>
+                            <div class="iconbox-image" style="">
+                                <img src="images/services/company.jpg"  alt="images">
                             </div></center>
                             
                         </div>
@@ -493,9 +143,8 @@
                     <div class="bck-stand"></div>
                     <div class="bnc">
                         <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/01.png" alt="images">
-                            </div>
+                           
+                            <center>
                             <div class="iconbox-content">
                                 <h5 class="title slidertitle"><a href="#">رؤيتنا</a></h5>
                                 {{-- <p class="description">
@@ -505,6 +154,11 @@
                                     <a href="#">read more</a>
                                 </div> --}}
                             </div>
+
+                            <br>
+                            <div class="iconbox-image" style="">
+                                <img src="images/about/vision.jpg"  alt="images">
+                            </div></center>
                         </div>
                     </div>
                 </div>
@@ -527,18 +181,21 @@
                     <div class="bck-stand"></div>
                     <div class="bnc">
                         <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/01.png" alt="images">
-                            </div>
-                            <div class="iconbox-content">
-                                <h5 class="title slidertitle"><a href="#">المحامي المقبول لدي المحكمة اإلدارية العليا </a></h5>
-                                {{-- <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p> --}}
-                                {{-- <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div> --}}
-                            </div>
+                            <center>
+                                <div class="iconbox-content">
+                                    <h5 class="title slidertitle"><a href="#">اسس شركتك</a></h5>
+                                    {{-- <p class="description">
+                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
+                                    </p> --}}
+                                    {{-- <div class="fl-btn">
+                                        <a href="#">read more</a>
+                                    </div> --}}
+                                </div>
+    
+                                <br>
+                                <div class="iconbox-image" style="">
+                                    <img src="images/about/company.jpg"  alt="images">
+                                </div></center>
                         </div>
                     </div>
                 </div>
@@ -701,7 +358,6 @@
     </div>
 
 </center>
-<br><br><br><br><br><br><br><br>
 
 
 
@@ -727,91 +383,18 @@
 
 
 
-    
-    {{-- <section class="iconbox-home clearfix">
-        <div class="container">
-            <div class="iconbox-features type2">
-                <div class="iconbox iconbox-1">
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/01.png" alt="images">
-                            </div>
-                            <div class="iconbox-content">
-                                <h5 class="title"><a href="#">Short Time Result </a></h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p>
-                                <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="iconbox iconbox-2 active">
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/02.png" alt="images">
-                            </div>
-                            <div class="iconbox-content">
-                                <h5 class="title"><a href="#">We Stand For Justice</a></h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p>
-                                <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="iconbox iconbox-3">
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/03.png" alt="images">
-                            </div>
-                            <div class="iconbox-content">
-                                <h5 class="title"><a href="#">No Win No Pay</a></h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p>
-                                <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- iconbox --> --}}
 
 
-
-
-
-
-
-
-
-
-
-
-    <div >
-    <section class="about-home"  style="" >
-        <div class="container" style=" padding: 20px; padding:50px;">
+   
+        <h1 style="color: #A75032; font-size:30px; text-align:center;">خبرة في مجال تأسيس الشركات<h1>
+    <section class="about-home"  >
+        <div class="container" >
             <div class="row">
-                <div class="col-lg-5" style=" padding: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+                <div class="col-lg-5 wow fadeIn" style=" padding: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
                 text-align: center;">
                     <div class="featured-post">
-                        <div class="entry-image" style="background-color:white;">
-                            <img src="images/logo/new.png" alt="images">
+                        <div class="entry-image" >
+                            <img src="images/about/our vision.jpg" alt="images" style="height: 380px;">
                         </div>
                         <div class="image-move">
                             <img src="images/home1/05.png" alt="images" class="oval-one">
@@ -851,39 +434,32 @@
      
         <div class="container">
             <div class="flat-counter"  >
-                <div class="row">
+                <div class="row " style="width:50%">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="counter">                      
-                            <div class="content-counter">
+                            <div class="content-counter" >
+                                <div class="whitebox">
                                 <div class="numb-count-wrap">
                                     <span  class="numb-count" data-from="0" data-to="42" data-speed="2000" data-inviewport="yes">25</span>
                                 </div>
                                 <div class="name-count">سنوات الخبره</div>
                                 <div class="icon-count"><img src="images/home1/09.png" alt="images"></div>
                             </div>
-                        </div>
-                    </div>
-                    {{-- <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="counter">                            
-                            <div class="content-counter">
-                                <div class="numb-count-wrap">
-                                    <span class="numb-count" data-from="0" data-to="100" data-speed="2000" data-inviewport="yes">100</span>
-                                    <span class="numb-bs">+</span>
-                                </div>
-                                <div class="name-count">Total Attorney</div>
-                                <div class="icon-count"><img src="images/home1/10.png" alt="images"></div>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
+                
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="counter">                            
                             <div class="content-counter">
+                                <div class="whitebox">
                                 <div class="numb-count-wrap">
                                     <span class="numb-count" data-from="0" data-to="2000" data-speed="2000" data-inviewport="yes">225</span>
                                     <span class="numb-bs">+</span>
                                 </div>
                                 <div class="name-count">عملاء سعداء</div>
                                 <div class="icon-count"><img src="images/home1/11.png" alt="images"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1373,8 +949,8 @@
             </div>
         </div><!-- featured --> --}}
     </section><!-- practice-featured --> 
-{{-- </div> --}}
-</div>
+
+
 
 	<div class="team" id="team">
 		<div class="container" id="att">

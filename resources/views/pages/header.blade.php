@@ -22,7 +22,7 @@
                                 </ul> --}}
                             </li>
                             <li>
-                                <a href="#rev" class="" style="font-weight: bold;font-size:15px !important;">اراء عملائنا</a>
+                                <a href="/#rev" class="" style="font-weight: bold;font-size:15px !important;">اراء عملائنا</a>
                                 {{-- <ul class="sub-menu">
                                     <li><a href="index.html" class="active">Home 1</a></li>
                                 </ul> --}}
@@ -41,7 +41,7 @@
                                 </ul> 
                             </li> --}}
                             <li>
-                                <a href="#" style="font-weight: bold;font-size:15px !important;">من نحن</a>
+                                <a href="/" style="font-weight: bold;font-size:15px !important;">من نحن</a>
                                 <ul class="sub-menu">
                                     <li><a href="cv">نبذه عن مصطفي الروبي</a></li>
                                     <li><a href="/#att">فريق العمل</a></li>
