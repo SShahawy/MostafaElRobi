@@ -29,86 +29,7 @@
         <div class="loader"></div>
     </div>
 
-    <header id="header" class="header bg-color">
-        <div class="container">
-            <div class="flex-header">
-                <div id="logo" class="logo">
-                    <a href="index.html" title="Logo"><img src="images/logo/01.png" data-width="211" data-height="34" alt="images" data-retina="images/logo/01@2x.png"></a>
-                </div>
-                <div class="content-menu">
-                    <div class="nav-wrap">
-                        <div class="btn-menu"><span></span></div>
-                        <nav id="mainnav" class="mainnav">
-                            <ul class="menu">
-                                <li>
-                                    <a href="index.html">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home 1</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">About</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about.html">About</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Practice Area</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="practice-area.html">Practice area</a></li>
-                                        <li><a href="practice-single.html">Practice single</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Attorneys</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="attorneys.html">Attorneys</a></li>
-                                        <li><a href="attorneys-single.html">Attorneys single</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Cases</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="case-results.html">Case results</a></li>
-                                        <li><a href="case-details.html">Case details</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">News</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-single.html">Blog single</a></li>
-                                    </ul>
-                                </li>   
-                                <li>
-                                    <a href="#" class="active">Contact</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="contact.html" class="active">Contact</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                    </ul>
-                                </li>                                       
-                            </ul>                                   
-                        </nav>
-                    </div>
-                    <div class="flat-show-search">
-                        <div class="show-search">
-                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>                                             
-                        </div>   
-                        <div class="top-search">  
-                            <div>                      
-                                <form action="#" id="searchform-all" method="get">
-                                    <input type="text" id="s" class="ss" placeholder="Search...">
-                                    <button class="search-submit">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header><!-- header -->
+    @include('pages.header')
 
     <div class="contact clearfix">
         <div class="container">
@@ -165,23 +86,23 @@
             <form action="#" method="post" class="form-message-pct">
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
-                        <label for="" style="float:right;color:#A15035"">الاَسم</label>
-                        <input type="text" style="text-align: right;" class="your-name" placeholder="اسمك بالكامل">
+                        <label for="" style="float:right;color:#A15035">الاَسم</label>
+                        <input type="text" style="text-align: right;color:#3C2118;" class="your-name" placeholder="اسمك بالكامل">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">إيميل</label>
-                        <input type="text" style="text-align: right;color:#A15035" class="your-email" placeholder="إيميل">
+                        <input type="text" style="text-align: right;color:#3C2118" class="your-email" placeholder="إيميل">
                     </div>
                     <div class="wr-sm">
-                        <label for="" style="float:right;color:#A15035"">رقم التليفون</label>
-                        <input type="text" style="text-align: right;" class="your-phone" placeholder="رقم التليفون">
+                        <label for="" style="float:right;color:#A15035">رقم التليفون</label>
+                        <input type="text" style="text-align: right;color:#3C2118;" class="your-phone" placeholder="رقم التليفون">
                     </div>
                     <div class="wr-sm">
-                        <label for="" style="float:right;color:#A15035"">تاريخ الأستشاره</label>
+                        <label for="" style="float:right;color:#A15035">تاريخ الأستشاره</label>
                         <input type="date" class="your-email">
                     </div>
                 </div>
-                <textarea name="comment" style="text-align: right;" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
+                <textarea name="comment" style="text-align: right;color:#3C2118;" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
                 <div class="fl-btn">
                     <button class="hvr-vertical">احجز الاَن</button>
                 </div>
@@ -221,4 +142,5 @@
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
 </body>
+@include('pages.footer')
 </html>

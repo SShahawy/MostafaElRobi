@@ -1455,7 +1455,7 @@ setInterval(function() {
     swap('clockwise');
   }, 1500);
 function swap(action) {
-    console.log(action)
+    // console.log(action)
   var direction = action;
   
   //moving carousel backwards
@@ -1518,7 +1518,20 @@ function swap(action) {
   }
 }
 
-
+$('.carousel-control-next').click(function(){
+  $('.active').next('.carousel-item').first().addClass('active');
+  console.log($('.active').next('.carousel-item').first());
+  $('.active').prev().removeClass('active');
+  // $('.carousel-item').next().addClass('active');
+  // $('.carousel-item').prev().removeClass('active');
+})
+$('.carousel-control-prev').click(function(){
+  $('.active').prev('.carousel-item').first().addClass('active');
+  console.log($('.active').next('.carousel-item').first());
+  $('.active').next().removeClass('active');
+  // $('.carousel-item').next().addClass('active');
+  // $('.carousel-item').prev().removeClass('active');
+})
 
 //next button click function
 $('#next').click(function() {
@@ -1539,3 +1552,10 @@ $('.items').click(function() {
     swap('clockwise'); 
   }
 });
+
+
+
+
+
+
+
