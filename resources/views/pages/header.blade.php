@@ -22,7 +22,7 @@
                                 </ul> --}}
                             </li>
                             <li>
-                                <a href="#" class="" style="font-weight: bold;font-size:15px !important;">اراء عملائنا</a>
+                                <a href="#rev" class="" style="font-weight: bold;font-size:15px !important;">اراء عملائنا</a>
                                 {{-- <ul class="sub-menu">
                                     <li><a href="index.html" class="active">Home 1</a></li>
                                 </ul> --}}
