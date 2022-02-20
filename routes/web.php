@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\EstsharatController;
+use App\Http\Controllers\HiringController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.index');
-});
+})->name('index');
 
 Route::get('/cv', function () {
     return view('pages.attorneys-single');
@@ -52,3 +54,7 @@ Route::get('/h4', function () {
 Route::get('/h5', function () {
     return view('pages.practice-single');
 });
+
+// Route::resource('estsharat', EstsharatController::class);
+Route::post('estshara', [EstsharatController::class,'store'])->name('estshara');
+Route::post('tawzeef', [HiringController::class,'store'])->name('tawzeef');

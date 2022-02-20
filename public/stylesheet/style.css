@@ -2969,7 +2969,7 @@ input::-webkit-input-placeholder {
     /* padding-top:600px; */
 }
 .practice-featured {
-    background-image: url('../images/home1/13.png');
+    /* background-image: url('../images/home1/13.png'); */
     background-color: transparent !important;
     background-repeat: no-repeat;
     background-size: 130% 100%;
@@ -3965,3 +3965,19 @@ h3.title {
     height: 35px;
 }
 /* ------testimonial  close-------*/
+
+
+
+
+.circle {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    padding: 10px 0px 0px 21px;
+    background:linear-gradient(#CCA776,white);
+    /* background: #fff; */
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+  }

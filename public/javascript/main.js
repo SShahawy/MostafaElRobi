@@ -1302,5 +1302,60 @@ $('.items').click(function() {
 
 
 
+$( document ).ready(function() {
+  $('.page1').show();
+  $('.page2').hide();
+  $('.page3').hide();
+  $('.page4').hide();
+  $('.page5').hide();
+  $('.page6').hide();
+});
 
-
+function page1(){
+  $('.page1').show();
+  $('.page2').hide();
+  $('.page3').hide();
+  $('.page4').hide();
+  $('.page5').hide();
+  $('.page6').hide();
+}
+function page2(){
+  $('.page1').hide();
+  $('.page2').show();
+  $('.page3').hide();
+  $('.page4').hide();
+  $('.page5').hide();
+  $('.page6').hide();
+}
+function page3(){
+  $('.page1').hide();
+  $('.page2').hide();
+  $('.page3').show();
+  $('.page4').hide();
+  $('.page5').hide();
+  $('.page6').hide();
+}
+function page4(){
+  $('.page1').hide();
+  $('.page2').hide();
+  $('.page3').hide();
+  $('.page4').show();
+  $('.page5').hide();
+  $('.page6').hide();
+}
+function page5(){
+  $('.page1').hide();
+  $('.page2').hide();
+  $('.page3').hide();
+  $('.page4').hide();
+  $('.page5').show();
+  $('.page6').hide();
+}
+function page6(){
+  $('.page1').hide();
+  $('.page2').hide();
+  $('.page3').hide();
+  $('.page4').hide();
+  $('.page5').hide();
+  $('.page6').show();
+}

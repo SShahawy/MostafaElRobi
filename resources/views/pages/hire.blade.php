@@ -85,17 +85,18 @@
                     
                 </span>
             </div>
-            <form action="#" method="post" class="form-message-pct">
+            <form action="{{ route('tawzeef') }}" method="post" class="form-message-pct">
+                @csrf
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>الاَسم</label>
-                        <input type="text" style="text-align: right;" class="your-name" placeholder="اسمك بالكامل">
+                        <input type="text" name="name" style="text-align: right;" class="your-name" placeholder="اسمك بالكامل">
                     </div>
                 </div><br>
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>البريد الإلكتروني</label>
-                        <input type="text" style="text-align: right;" class="your-email" placeholder="إيميل">
+                        <input type="text" name="email" style="text-align: right;" class="your-email" placeholder="إيميل">
                     </div>
                 </div>
                     <div class="text-wrap d-md-flex clearfix">
@@ -103,8 +104,8 @@
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>النوع</label>
                         <ul class="flat-filter-isotype">
                             <select name="gender" id="">
-                            <li><option value="m">ذكر</option> </li>
-                            <li><option value="f">انثي</option></li>
+                            <li><option value="Male">ذكر</option> </li>
+                            <li><option value="Female">انثي</option></li>
                         </select>
                         </ul>
                         {{-- <input type="text" style="text-align: right;" class="your-email" placeholder="إميل"> --}}
@@ -112,20 +113,17 @@
 
                     <div class="wr-sm">
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>رقم التليفون</label>
-                        <input type="text" style="text-align: right;" class="your-phone" placeholder="رقم التليفون">
-                    </div>
-                    <div class="wr-sm">
-                        <label for="" style="float:right;"> <span style="color:red;font-weight:bold;">*</span>تاريخ الأستشاره</label>
-                        <input type="date" class="your-email">
+                        <input type="text" name="phone" style="text-align: right;" class="your-phone" placeholder="رقم التليفون">
                     </div>
                 </div>
-                <textarea name="comment" style="text-align: right;" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
+                <textarea name="details" style="text-align: right;" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
                 <div class="text-wrap d-md-flex clearfix">
                     <span style="color:red;font-weight:bold;">*&emsp;</span> <input type="file" class="your-phone">
                 </div>
                 <div class="fl-btn">
-                    <button class="hvr-vertical">احجز الاَن</button>
-                </div><br>
+
+                    <input type="submit"  class="hvr-vertical" value="احجز الاَن">
+                </div> 
                 
             </form>
         </div>
