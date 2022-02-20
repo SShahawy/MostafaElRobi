@@ -544,8 +544,8 @@
 #scroll-top {
     position: fixed;
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 70px;
+    height: 70px;
     line-height: 35px;
     border-radius: 50%;
     text-align: center;
@@ -556,7 +556,7 @@
     visibility: hidden;
     cursor: pointer;
     overflow: hidden;
-    background: #cca776;
+    /* background: #cca776; */
 }
 #scroll-top.show {
     right: 24px;
@@ -564,6 +564,36 @@
     visibility: visible;
 }
 #scroll-top:after {
+    /* content: "\f106"; */
+    /* font-family: 'Fontawesome'; */
+    font-size: 20px;
+    color: #fff;
+}
+
+
+#scroll-whatsappp {
+    position: fixed;
+    display: block;
+    width: 70px;
+    height: 70px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1;
+    left: 14px;
+    bottom: 23px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+#scroll-whatsappp.show {
+    left: 24px;
+    opacity: 1;
+    visibility: visible;
+}
+#scroll-whatsappp:after {
     /* content: "\f106"; */
     /* font-family: 'Fontawesome'; */
     font-size: 20px;

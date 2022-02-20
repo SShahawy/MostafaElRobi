@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="rev-slider/css/navigation.css">
     <link rel="stylesheet" href="rev-slider/css/settings.css">
 
-
 </head>
 
 <body>

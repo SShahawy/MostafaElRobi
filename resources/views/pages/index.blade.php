@@ -425,9 +425,9 @@
 
 
 
-    {{-- background-image: linear-gradient(to right,white,#cca776c4,#3c1e13,#cca776c4,white) !important; --}}
 
-<br><br><br><br><br><br>
+
+
 <center>
     {{-- <div id="wrap" style="background-image: url('images/services/slide_.png') !important;padding-top:200px;"> --}}
     <div id="wrap" style="  padding-top:200px;">
@@ -686,11 +686,11 @@
                                         </div>
                                     </li> --}}
                                 </ul>
-                                {{-- <span class="slider">
+                                <span class="slider">
                                   <a href="javascript:void(0);" value="Prev" id="prev"><i class="material-icons">&#xE314;</i></a>
                                   <a href="javascript:void(0);" value="Next" id="next"><i class="material-icons">&#xE315;</i></a>
-                                  
-                                </span> --}}
+                                  {{-- 5alek faker --}}
+                                </span>
                             </section>
                         </div>
                         </div>
@@ -804,13 +804,13 @@
 
 
     <div >
-    <section class="about-home" >
-        <div class="container" style=" padding: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:50px;">
+    <section class="about-home"  style="" >
+        <div class="container" style=" padding: 20px; padding:50px;">
             <div class="row">
-                <div class="col-lg-5" style=" padding: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  background-image: linear-gradient(#3c1e13,#cca776c4,white) !important;
+                <div class="col-lg-5" style=" padding: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
                 text-align: center;">
                     <div class="featured-post">
-                        <div class="entry-image">
+                        <div class="entry-image" style="background-color:white;">
                             <img src="images/logo/new.png" alt="images">
                         </div>
                         <div class="image-move">
@@ -841,7 +841,70 @@
     </section><!-- about -->
     
 
-    {{-- <div style="background-image: url('images/transparent-head/logo.png');background-repeat: no-repeat;float:left;"> --}}
+    
+
+
+
+    <section class="facts" id="facts" >
+        <div class="box1">
+       
+     
+        <div class="container">
+            <div class="flat-counter"  >
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="counter">                      
+                            <div class="content-counter">
+                                <div class="numb-count-wrap">
+                                    <span  class="numb-count" data-from="0" data-to="42" data-speed="2000" data-inviewport="yes">25</span>
+                                </div>
+                                <div class="name-count">سنوات الخبره</div>
+                                <div class="icon-count"><img src="images/home1/09.png" alt="images"></div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="counter">                            
+                            <div class="content-counter">
+                                <div class="numb-count-wrap">
+                                    <span class="numb-count" data-from="0" data-to="100" data-speed="2000" data-inviewport="yes">100</span>
+                                    <span class="numb-bs">+</span>
+                                </div>
+                                <div class="name-count">Total Attorney</div>
+                                <div class="icon-count"><img src="images/home1/10.png" alt="images"></div>
+                            </div>
+                        </div>
+                    </div> --}}
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="counter">                            
+                            <div class="content-counter">
+                                <div class="numb-count-wrap">
+                                    <span class="numb-count" data-from="0" data-to="2000" data-speed="2000" data-inviewport="yes">225</span>
+                                    <span class="numb-bs">+</span>
+                                </div>
+                                <div class="name-count">عملاء سعداء</div>
+                                <div class="icon-count"><img src="images/home1/11.png" alt="images"></div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="counter">
+                            <div class="content-counter">
+                                <div class="numb-count-wrap">
+                                    <span class="numb-count" data-from="0" data-to="99" data-speed="2000" data-inviewport="yes">99</span>
+                                    <span class="numb-bs">%</span>
+                                </div>
+                                <div class="name-count">نسبه النجاح</div>
+                                <div class="icon-count"><img src="images/home1/12.png" alt="images"></div>
+                            </div>
+                        </div>
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+    
+    </section><!-- facts -->
+
 
     <section class="practice-featured">
         <div class="practice-area practice-area-style2" >
@@ -858,16 +921,16 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/10.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/العقود الدولية.jpg" alt="العقود الدولية"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/15.png" alt="images"></a>
+                                                <a href="javascript:void(0)" id = ''><img src="images/services/scale.png" alt="images"></a>
                                             </div>
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">صياغة العقود الدولية والمحلية</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'syagha'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -875,16 +938,16 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/8.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/الاستشارات القانونية.jpg" alt="الاستشارات القانونية"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'estsharat'><img src="images/practice/16.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images" style="width: 80px;">
                                             </div>
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">الاستشارات القانونية والاقتصادية.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'estsharat'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'الاستشارات'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -892,10 +955,10 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/16.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/المنازعات.jpg" alt=" القضايا والمنازعات"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'monaz3at'><img src="images/practice/17.png" alt="images"></a>
+                                                <a href="javascript:void(0)" id = ''>  <img src="images/services/scale.png" alt="images"></a>
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -909,10 +972,10 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/4.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/تأسيس الشركات.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'sharekat'><img src="images/practice/18.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -926,16 +989,16 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/مصر للمقاصة.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'eda3'><img src="images/practice/19.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">التعامل مع مصر للمقاصة والقيد والإيداع المركزي.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'eda3'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'للمقاصة'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -943,16 +1006,16 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/التحكيم التجاري.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'ta7keem'><img src="images/practice/20.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">منازعات التحكيم التجاري الدولي والمحلي  </h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'ta7keem'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'التحكيم'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -960,16 +1023,16 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/الاوراق الرسمية.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'tasdeek'><img src="images/practice/20.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">التصديق على الأوراق الرسمية.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'tasdeek'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'التصديق'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -977,16 +1040,16 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/تصفية الديون.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'doyon'><img src="images/practice/20.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">تحصيل وتسوية الديون من القطاع المصرفي.</h4>
                                             {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
-                                            <a href="javascript:void(0)" id = 'doyon'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'الديون'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -998,10 +1061,10 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                            <a href="#"><img src="images/services/الاوراق الرسمية.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
-                                            <a href="javascript:void(0)" id = 'mas2olya'><img src="images/practice/15.png" alt="images"></a>
+                                            <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
@@ -1018,7 +1081,7 @@
                                             <a href="#"><img src="images/services/service.png" alt="images"></a>
                                         </div>
                                         <div class="icon">
-                                            <a href="javascript:void(0)" id = 'ta2menat'><img src="images/practice/16.png" alt="images"></a>
+                                            <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
@@ -1035,7 +1098,7 @@
                                             <a href="#"><img src="images/services/service.png" alt="images"></a>
                                         </div>
                                         <div class="icon">
-                                            <a href="javascript:void(0)" id = 'dawla'><img src="images/practice/17.png" alt="images"></a>
+                                            <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
@@ -1052,7 +1115,7 @@
                                             <a href="#"><img src="images/services/service.png" alt="images"></a>
                                         </div>
                                         <div class="icon">
-                                            <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/18.png" alt="images"></a>
+                                            <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
@@ -1069,7 +1132,7 @@
                                             <a href="#"><img src="images/services/service.png" alt="images"></a>
                                         </div>
                                         <div class="icon">
-                                            <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/19.png" alt="images"></a>
+                                            <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
@@ -1086,7 +1149,7 @@
                                             <a href="#"><img src="images/services/service.png" alt="images"></a>
                                         </div>
                                         <div class="icon">
-                                            <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/20.png" alt="images"></a>
+                                            <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
@@ -1103,7 +1166,7 @@
                                             <a href="#"><img src="images/services/service.png" alt="images"></a>
                                         </div>
                                         <div class="icon">
-                                            <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/20.png" alt="images"></a>
+                                            <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
@@ -1120,7 +1183,7 @@
                                             <a href="#"><img src="images/services/service.png" alt="images"></a>
                                         </div>
                                         <div class="icon">
-                                            <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/20.png" alt="images"></a>
+                                            <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
@@ -1142,7 +1205,7 @@
                                                 <a href="#"><img src="images/services/service.png" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/15.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -1159,7 +1222,7 @@
                                                 <a href="#"><img src="images/services/service.png" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/16.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -1176,7 +1239,7 @@
                                                 <a href="#"><img src="images/services/service.png" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/17.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -1193,7 +1256,7 @@
                                                 <a href="#"><img src="images/services/service.png" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/18.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -1210,7 +1273,7 @@
                                                 <a href="#"><img src="images/services/service.png" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/19.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -1227,7 +1290,7 @@
                                                 <a href="#"><img src="images/services/service.png" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/20.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -1244,7 +1307,7 @@
                                                 <a href="#"><img src="images/services/service.png" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/20.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -1261,7 +1324,7 @@
                                                 <a href="#"><img src="images/services/service.png" alt="images"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = 'syagha'><img src="images/practice/20.png" alt="images"></a>
+                                                <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -1314,7 +1377,7 @@
 </div>
 
 	<div class="team" id="team">
-		<div class="container">
+		<div class="container" id="att">
 			<h3 class="title" >فريق العمل</h3>
          
             <div class="row">
@@ -1337,48 +1400,7 @@
 						</div>
 					</div>
 					<h4>Peter Parker</h4>
-					<ul class="social-nav model-3d-0">
-						<li>
-							<a href="#" class="facebook">
-								<div class="front">
-									<i class="fa fa-facebook icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-facebook icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="twitter">
-								<div class="front">
-									<i class="fa fa-twitter icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-twitter icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="instagram">
-								<div class="front">
-									<i class="fa fa-google-plus icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-google-plus icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="pinterest">
-								<div class="front">
-									<i class="fa fa-rss icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-rss icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-					</ul>
+					
 				</div>
 				<div class="col-xs-4 team-grid">
 					<div class="pic">
@@ -1388,48 +1410,7 @@
 						</div>
 					</div>
 					<h4>Michael Loe</h4>
-					<ul class="social-nav model-3d-0">
-						<li>
-							<a href="#" class="facebook">
-								<div class="front">
-									<i class="fa fa-facebook icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-facebook icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="twitter">
-								<div class="front">
-									<i class="fa fa-twitter icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-twitter icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="instagram">
-								<div class="front">
-									<i class="fa fa-google-plus icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-google-plus icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="pinterest">
-								<div class="front">
-									<i class="fa fa-rss icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-rss icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-					</ul>
+					
 				</div>
 				<div class="col-xs-4 team-grid">
 					<div class="pic">
@@ -1438,48 +1419,7 @@
 						</div>
 					</div>
 					<h4>Mary Jane</h4>
-					<ul class="social-nav model-3d-0">
-						<li>
-							<a href="#" class="facebook">
-								<div class="front">
-									<i class="fa fa-facebook icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-facebook icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="twitter">
-								<div class="front">
-									<i class="fa fa-twitter icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-twitter icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="instagram">
-								<div class="front">
-									<i class="fa fa-google-plus icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-google-plus icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="pinterest">
-								<div class="front">
-									<i class="fa fa-rss icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-rss icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-					</ul>
+					
 				</div>
                 <div class="col-xs-4 team-grid">
 					<div class="pic">
@@ -1488,48 +1428,7 @@
 						</div>
 					</div>
 					<h4>Mary Jane</h4>
-					<ul class="social-nav model-3d-0">
-						<li>
-							<a href="#" class="facebook">
-								<div class="front">
-									<i class="fa fa-facebook icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-facebook icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="twitter">
-								<div class="front">
-									<i class="fa fa-twitter icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-twitter icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="instagram">
-								<div class="front">
-									<i class="fa fa-google-plus icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-google-plus icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="pinterest">
-								<div class="front">
-									<i class="fa fa-rss icon-border-2"></i>
-								</div>
-								<div class="back">
-									<i class="fa fa-rss icon-border-2"></i>
-								</div>
-							</a>
-						</li>
-					</ul>
+				
 				</div>
 
 				<div class="clearfix"> </div>
@@ -1539,121 +1438,15 @@
 
 
 
-     <section class="attorneys attorneys-style2" id="att" style="text-align:right;">
-        <div class="container">
-            <div class="top-wrap">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="content">
-                            <div class="caption">فريق العمل</div>
-                            <p class="description" style="font-size: 18px;">
-                                نضم فريق عمل مكون من حوالي 20 محاميآ وما يقرب من 20 مساعدآ وموظفآ على درجة عالية من الحرفية والخبرة يعملون جنبآ الى جنب في أكثر من 40 مجالآ من مجالات المحاماة والاستشارات القانونية الموثقة 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-12">
-                        <div class="row">
-              
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom-wrap">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="attorneys-info attorneys-hv-link mg-attorneys-home custom-align custom-end">
-                            <div class="attorneys-content">
-                                <div class="content-wrap">
-                                    {{-- <h3 class="name"><a href="#">محامي رقم 3</a></h3> --}}
-                                    {{-- <p class="position">محامي خبير</p> --}}
-                                </div>
-                            </div>
-                            <div class="attorneys-avatar hv-link-content">
-                                <div class="image image-full">
-                                    <img src="images/attorneys/empty.jpg" alt="images">
-                                </div>
-                                <div class="overlay-box">
-                                    {{-- <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="attorneys-info attorneys-hv-link mg-attorneys-home">
-                            <div class="attorneys-avatar hv-link-content">
-                                <div class="image image-full">
-                                    <img src="images/attorneys/empty.jpg" alt="images">
-                                </div>
-                                <div class="overlay-box">
-                                    {{-- <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div> --}}
-                                </div>
-                            </div>
-                            <div class="attorneys-content">
-                                <div class="content-wrap">
-                                    {{-- <h3 class="name"><a href="#">محامي رقم 4</a></h3> --}}
-                                    {{-- <p class="position">محامي خبير</p> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="attorneys-info attorneys-hv-link mg-attorneys-home custom-align custom-end">
-                            <div class="attorneys-content">
-                                <div class="content-wrap" >
-                                    {{-- <h3 class="name"><a href="#">محامي رقم 1</a></h3> --}}
-                                    {{-- <p class="position">محامي خبير</p> --}}
-                                </div>
-                            </div>
-                            <div class="attorneys-avatar hv-link-content">
-                                <div class="image image-full">
-                                    <img src="images/attorneys/empty.jpg" alt="images">
-                                </div>
-                                <div class="overlay-box">
-                                    {{-- <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="attorneys-info attorneys-hv-link mg-attorneys-home">
-                            <div class="attorneys-avatar hv-link-content">
-                                <div class="image image-full">
-                                    <img src="images/attorneys/empty.jpg" alt="images">
-                                </div>
-                                <div class="overlay-box">
-                                    {{-- <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div> --}}
-                                </div>
-                            </div>
-                            <div class="attorneys-content">
-                                <div class="content-wrap">
-                                    {{-- <h3 class="name"><a href="#">محامي رقم 2</a></h3> --}}
-                                    {{-- <p class="position">محامي خبير</p> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- <div class="view-all"><a href="#">view all</a></div> --}}
-            </div>
-        </div>
-    </section><!-- attorneys --> 
+      
 
 
 
-    <section class="testimonial text-center">
+    <section class="testimonial text-center" id="rev">
         <div class="container">
 
             <div class="heading white-heading">
-                Testimonial
+                اراء عملائنا
             </div>
             <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
              
@@ -1757,61 +1550,9 @@
             </div>
         </div>
     </div><!-- case-evaluation -->
-    <section class="facts" style="background-image: linear-gradient( #3c1e136c,#CCA776,white) !important;padding-top:50px;">
-        <div class="container">
-            <div class="flat-counter"  >
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="counter">                      
-                            <div class="content-counter">
-                                <div class="numb-count-wrap">
-                                    <span  class="numb-count" data-from="0" data-to="42" data-speed="2000" data-inviewport="yes">25</span>
-                                </div>
-                                <div class="name-count">سنوات الخبره</div>
-                                <div class="icon-count"><img src="images/home1/09.png" alt="images"></div>
-                            </div>
-                        </div>
-                    </div>
-                    {{-- <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="counter">                            
-                            <div class="content-counter">
-                                <div class="numb-count-wrap">
-                                    <span class="numb-count" data-from="0" data-to="100" data-speed="2000" data-inviewport="yes">100</span>
-                                    <span class="numb-bs">+</span>
-                                </div>
-                                <div class="name-count">Total Attorney</div>
-                                <div class="icon-count"><img src="images/home1/10.png" alt="images"></div>
-                            </div>
-                        </div>
-                    </div> --}}
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="counter">                            
-                            <div class="content-counter">
-                                <div class="numb-count-wrap">
-                                    <span class="numb-count" data-from="0" data-to="2000" data-speed="2000" data-inviewport="yes">225</span>
-                                    <span class="numb-bs">+</span>
-                                </div>
-                                <div class="name-count">عملاء سعداء</div>
-                                <div class="icon-count"><img src="images/home1/11.png" alt="images"></div>
-                            </div>
-                        </div>
-                    </div>
-                    {{-- <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="counter">
-                            <div class="content-counter">
-                                <div class="numb-count-wrap">
-                                    <span class="numb-count" data-from="0" data-to="99" data-speed="2000" data-inviewport="yes">99</span>
-                                    <span class="numb-bs">%</span>
-                                </div>
-                                <div class="name-count">نسبه النجاح</div>
-                                <div class="icon-count"><img src="images/home1/12.png" alt="images"></div>
-                            </div>
-                        </div>
-                    </div> --}}
-                </div>
-            </div>
-        </div>
-    </section><!-- facts -->
+
+
+    
     <section class="featured featured-style3">
         <div class="container">
             <div class="row">
@@ -1956,6 +1697,10 @@
         </div>
         <div class="style-text"></div>
     </section><!-- featured -->
+
+
+
+    
     {{-- <section class="testimonial clearfix">
         <div class="container-fluid">
             <div class="title-section text-center">

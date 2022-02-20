@@ -540,6 +540,8 @@
         });
     };
 
+
+
     var removePreloader = function() {        
         $(window).on("load", function () {
             $(".loader").fadeOut();
@@ -601,9 +603,11 @@
 $('#akarat').on('click',function(){
     Swal.fire({
         title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
+        imageUrl: 'https://image.shutterstock.com/image-photo/-260nw-2018738342.jpg',
+        imageHeight:1500,
         customClass: 'swal-wide',
         html:
+        '<img src="images/services/8.png" alt="images">'+
           '<span>You can use <b>bold text</b>, ' +
           '<a href="//sweetalert2.github.io">links</a> ' +
           'and other HTML tags',
@@ -622,13 +626,15 @@ $('#akarat').on('click',function(){
 })
 $('#monaz3at').on('click',function(){
     Swal.fire({
-        title: '<strong> إدارة القضايا والمنازعات بكافة انواعها </strong>',
-        icon: 'info',
+        title: '<strong> إدارة القضايا والمنازعات بكافة انواعها </strong>,',
+        
         customClass: 'swal-wide',
         html:
           '<b>تعتمد المؤسسة فى مجال التقاضي بكافة أنواع المنازعات القضائية على خبره هائلة ومعرفة كاملة بمتطلبات العملاء واحتياجاتهم وذلك بهدف تسوية المنازعات والخلافات على نحو يتم بأعلي درجات الفعالية والكفاءة.</b></br>, ' +
           '<b>ويعد حسن سمعة المؤسسة وقوة العلاقات مع الجهات العامة بالدولة عاملآ أساسيآ في حل أغلب المنازعات والتوصل الى تسويات ودية خارج المحكمة ويمتلك محاموا المؤسسة في التقاضي خبرات واسعة. وفي قضايا الأسرة، تقدم ال<مؤسسة ايضآ استشارات للعملاء حول الطرق والأساليب الملاءمة التى قد تحول دون لجوءهم للتقاضي مستقبلآ بشأن مسائل متعقلة بنشاط عملهم او الحد من احتمالات التقاضي</b>',
           showConfirmButton:false,
+          imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
         // showCloseButton: true,
         // showCancelButton: true,
         // focusConfirm: false,
@@ -640,15 +646,16 @@ $('#monaz3at').on('click',function(){
         // cancelButtonAriaLabel: 'Thumbs down'
       })
 })
-$('#akarat').on('click',function(){
+$('#الاستشارات').on('click',function(){
     Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
+        title: '<strong> الاستشارات القانونية والاقتصادية</strong>',
+        customClass: 'swal-wide',
         html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
+          ' <b>تقدم المؤسسة الاستشارات القانونية المدعمة بالأدلة القانونية والاجراءات القضائية في جميع أفرع القانون ويتم تقديم هذه الاستشارات كتابيآ او شفويآ حسب رغبة العميل.</b>, ' +
+          '<b>وتضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس.</b>',
           showConfirmButton:false,
+          imageUrl: 'images/services/hammer.png',
+          imageHeight:100,
         // showCloseButton: true,
         // showCancelButton: true,
         // focusConfirm: false,
@@ -660,755 +667,18 @@ $('#akarat').on('click',function(){
         // cancelButtonAriaLabel: 'Thumbs down'
       })
 })
-$('#akarat').on('click',function(){
+$('#العقود').on('click',function(){
     Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
         html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
-      })
-})
-$('#akarat').on('click',function(){
-    Swal.fire({
-        title: '<strong> خدمات العقارات</strong>',
-        icon: 'info',
-        html:
-          'You can use <b>bold text</b>, ' +
-          '<a href="//sweetalert2.github.io">links</a> ' +
-          'and other HTML tags',
-          showConfirmButton:false,
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
         // showCloseButton: true,
         // showCancelButton: true,
         // focusConfirm: false,
@@ -1421,6 +691,481 @@ $('#akarat').on('click',function(){
       })
 })
 
+$('#الديون').on('click',function(){
+    Swal.fire({
+        title: '<strong> تحصيل وتسوية الديون من القطاع المصرفي </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>تعمل إدارة خدمات التحصيل في المؤسسة كوكالة لتحصيل الديون وكمكتب محاماة متخصص في تحصيل الديون حيث يقوم منهجنا على تقديم خدمات شاملة لتحصيل الديون العملاء والتى تهدف الى تقرير قدرة عملائنا على التحكيم فى الديون الخاصة بهم وتتوافق مع الاحتياجات المحددة لأعمالهم وتراعي المؤسسة عند تحصيل الديون مستقبل علاقات العميل ولذلك تلتزم المؤسسة بمنهج إحترافي للغاية عند مطالبة زبائن موكلينا لسداد ما عليهم من ديون ومستحقات ومن خلال فريق محصلي الديون والسادة المحامين</b> <br> <br> ' +
+        '<b>وتبيح خدمات تحصيل الديون التى تقدمها المؤسسة لعملائنا سرعة استرداد الديون المستحقة لهم ويلتزم محصلوا المؤسسة بتحصيل الديون من زبائن موكلينا على النحو يتم بالمهنية والاحتراف وفى الوقت المحدد</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#التصديق').on('click',function(){
+    Swal.fire({
+        title: '<strong> التصديق على الأوراق الرسمية </strong>',
+        customClass: 'swal-wide',
+        html:
+        
+        '<b>من الخدمات التي يقدمها مكتبنا التصديق على الأوراق الرسمية، اذا كان لديك بعض الأوراق التي تحتاج للتصديق من وزارة الخارجية المصرية أو أي سفارة أجنبية في مصر اتصل بنا الان وسوف نقوم بانهاء الاجراءات نيابةً عنك</b> <br><br> ' +
+        '<b>في أغلب الحالات لا تقبل حكومات الدول الأجنبية المستندات التي أصدرتها الدول الاخرة الا اذا حملت أختام وزارة خارجية الدولة التابع لها بالاضافة الى سفارتها بهذه الدولة، هذا الطلب قد يؤدي الى الاطالة في الاجراءات و ويستهلك الكثير من الوقت، ولكننا في خدمتك حيث يمكننا انهاء الاجراءات نيابةً هنك بدقة ومهنية</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#التحكيم').on('click',function(){
+    Swal.fire({
+        title: '<strong>منازعات التحكيم التجاري الدولي والمحلي </strong>',
+        customClass: 'swal-wide',
+        html:
+        
+        '<b>أصبح التحكيم هو الأسلوب الأفضل لتسوية المنازعات التى تنشأ عن أي معاملة تجارية او ترتبط بها غيرأن إجراءات التحكيم لا تكون خيارآ مجديآ ما لم يتم إسناد حقوق العملاء لمحامين ذوي خبرة فى مجال النزاع وتقدم المؤسسة خدمات الوساطة والتحكيم والتصالح وغيرها من السبل غير القضائية لتسوية المنازعات حيث نساعد عملائنا فى أختيار آلية التسوية البديلة وصياغة بنود عقود الحلول البديلة للتسوية وتمثيل العملاء فيها ويلعب محاموا المؤسسة أيضآ دور الأشخاص المحايدين والوسطاء .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#للمقاصة').on('click',function(){
+    Swal.fire({
+        title: '<strong> التعامل مع مصر للمقاصة والقيد والإيداع المركزي</strong>',
+        customClass: 'swal-wide',
+        html:
+        '<b>التعامل مع مصر للمقاصة والقيد والإيداع المركزي</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
+
+$('#العقود').on('click',function(){
+    Swal.fire({
+        title: '<strong> صياغة العقود الدولية والمحلية </strong>',
+        customClass: 'swal-wide',
+        html:
+        ' <b>يعد العقد هو حجر الاساس فى العلاقات التعاقدية بين الافراد والهيئات وحتى الدول ولذلك فالاهتمام بصياغة العقود بالشكل القانونى يمنع او يجعل فرص اللجوء الى النزاع القضائى اثناء تنفيذ العقد او بعد تنفيذه امرا غير متصور الا فى حالات قليلة جداً وان تم يكون الامر واضح لا يحتمل ثمه لبس  لذلك فاللجوء لخبراء صياغه العقود المتمرسين اثناء ابرام العقد هو الاقدر على الحفاظ على الجهد والوقت والمال.ونحن مستعدون دائما لصياغة كافه انواع العقود بعده لغات وعلى دراية واسعه بعده انظمة قانونية وخاصه القواعد المتعلقه بالعقود الدولية والمتخصصة</b> <br> <br> ' +
+        '<b>فنحن مؤسسه قانونية راسخه مبنيه على مبادىء صلبه ورؤيه واسعه ودائمه التوسع نسعى  الى بذل مزيد  من الجهد بجدية وننظر الى ابعد مما ينظر اليه الاخرون وناخذ الثقه والتفانى على محمل الجد فى تعاملنا مع عملائنا وهذا وحده الذى يدفعنا الى تحقيق افضل النتائج الممكنه لجميع عملائنا نحن دائما بجوارك متى واينما كنت بحاجه الينا وعلى استعداد لتلبيه جميع احتياجاتك القانونيه الخاصه وبذلك حصلنا على مكانتنا فى هذا المجال  نحن الافضل لتبيه احتياجاتك القانونيه سواء كنت فرداً ام عائله ام شركة نعمل فى هذا المجال منذ فتره بعيدة ونحن شركة قانونية متمرسة فى صياغه العقود وفق احدث نصوص القانون ذات الصلة حيث  تدار بعقول مميزه فى عالم القانون مستشارون متخصصون فى افرع عده من افرع القانون</b> <br><br> ' +
+        '<b>نقدم خدماتنا للمواطنين المصريين وكذلك الاجانب ففريقنا القانونى يضم اساتذه حاصلون على الخبره الاكاديميه من افضل الجهات داخل مصرو خارجها وكذلك الخبره العمليه التى تخطت السنين فى تخصصهم مما يؤهلهم للقيام بمهامهم على اكمل وجه موهبتنا التعامل مع القانون هدفنا هو تحقيق اكبر ربح ممكن لعميلنا فاسمنا يستحق العناء وعميلنا يستحق اعلى الانجازات  نحن المشوره حينما تحتاج اليها .</b>',
+
+        showConfirmButton:false,
+        imageUrl: 'images/services/hammer.png',
+        imageHeight:100,
+        // showCloseButton: true,
+        // showCancelButton: true,
+        // focusConfirm: false,
+        // confirmButtonText:
+        //   '<i class="fa fa-thumbs-up"></i> Great!',
+        // confirmButtonAriaLabel: 'Thumbs up, great!',
+        // cancelButtonText:
+        //   '<i class="fa fa-thumbs-down"></i>',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+})
 
 
 
