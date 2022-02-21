@@ -280,7 +280,7 @@
     position: absolute;
 }
 .iconbox-features.type2 .iconbox .iconbox-wrap {
-    padding: 75px 25px 60px 25px;
+    padding: 35px 25px 30px 25px;
 }
 .iconbox-features.type2 .iconbox:hover .bck-stand,
 .iconbox-features.type2 .iconbox.active .bck-stand {

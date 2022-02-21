@@ -57,19 +57,19 @@ class EstsharatController extends Controller
         $estshara->save();
 
       
-        //       $data = array(
-        //           'name'      =>  $request->name,
-        //           'email'   =>   $request->email,
-        //           'phone'   =>   $request->phone,
-        //           'date'   =>   $request->date,
-        //           'details'   =>   $request->details
-        //       );
+              $data = array(
+                  'name'      =>  $request->name,
+                  'email'   =>   $request->email,
+                  'phone'   =>   $request->phone,
+                  'date'   =>   $request->date,
+                  'details'   =>   $request->details
+              );
       
-        //    Mail::to('combidino6@gmail.com')->send(new SendMail($data));
-        //    redirect()->route('index')->with('success', 'Thanks for contacting us!');
+           Mail::to('combidino6@gmail.com')->send(new SendMail($data));
+          return redirect()->route('index')->with('success', 'Thanks for contacting us!');
 
-           return redirect()->route('index')
-           ->with('success', 'Created successfully.');
+        //    return redirect()->route('index')
+        //    ->with('success', 'Created successfully.');
     }
 
     /**

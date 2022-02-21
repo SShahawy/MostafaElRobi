@@ -60,6 +60,7 @@
                 <h3 class="flat-title">الشهادات الاكاديميه</h3>
                 <p class="sub-title">التي حصل عليها الدكتور مصطفي الروبي</p>
             </div>
+            
             <div class="attorneys-details">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -71,14 +72,17 @@
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
+                                
                                 <div class="image">
-                                    <img src="images/attorneys/01.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index1.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
+                                    </div>
                                 </div>
-                                <div class="overlay-box">
+                                {{--  <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}} 
                             </div>
                         </div>
                     </div>
@@ -92,13 +96,15 @@
                             </div>
                             <div class="attorneys-avatar hv-link-content">
                                 <div class="image">
-                                    <img src="images/attorneys/02.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index2.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
-                                <div class="overlay-box">
+                                </div>
+                                {{-- <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -112,13 +118,15 @@
                             </div>
                             <div class="attorneys-avatar hv-link-content">
                                 <div class="image">
-                                    <img src="images/attorneys/03.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index3.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
-                                <div class="overlay-box">
+                                </div>
+                                {{-- <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -132,13 +140,15 @@
                             </div>
                             <div class="attorneys-avatar hv-link-content">
                                 <div class="image">
-                                    <img src="images/attorneys/04.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index4.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
-                                <div class="overlay-box">
+                                </div>
+                                {{-- <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -152,13 +162,15 @@
                             </div>
                             <div class="attorneys-avatar hv-link-content">
                                 <div class="image">
-                                    <img src="images/attorneys/05.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index5.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
-                                <div class="overlay-box">
+                                </div>
+                                {{-- <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -172,13 +184,15 @@
                             </div>
                             <div class="attorneys-avatar hv-link-content">
                                 <div class="image">
-                                    <img src="images/attorneys/06.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index6.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
-                                <div class="overlay-box">
+                                </div>
+                                {{-- <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -192,13 +206,15 @@
                             </div>
                             <div class="attorneys-avatar hv-link-content">
                                 <div class="image">
-                                    <img src="images/attorneys/07.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index7.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
-                                <div class="overlay-box">
+                                </div>
+                                {{-- <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -212,13 +228,15 @@
                             </div>
                             <div class="attorneys-avatar hv-link-content">
                                 <div class="image">
-                                    <img src="images/attorneys/08.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index8.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
-                                <div class="overlay-box">
+                                </div>
+                                {{-- <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -232,16 +250,129 @@
                             </div>
                             <div class="attorneys-avatar hv-link-content">
                                 <div class="image">
-                                    <img src="images/attorneys/09.png" alt="images">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index9.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
-                                <div class="overlay-box">
+                                </div>
+                                {{-- <div class="overlay-box">
                                     <div class="content">
                                         <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
+                            <div class="attorneys-content">
+                                <div class="content-wrap rotate-1">
+                                    {{-- <h3 class="name"><a href="#">Johnson Doe</a></h3>
+                                    <p class="position">Senior Attorney</p> --}}
+                                </div>
+                            </div>
+                            <div class="attorneys-avatar hv-link-content">
+                                <div class="image">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index10.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
+                                </div>
+                                </div>
+                                {{-- <div class="overlay-box">
+                                    <div class="content">
+                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
+                            <div class="attorneys-content">
+                                <div class="content-wrap rotate-1">
+                                    {{-- <h3 class="name"><a href="#">Hannan Crespos</a></h3>
+                                    <p class="position">Senior Attorney</p> --}}
+                                </div>
+                            </div>
+                            <div class="attorneys-avatar hv-link-content">
+                                <div class="image">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index11.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
+                                </div>
+                                </div>
+                                {{-- <div class="overlay-box">
+                                    <div class="content">
+                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-end">
+                            <div class="attorneys-content">
+                                <div class="content-wrap rotate-1">
+                                    {{-- <h3 class="name"><a href="#">Ayesha Olivia</a></h3>
+                                    <p class="position">Senior Attorney</p> --}}
+                                </div>
+                            </div>
+                            <div class="attorneys-avatar hv-link-content">
+                                <div class="image">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index13.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
+                                </div>
+                                </div>
+                                {{-- <div class="overlay-box">
+                                    <div class="content">
+                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6" >
+                        <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
+                            <div class="attorneys-content">
+                                <div class="content-wrap rotate-1">
+                                    {{-- <h3 class="name"><a href="#">Johnson Doe</a></h3>
+                                    <p class="position">Senior Attorney</p> --}}
+                                </div>
+                            </div>
+                            <div class="attorneys-avatar hv-link-content">
+                                <div class="image">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index12.jpg"  alt="images" style="height:350px;" onclick="change(this.src)">
+                                </div>
+                                </div>
+                                {{-- <div class="overlay-box">
+                                    <div class="content">
+                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
+                            <div class="attorneys-content">
+                                <div class="content-wrap rotate-1">
+                                    {{-- <h3 class="name"><a href="#">Hannan Crespos</a></h3>
+                                    <p class="position">Senior Attorney</p> --}}
+                                </div>
+                            </div>
+                            <div class="attorneys-avatar hv-link-content">
+                                <div class="image">
+                                    <div class="overlay-box">
+                                    <img src="images/cert/index14.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
+                                </div>
+                                </div>
+                                {{-- <div class="overlay-box">
+                                    <div class="content">
+                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -263,185 +394,7 @@
             </div>
         </div>
     </div><!-- featured-banner -->
-    <footer id="footer" class="footer">
-        <div class="footer-widgets">
-            <div class="container">
-                <div class="footer-top">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget-contact mg-footer-mbb">
-                                <h2 class="widget-title">Contact</h2>
-                                <div class="content">
-                                    <ul>
-                                        <li><span class="text address">20, Bardeshi, Amin Bazar Savar, Dhaka - 1348</span></li>
-                                        <li><span class="text phone">123.456.7890</span></li>
-                                        <li><span class="text email">hello@finelaw.com</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget-services mg-footer-mbb">
-                                <h2 class="widget-title">About</h2>
-                                <div class="content">
-                                    <ul class="widget-menu">
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Career</a></li>
-                                        <li><a href="#">Practice Area</a></li>
-                                        <li><a href="#">Help Guide</a></li>
-                                        <li><a href="#">Tutorials</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget-services mg-footer-mbs">
-                                <h2 class="widget-title">Help Desk</h2>
-                                <div class="content">
-                                    <ul class="widget-menu">
-                                        <li><a href="#">Customer Care</a></li>
-                                        <li><a href="#">Legal Help</a></li>
-                                        <li><a href="#">Service</a></li>
-                                        <li><a href="#">Donation</a></li>
-                                        <li><a href="#">Child Care</a></li>
-                                        <li><a href="#">Presonal Care</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget-newsletter">
-                                <h2 class="widget-title">Newsletter</h2>
-                                <div class="content">
-                                    <p>Polore eu fugiat nulla pariatur Excepteur sint occaecat cupidat at non tomake bole</p>
-                                    <form action="#" class="form-email-footer">
-                                        <input type="text" class="your-email" placeholder="Your email">
-                                        <button class="btn-email">
-                                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="widget widget-text mg-footer-mbb">
-                                <div class="content">
-                                    <div class="images-logo">
-                                        <img src="images/footer/07.png" alt="images">
-                                    </div>
-                                    <p>
-                                        Naboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden
-                                    </p>
-                                    {{-- <div class="list-socials">
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-5 col-sm-5">
-                            <div class="widget widget-gallery mg-footer-mbs clearfix">
-                                <h2 class="widget-title">Gallery</h2>
-                                <div class="content">
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/01.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/02.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/03.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/04.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/05.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/06.png" alt="images">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-7 col-sm-7">
-                            <div class="widget widget-twitter">
-                                <h2 class="widget-title">Recent Tweets</h2>
-                                <div class="content">
-                                    <div class="tw-wrap">
-                                        <div class="text-link">
-                                            Lco lodoami tomader lok amitomader vai amar ar kisu naikeho <a href="#">http://bit.ly/7asF34</a>
-                                        </div>
-                                        <div class="text-time"><a href="#">@Fine Law</a>   -   2 hours ago</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="container">
-                    <div class="bottom-wrap">
-                        <div class="row">
-                            <div class="col-lg-5 col-md-12">
-                                <div class="copyright">
-                                    All rights reserved  ©  <a href="#">Storm & Rain</a>  2019
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-12">
-                                <div class="menu-footer">
-                                    <ul>
-                                        <li><a href="#">Terms & Condition</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Legal</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a id="scroll-top" class="show"></a>
-    </footer><!-- footer -->
+    
     
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/plugins.js"></script>
@@ -470,4 +423,5 @@
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
 </body>
+@include('pages.footer')
 </html>

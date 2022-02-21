@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Tawzeef;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Mailer;
 class HiringController extends Controller
 {
     /**
@@ -43,8 +45,19 @@ class HiringController extends Controller
         $tawzeef->details = $request->details;
 
         $tawzeef->save();
-        return redirect()->route('index')
-            ->with('success', 'Product created successfully.');
+        $data = array(
+            'name'      =>  $request->name,
+            'email'   =>   $request->email,
+            'phone'   =>   $request->phone,
+            'gender'   =>   $request->gender,
+            'details'   =>   $request->details
+        );
+
+     Mail::to('combidino6@gmail.com')->send(new Mailer($data));
+    return redirect()->route('index')->with('success', 'Thanks for contacting us!');
+
+        // return redirect()->route('index')
+        //     ->with('success', 'Product created successfully.');
     }
 
     /**
