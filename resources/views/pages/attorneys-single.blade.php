@@ -55,23 +55,52 @@
     </div><!-- top-bar --> --}}
     @include('pages.header')
 
-    {{-- <div class="featured-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-sm-12">
-                    <div class="content">
-                        <h6 class="title">Lets solve your problem today</h6>
-                        <p>Lorem ipsum dolor sit amet, consecte dunt ut labore</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                   
-                </div>
-            </div>
-        </div>
-    </div><!-- featured-banner --> --}}
+ 
 
-    <div class="attorneys-single" style="  background-image: linear-gradient(to bottom right, #4F362C,#CCA776,white);">
+
+
+
+    <style>
+        /* body {
+          font-family: 'Source Sans Pro', sans-serif;
+        } */
+        .img-behind-hire {
+          background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/about/cv.jpg");
+          background-size: cover;
+background-position: center;
+background-repeat: none;
+background-attachment: fixed;
+          height: 60vh;
+        }
+       .second {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-align: center;
+        }
+        #span {
+          text-transform: uppercase;
+          margin: 0;
+          font-size: 15px;
+          white-space: nowrap;
+        } 
+      </style>
+
+
+  <div class="contact clearfix img-behind-hire">
+      <div class="container second">
+
+              <div class="title-section text-center">
+
+                     <span style="font-size: 35px;text-shadow:1px 1px 3px white;">الدكتور مصطفي عبد الحي الروبي</span>
+          </div>
+      
+  </div>
+  </div><!-- contact -->
+
+    <div class="attorneys-single" style="  background-image: linear-gradient(to bottom right, #E5E1DE,white);">
         <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:50px; background-color:white;">
             <div class="row">
                 <div class="col-lg-9 col-md-12">
@@ -297,7 +326,7 @@
                                 <br><br><br><br><br><br><br><br><br>
                                 {{-- <p>Architecto beatae vitae dicta su nt explicabo. Nemo enimu ta em qui asper</p> --}}
                                 <a href="#" class="btn-download hvr-vertical">السيره الزاتيه <i class="fa fa-download" aria-hidden="true"></i></a>
-                                <br><br><br>
+                                <br><br><br><br><br><br>
                                 <a href="sh" class="btn-download hvr-vertical">الشهادات <i class="fa fa-download" aria-hidden="true"></i></a>
                             </div>
                         </div>

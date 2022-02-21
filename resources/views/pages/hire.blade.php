@@ -76,7 +76,7 @@
     <div class="write-something" >
         <div class="container">
             <div class="title-section text-center">
-                <h3 class="flat-title">ارسال البيانات للتوظيف</h3>
+                <h3 class="flat-title" style="color: #A95D43;">ارسال البيانات للتوظيف</h3>
                 <br>
                 <span id="">
                     نتطلع دائماًً للبحث عن الاشخاص الطموحين الذين يتميزون بالتفاني والجدية بالعمل ويبحثون عن وظائف في بيئة مليئة بالتحديات ، ونرحب دوماً بتوظيف الاشخاص ذوي الإسهامات والإنتاجية العالية.
@@ -90,20 +90,20 @@
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>الاَسم</label>
-                        <input type="text" name="name" style="text-align: right;" class="your-name" placeholder="اسمك بالكامل">
+                        <input type="text" name="name" style="text-align: right;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-name" placeholder="اسمك بالكامل">
                     </div>
                 </div><br>
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>البريد الإلكتروني</label>
-                        <input type="text" name="email" style="text-align: right;" class="your-email" placeholder="إيميل">
+                        <input type="text" name="email" style="text-align: right;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-email" placeholder="إيميل">
                     </div>
                 </div>
                     <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
-                        <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>النوع</label>
+                        <label for="" style="float:right; "><span style="color:red;font-weight:bold;">*</span>النوع</label>
                         <ul class="flat-filter-isotype">
-                            <select name="gender" id="">
+                            <select name="gender" id="" style="  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                             <li><option value="Male">ذكر</option> </li>
                             <li><option value="Female">انثي</option></li>
                         </select>
@@ -113,16 +113,16 @@
 
                     <div class="wr-sm">
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>رقم التليفون</label>
-                        <input type="text" name="phone" style="text-align: right;" class="your-phone" placeholder="رقم التليفون">
+                        <input type="text" name="phone" style="text-align: right;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-phone" placeholder="رقم التليفون">
                     </div>
                 </div>
-                <textarea name="details" style="text-align: right;" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
+                <textarea name="details" style="text-align: right;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
                 <div class="text-wrap d-md-flex clearfix">
                     <span style="color:red;font-weight:bold;">*&emsp;</span> <input type="file" class="your-phone">
                 </div>
                 <div class="fl-btn">
 
-                    <input type="submit"  class="hvr-vertical" value="احجز الاَن">
+                    <input type="submit"  class="hvr-vertical" style="background-color: #AA5F44" value="احجز الاَن">
                 </div> 
                 
             </form>

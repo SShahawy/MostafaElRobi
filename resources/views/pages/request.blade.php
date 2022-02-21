@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Suprimo</title>
+    
 
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -31,17 +32,57 @@
 
     @include('pages.header')
 
+    <style>
+        /* body {
+          font-family: 'Source Sans Pro', sans-serif;
+        } */
+        .img-behind-hire {
+          background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/featured-banner/contact.jpg");
+          background-size: cover;
+background-position: center;
+background-repeat: none;
+background-attachment: fixed;
+          height: 60vh;
+        }
+       .second {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-align: center;
+        }
+        #span {
+          text-transform: uppercase;
+          margin: 0;
+          font-size: 15px;
+          white-space: nowrap;
+        } 
+      </style>
+
+
+  <div class="contact clearfix img-behind-hire">
+      <div class="container second">
+
+              <div class="title-section text-center">
+
+                     <span style="font-size: 35px;text-shadow:1px 1px 3px white;"> تواصل بنا</span>
+          </div>
+      
+  </div>
+  </div><!-- contact -->
+
     <div class="contact clearfix">
         <div class="container">
             <div class="contact-us">
                 <div class="title-section text-center">
-                    <h3 class="flat-title">تواصل بنا</h3>
-                    <p class="sub-title">مصطفي الروبي | محامون . مستشارون</p>
+                    <h3 class="flat-title">مصطفي الروبي | محامون . مستشارون</h3>
+                 
                 </div>
                 <div class="contact-options">
                     <div class="icon-box">
                         <div class="icon">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                           <img src="images/icon/location.png">
                         </div>
                         <div class="content-info">
                             <h4 class="name">العنوان</h4>
@@ -52,7 +93,7 @@
                     </div>
                     <div class="icon-box border-both-sides">
                         <div class="icon">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <img src="images/icon/phone.png">
                         </div>
                         <div class="content-info">
                             <h4 class="name">ارقام التواصل</h4>
@@ -65,7 +106,7 @@
                     </div>
                     <div class="icon-box">
                         <div class="icon">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <img src="images/icon/envolpe.png" style="height: 50px;">
                         </div>
                         <div class="content-info" >
                             <h4 class="name">الإميل</h4>
@@ -79,8 +120,8 @@
         </div>
     </div><!-- contact -->
     <div class="write-something" >
-        <div class="container">
-            <div class="title-section text-center">
+        <div class="container"   style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:10px;" >
+            <div class="title-section text-center ">
                 <h3 class="flat-title">احجز استشاره</h3>
             </div>
             <form action="{{ route('estshara') }}" method="post" class="form-message-pct">
@@ -88,28 +129,28 @@
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">الاَسم</label>
-                        <input required type="text" name="name" style="text-align: right;color:#3C2118;" class="your-name" placeholder="اسمك بالكامل">
+                        <input required type="text" name="name" style="text-align: right;color:#3C2118;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-name" placeholder="اسمك بالكامل">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">إيميل</label>
-                        <input required type="email" name="email" style="text-align: right;color:#3C2118" class="your-email" placeholder="إيميل">
+                        <input required type="email" name="email" style="text-align: right;color:#3C2118;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-email" placeholder="إيميل">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">رقم التليفون</label>
-                        <input required type="text" name="phone" style="text-align: right;color:#3C2118;" class="your-phone" placeholder="رقم التليفون">
+                        <input required type="text" name="phone" style="text-align: right;color:#3C2118; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-phone" placeholder="رقم التليفون">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">تاريخ الأستشاره</label>
-                        <input required type="date" name="date" class="your-email">
+                        <input required type="date" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" name="date" class="your-email">
                     </div>
                 </div>
-                <textarea  name="details" required style="text-align: right;color:#3C2118;" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
+                <textarea  name="details" required style="text-align: right;color:#3C2118; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
                 {{-- 
                     <button class="hvr-vertical">احجز الاَن</button>
                 --}}
                 <div class="fl-btn">
 
-                <input type="submit"  class="hvr-vertical" value="احجز الاَن">
+                <input type="submit"  class="hvr-vertical" style="background-color: #A15035;" value="احجز الاَن">
             </div> 
             </form>
         </div>
