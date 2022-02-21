@@ -78,6 +78,48 @@
     </div><!-- flat-slider -->
 
 
+
+
+
+
+    {{-- <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img1.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> --}}
+
+
+
+
+
+
+
 <center>
     {{-- <div id="wrap" style="background-image: url('images/services/slide_.png') !important;padding-top:200px;"> --}}
     <div id="wrap" >
@@ -94,7 +136,7 @@
                                     <li class="items main-pos" data-transition="random" id="1">
                                         <div class="review-card text-center">
                                             <section class="iconbox-home clearfix">
-                                                <div style="width: 100%">
+                                                <div >
                                                     <div class="iconbox-features type2">
                                             <div class="iconbox iconbox-1">
 
@@ -108,7 +150,7 @@
                             </div> --}}
                             <center>
                                 <div class="iconbox-content">
-                                    <h5 class="title slidertitle" ><a href="#"  >الخدمات </a></h5>
+                                    <h5 class="title slidertitle" ><a href="#services"  >الخدمات </a></h5>
                                         
                                     {{-- <p class="description">
                                         
@@ -147,7 +189,7 @@
                            
                             <center>
                             <div class="iconbox-content">
-                                <h5 class="title slidertitle"><a href="#">رؤيتنا</a></h5>
+                                <h5 class="title slidertitle"><a href="#rr">رؤيتنا</a></h5>
                                 {{-- <p class="description">
                                     Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
                                 </p> --}}
@@ -184,7 +226,7 @@
                         <div class="iconbox-wrap">
                             <center>
                                 <div class="iconbox-content">
-                                    <h5 class="title slidertitle"><a href="#">اسس شركتك</a></h5>
+                                    <h5 class="title slidertitle"><a href="/company-open">اسس شركتك</a></h5>
                                     {{-- <p class="description">
                                         Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
                                     </p> --}}
@@ -378,7 +420,7 @@
 </div>
 
         </section>
-    <section class="about-home"  >
+    <section class="about-home" id="rr" >
         <div class="container" >
             <div class="row">
                 <div class="col-lg-5 wow fadeIn" style=" padding: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
@@ -482,7 +524,7 @@
 
 
     
-    <section class="practice-featured">
+    <section class="practice-featured" id="services">
         <div class="practice-area practice-area-style2" >
             <div class="container">
                 <div class="title-section text-center">
@@ -1059,10 +1101,10 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <img src="images/testimon/testim1.jpg" class="img-circle img-responsive" />
                             <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
                             <h4>أ/ محمد كمال</h4>
-                            <h3>المدير التنفيزي لشركه جولد كيرافارما</h3>
+                            <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -1080,10 +1122,10 @@
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="javascript:void(0)" data-slide="prev">
+                <a class="carousel-control-prev" href="javascript:void(0);" data-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </a>
-                <a class="carousel-control-next" href="javascript:void(0)" data-slide="next">
+                <a class="carousel-control-next" href="javascript:void(0);" data-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </a>
             </div>

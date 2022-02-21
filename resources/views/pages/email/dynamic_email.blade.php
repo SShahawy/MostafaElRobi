@@ -1,7 +1,7 @@
 
-<p>Hi, This is {{ $data['name'] }}</p>
-<p>I have some query like {{ $data['email'] }}.</p>
-<p>I have some query like {{ $data['phone'] }}.</p>
-<p>I have some query like {{ $data['date'] }}.</p>
-<p>I have some query like {{ $data['details'] }}.</p>
-<p>It would be appriciative, if you gone through this feedback.</p>
+<p style="text-align: right;">الاسم :  {{ $data['name'] }}</p>
+<p style="text-align: right;">الإيميل :{{ $data['email'] }}.</p>
+<p style="text-align: right;">رقم التليفون :{{ $data['phone'] }}.</p>
+<p style="text-align: right;">تاريخ الاستشاره :{{ $data['date'] }}.</p>
+<p style="text-align: right;">تفاصيل : {{ $data['details'] }}.</p>
+<p style="text-align: left;">حجز استشاره - مصطفي الروبي | محامون . مستشارون</p>

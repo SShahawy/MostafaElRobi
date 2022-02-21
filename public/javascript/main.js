@@ -1198,7 +1198,7 @@ $('.carousel>li').each(function(index) {
 //swap images function
 setInterval(function() {
     swap('clockwise');
-  }, 1500);
+  }, 2500);
 function swap(action) {
     // console.log(action)
   var direction = action;
@@ -1262,10 +1262,38 @@ function swap(action) {
     }
   }
 }
+setInterval(function() {
+  // console.log($('.active').next('.carousel-item').first());
+  $('.active').next('.carousel-item').first().addClass('active');
+
+  if(!($('.active').next('.carousel-item').first())[0]){
+    $('.carousel-inner .active').removeClass('active');
+    $('.carousel-inner .carousel-item').first().addClass('active');
+    // console.log($('.carousel-item').first());
+  }
+  $('.carousel-inner .active').prev().removeClass('active');
+
+  
+
+}, 2500);
+
+
+
+
+// setInterval(function() {
+//     console.log($('.slideshow-container #n'));
+//     $('.slideshow-container #n').trigger('click');
+//   }, 1500);
+
+
+
+const change = src => {
+  document.getElementById('main').src = src
+}
 
 $('.carousel-control-next').click(function(){
   $('.active').next('.carousel-item').first().addClass('active');
-  console.log($('.active').next('.carousel-item').first());
+  // console.log($('.active').next('.carousel-item').first());
   $('.active').prev().removeClass('active');
   // $('.carousel-item').next().addClass('active');
   // $('.carousel-item').prev().removeClass('active');
@@ -1358,4 +1386,33 @@ function page6(){
   $('.page4').hide();
   $('.page5').hide();
   $('.page6').show();
+}
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+$('.slideshow-container').closest('.next').trigger('click');
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
 }
