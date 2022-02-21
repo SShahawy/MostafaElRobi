@@ -244,108 +244,7 @@
 
                                         </div>
                                     </li>
-                                    {{-- <li class="items back-pos" data-transition="random" id="5">
-                                        <div class="review-card text-center">
-                                            <section class="iconbox-home clearfix">
-                                                <div style="width: 100%">
-                                                    <div class="iconbox-features type2">
-                                            <div class="iconbox iconbox-1">
-
-
-
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/01.png" alt="images">
-                            </div>
-                            <div class="iconbox-content">
-                                <h5 class="title"><a href="#">Short Time Result 5</a></h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p>
-                                <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                                    </div></div></section>
-
-
-
-
-                                        </div>
-                                    </li>
-                                    <li class="items back-pos" data-transition="random" id="6">
-                                        <div class="review-card text-center">
-                                            <section class="iconbox-home clearfix">
-                                                <div style="width: 100%">
-                                                    <div class="iconbox-features type2">
-                                            <div class="iconbox iconbox-1">
-
-
-
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/01.png" alt="images">
-                            </div>
-                            <div class="iconbox-content">
-                                <h5 class="title"><a href="#">Short Time Result 6</a></h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p>
-                                <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                                    </div></div></section>
-
-
-
-
-                                        </div>
-                                    </li>
-                                    <li class="items back-pos" data-transition="random" id="7">
-                                        <div class="review-card text-center">
-                                            <section class="iconbox-home clearfix">
-                                                <div style="width: 100%">
-                                                    <div class="iconbox-features type2">
-                                            <div class="iconbox iconbox-2">
-
-
-
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/01.png" alt="images">
-                            </div>
-                            <div class="iconbox-content">
-                                <h5 class="title"><a href="#">Short Time Result 7</a></h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p>
-                                <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                                    </div></div></section>
-
-
-
-
-                                        </div>
-                                    </li> --}}
+                                    
                                 </ul>
                                 <span class="slider">
                                   <a href="javascript:void(0);" value="Prev" id="prev"><i class="material-icons">&#xE314;</i></a>
@@ -365,11 +264,11 @@
 
 
 
-<section class="have">
-
+<section class="have" style="position: relative">
+ 
     <div class="container" >
         <div class="row">
-            <div class="col-lg-5 wow fadeIn">
+            <div class="col-lg-5 whitebox wow fadeIn">
         <h1 style="color: #A75032; font-size:30px;text-align:center; ">لدينا اقوي المحامين للدفاع عنك<br> 
             و نقدم الحماية القانونية لك 
             <h1>
@@ -398,7 +297,7 @@
                 <div class="col-lg-7">
                     <div class="flat-spacer" data-desktop="36" data-sdesktop="20" data-mobi="0" data-smobi="0"></div>
                     <div class="content" style="text-align:right;">
-                        <div class="title"><span style="font-size: 40px;font-weight:bold;text-align:right;">رؤيتنا</span></div>
+                        <div class="title"><span style="font-size: 40px;font-weight:bold;text-align:right; color:#A75032;">رؤيتنا</span></div>
                         <p class="description" >
                             استثمار طاقتنا العلمية والمهنية لنكون في مركز الصدارة بين مؤسسات المحاماة والتحكيم في مصر والشرق الأوسط بما لدينا من فريق عمل يضم نخبة من كبار المحامين والمستشارين القانونين في كافة المعهود إليهم خدمات قانونية كبري لكافة الشركات متعدده الجنسيات والمصالح والمؤسسات العامة داخل مصر والشرق الاوسط لتحقق لعملائنا النتائج المرجوة.
                         </p>
@@ -415,17 +314,18 @@
     </section><!-- about -->
     
 
-    
+    <br><br><br><br><br>
 
 
 
     <section class="facts" id="facts" >
-        <div class="box1">
+        <div class="box1" style="position: relative" >
+         
        
      
         <div class="container">
-            <div class="flat-counter"  >
-                <div class="row " style="width:50%">
+            <div class="flat-counter" >
+                <div class="row " style="width:50% ; float:right;">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="counter">                      
                             <div class="content-counter" >
@@ -486,7 +386,7 @@
         <div class="practice-area practice-area-style2" >
             <div class="container">
                 <div class="title-section text-center">
-                    <h3 class="flat-title">الخدمات</h3>
+                    <h3 class="flat-title" style="color:#A75032; font-size:30px;">الخدمات</h3>
                     {{-- <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p> --}}
                 </div>
                 <div class="practice-area-wrap">
@@ -984,7 +884,7 @@
 
 	<div class="team" id="team">
 		<div class="container" id="att">
-			<h3 class="title" >فريق العمل</h3>
+			<h3 class="title"style="color:#A75032;" >فريق العمل</h3>
          
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -1103,25 +1003,30 @@
                                 <div class="wrap-evaluation" >
                                     {{-- <h5 class="title">Free Case Evaluation</h5> --}}
                                     <div class="your-name mg-text">
+                                        <label>الاسم كامل</label>
                                         <input type="text" class="your-name" placeholder="الاسم كامل">
                                     </div>
                                     <div class="your-email mg-text">
+                                        <label> الإميل</label>
                                         <input type="text" class="your-email" placeholder="الإميل">
                                     </div>
                                     <div class="your-phone mg-text">
+                                        <label>رقم التليفون</label>
                                         <input type="text" class="your-phone" placeholder="رقم التليفون">
                                     </div>
                                     <div class="your-phone mg-text " >
-                                        <input type="date" class="date" placeholder="رقم التليفون">
+                                        <label> رقم التليفون</label>
+                                        <input type="date" class="date" placeholder="">
                                     </div>
                                     {{-- <div class="subject mg-text">
                                         <input type="text" class="subject" placeholder="Subject">
                                     </div> --}}
                                     <div class="message-wrap mg-text">
+
                                         <textarea name="message" id="message" rows="8" placeholder="تفاصيل"></textarea>
                                     </div>
                                     <div class="fl-btn">
-                                        <button class="hvr-vertical" style="font-size: 25px;">حجز</button>
+                                        <button class="hvr-vertical" style="font-size: 25px; background-color:#A75032;">حجز</button>
                                     </div>
                                 </div>
                             </form>
@@ -1132,21 +1037,21 @@
                     <div class="content-evaluation">
                         <div class="themesflat-content-box" data-padding="113px 0% 101px 100px" data-sdesktoppadding="113px 0% 101px 0" data-ssdesktoppadding="113px 0% 101px 0" data-mobipadding="50px 0 100px 0" data-smobipadding="50px 0 100px 0">
                             {{-- <div class="caption">تواصل</div> --}}
-                            <h4 class="heading" style="color:white;">احصل علي استشاره</h4>
-                            <p class="description" style="font-size:25px;font-weight:bold;color:white;">
+                            <h4 class="heading" style="color:#A75032;">احصل علي استشاره</h4>
+                            <p class="description" style="font-size:25px;font-weight:bold;color:#3A1F0E;">
                                 تغطي مجالات عمل وخدمات المؤسسة نطاقاً واسعآ من المجالات والتخصصات إذا تقدم المؤسسة حلول مبتكرة واستشارات موجهة للأفراد والشركات فى جميع المراحل بداية من متطلبات انظمة إدارة حقوق الملكية الفكرية ويضمن التعاون الموثق بين إدارات المكتب ان يصبح مركزآ مؤهلاً لتلبية احتياجات العملاء. 
                             </p>
                             <div class="flat-spacer" data-desktop="90" data-sdesktop="60" data-mobi="25" data-smobi="25"></div>
                             <div class="call-us">
-                                <div class="text" style="color:white;">
+                                <div class="text" style="color:#A75032;">
                                     او اتصل بنا 
                                 </div>
                                 {{-- <h3 class="phone-number"> --}}
                                     <br>
 
-                                    <a class="phone-number1" style="color:white;;font-size:40px;" href="tel:0201278823809">0201278823809</a><br><br>
+                                    <a class="phone-number1" style="color: #43200F; font-size:20px;" href="tel:0201278823809">0201278823809</a><br><br>
                                     {{-- <a class="phone-number2" style="color:white;;font-size:40px;"  href="tel:02035902759">02035902759</a><br><br> --}}
-                                    <a class="phone-number3" style="color:white;;font-size:40px;"  href="tel:0201272653225">0201272653225</a>
+                                    <a class="phone-number3" style="color: #43200F; font-size:20px;"  href="tel:0201272653225">0201272653225</a>
  
                                 {{-- </h3> --}}
                             </div>
@@ -1304,197 +1209,6 @@
         <div class="style-text"></div>
     </section><!-- featured -->
 
-
-
-    
-    {{-- <section class="testimonial clearfix">
-        <div class="container-fluid">
-            <div class="title-section text-center">
-                <h3 class="flat-title">What People Say</h3>
-                <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p>
-            </div>
-            <div class="slider testimonial-wrap testimonial-flexslider equalize sm-equalize-auto">
-                <div class="col-left" style="display:none;">
-                    <div class="themesflat-content-box" data-padding="0% 0% 0% 28%" data-sdesktoppadding="0% 0% 0% %0" data-ssdesktoppadding="0% 0% 0% 0%" data-mobipadding="0% 0% 0% 0%" data-smobipadding="0% 0% 0% 0%">
-                        <div id="carousel-testimonial" class="flexslider">
-                            <ul class="slides client-avatar translate-none"> 
-                                <li class="avatar avatar-1">
-                                    <img src="images/logo/17.png" alt="images">
-                                </li>
-                                <li class="avatar avatar-2">
-                                    <img src="images/home1/18.png" alt="images">
-                                </li>
-                                <li class="avatar avatar-3">
-                                    <img src="images/home1/19.png" alt="images">
-                                </li>
-                                <li class="avatar avatar-4">
-                                    <img src="images/home1/20.png" alt="images">
-                                </li>
-                                <li class="avatar avatar-5">
-                                    <img src="images/home1/21.png" alt="images">
-                                </li> 
-                                <li class="avatar avatar-6">
-                                    <img src="images/home1/22.png" alt="images">
-                                </li>
-                                <li class="avatar avatar-7">
-                                    <img src="images/home1/23.png" alt="images">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-right" >
-                    <div class="themesflat-content-box" data-padding="5% 31.2% 0% 20%" data-sdesktoppadding="10% 10% 0% 0%" data-ssdesktoppadding="10% 10% 0% 0%" data-mobipadding="40px 0% 0% 0%" data-smobipadding="40px 0% 0% 0%">
-                        <div id="slider-testimonial" class="flexslider">
-                            <ul class="slides client-info">
-                                <li>
-                                    <div class="heading">They are professional</div>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    </p>
-                                    <div class="flat-spacer" data-desktop="47" data-sdesktop="47" data-mobi="30" data-smobi="30"></div>
-                                    <div class="author">
-                                        <div class="avatar">
-                                            <img src="images/home1/24.png" alt="images">
-                                        </div>
-                                        <div class="info">
-                                            <div class="name">Mehbuba Khan</div>
-                                            <div class="position">Web developer</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="heading">They are professional</div>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    </p>
-                                    <div class="flat-spacer" data-desktop="47" data-sdesktop="47" data-mobi="30" data-smobi="30"></div>
-                                    <div class="author">
-                                        <div class="avatar">
-                                            <img src="images/home1/24.png" alt="images">
-                                        </div>
-                                        <div class="info">
-                                            <div class="name">Mehbuba Khan</div>
-                                            <div class="position">Web developer</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="heading">They are professional</div>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    </p>
-                                    <div class="flat-spacer" data-desktop="47" data-sdesktop="47" data-mobi="30" data-smobi="30"></div>
-                                    <div class="author">
-                                        <div class="avatar">
-                                            <img src="images/home1/24.png" alt="images">
-                                        </div>
-                                        <div class="info">
-                                            <div class="name">Mehbuba Khan</div>
-                                            <div class="position">Web developer</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="heading">They are professional</div>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    </p>
-                                    <div class="flat-spacer" data-desktop="47" data-sdesktop="47" data-mobi="30" data-smobi="30"></div>
-                                    <div class="author">
-                                        <div class="avatar">
-                                            <img src="images/home1/24.png" alt="images">
-                                        </div>
-                                        <div class="info">
-                                            <div class="name">Mehbuba Khan</div>
-                                            <div class="position">Web developer</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="heading">They are professional</div>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    </p>
-                                    <div class="flat-spacer" data-desktop="47" data-sdesktop="47" data-mobi="30" data-smobi="30"></div>
-                                    <div class="author">
-                                        <div class="avatar">
-                                            <img src="images/home1/24.png" alt="images">
-                                        </div>
-                                        <div class="info">
-                                            <div class="name">Mehbuba Khan</div>
-                                            <div class="position">Web developer</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="heading">They are professional</div>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    </p>
-                                    <div class="flat-spacer" data-desktop="47" data-sdesktop="47" data-mobi="30" data-smobi="30"></div>
-                                    <div class="author">
-                                        <div class="avatar">
-                                            <img src="images/home1/24.png" alt="images">
-                                        </div>
-                                        <div class="info">
-                                            <div class="name">Mehbuba Khan</div>
-                                            <div class="position">Web developer</div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="heading">They are professional</div>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    </p>
-                                    <div class="flat-spacer" data-desktop="47" data-sdesktop="47" data-mobi="30" data-smobi="30"></div>
-                                    <div class="author">
-                                        <div class="avatar">
-                                            <img src="images/home1/24.png" alt="images">
-                                        </div>
-                                        <div class="info">
-                                            <div class="name">Mehbuba Khan</div>
-                                            <div class="position">Web developer</div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- testimonial --><!-- testimonial -->  --}}
-    {{-- <section class="partners">
-        <div class="container">
-            <div class="title-section text-center">
-                <h3 class="flat-title">Our Partners</h3>
-                <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p>
-            </div>
-            <table class="partners-table">
-                <tbody>
-                    <tr>
-                        <td><img src="images/home1/26.png" alt="images"></td>
-                        <td><img src="images/home1/27.png" alt="images"></td>
-                        <td><img src="images/home1/28.png" alt="images"></td>
-                        <td><img src="images/home1/29.png" alt="images"></td>
-                        <td><img src="images/home1/30.png" alt="images"></td>
-                        <td><img src="images/home1/31.png" alt="images"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="images/home1/32.png" alt="images"></td>
-                        <td><img src="images/home1/33.png" alt="images"></td>
-                        <td><img src="images/home1/34.png" alt="images"></td>
-                        <td><img src="images/home1/35.png" alt="images"></td>
-                        <td><img src="images/home1/36.png" alt="images"></td>
-                        <td><img src="images/home1/37.png" alt="images"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section><!-- partners --> --}}
-    {{-- style="background-image: url(images/transparent-head/footer.png)" --}}
     
     
     <script src="javascript/jquery.min.js"></script>
