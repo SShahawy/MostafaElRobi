@@ -22,6 +22,12 @@
                                 </ul> --}}
                             </li>
                             <li>
+                                <a href="/h6" class="" style="font-weight: bold;font-size:15px !important;">اسئله شائعه</a>
+                                {{-- <ul class="sub-menu">
+                                    <li><a href="index.html" class="active">Home 1</a></li>
+                                </ul> --}}
+                            </li>
+                            <li>
                                 <a href="/#rev" class="" style="font-weight: bold;font-size:15px !important;">اراء عملائنا</a>
                                 {{-- <ul class="sub-menu">
                                     <li><a href="index.html" class="active">Home 1</a></li>
