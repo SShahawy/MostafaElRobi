@@ -28,490 +28,87 @@
     <div id="loading-overlay">
         <div class="loader"></div>
     </div>
-    <div class="top-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <ul class="flat-information d-lg-flex align-items-center">
-                        <li class="email"><a href="#" title="Email">hello@finelaw.com</a></li>
-                        <li class="address"><a href="#" title="Address">20 Bardeshi, Amin Bazar, Dhaka</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="flat-contact-us d-lg-flex align-items-center">
-                        <a href="#" class="phone">123.456.7890</a>
-                        <a href="#" class="cosulting hvr-vertical">FREE COSULTING
-                            <div class="border-animate">
-                                <div class="top"></div>
-                                <div class="right"></div>
-                                <div class="bottomb"></div>
-                                <div class="left"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- top-bar -->
+    <style>
+        /* body {
+          font-family: 'Source Sans Pro', sans-serif;
+        } */
+        .img-behind-hire {
+          background: linear-gradient( rgba(208,179,143,0.65), rgba(168,140,114,0.65)), url("images/transparent-head/faq.jpg");
+          background-size: cover;
+background-position: center;
+background-repeat: none;
+background-attachment: fixed;
+          height: 60vh;
+        }
+       .second {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-align: center;
+        }
+        #span {
+          text-transform: uppercase;
+          margin: 0;
+          font-size: 15px;
+          white-space: nowrap;
+        } 
+      </style>
     @include('pages.header')
-    <div class="page-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="content">
-                        <h2 class="title-banner">FAQ</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit sed do eius mod tempor incididunt</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="breadcrumb">
-                        <li><a href="#" class="active">Home</a></li>
-                        <li><a href="#">Faq</a></li>
-                    </ul>
-                </div>
+    <div class="contact clearfix img-behind-hire">
+        <div class="container second">
+
+                <div class="title-section text-center">
+
+                       <span style="font-size: 45px;text-shadow:2px 2px 3px black;">اسئله شائعه</span>
             </div>
-        </div>
-    </div><!-- page-title -->
+        
+    </div>
+    </div><!-- contact -->
     <div class="faq">
         <div class="container">
-            <div class="title-section text-center">
-                <h3 class="flat-title">Frequently Asked Questions</h3>
-                <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p>
-            </div>
+            {{-- <div class="title-section text-center">
+                <h3 class="flat-title">اسئله شائعه</h3>
+                 <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p> 
+            </div> --}}
             <div class="flat-tabs flat-tabs-1">
-                <div class="text-center">
-                    <ul class="menu-tab text-center">
-                        <li class="active">General</li>
-                        <li>Service</li>
-                        <li>Pricing</li>
-                        <li>Support</li>
-                    </ul>
-                </div>
                 <div class="content-tab">
                     <div class="content-inner">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
+                        
+                            <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why people love Fine Law template ?</a>
-                                    </h4>
+                                    <h4 class="item-qs"  style="text-align: right;">
+                                        <a href="#">ما هي اهم انواع الشركات؟</a>
+                                    </h4><br>
                                     <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">How to get the best from Fine Law ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why no coding is required to use Fine Law ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7gmQYtqdx3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">How Fine Law can change the Law Industry ?</a>
-                                    </h4>
+                                    <h4 class="item-qs" style="text-align: right;">
+                                        <a href="#">ما هي اهم 8 نصائح قبل بدل بتأسيس الشركه؟</a>
+                                    </h4><br>
                                     <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why people use Fine Law in ther website ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Who designed the Fine Law template ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6WIDSf8Vx04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            </div>
+                            
                     </div>
-                    <div class="content-inner">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why people love Fine Law template ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">How to get the best from Fine Law ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why no coding is required to use Fine Law ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">How Fine Law can change the Law Industry ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why people use Fine Law in ther website ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Who designed the Fine Law template ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-inner">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why people love Fine Law template ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">How to get the best from Fine Law ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why no coding is required to use Fine Law ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">How Fine Law can change the Law Industry ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why people use Fine Law in ther website ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Who designed the Fine Law template ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content-inner">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why people love Fine Law template ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">How to get the best from Fine Law ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why no coding is required to use Fine Law ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">How Fine Law can change the Law Industry ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Why people use Fine Law in ther website ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                                <div class="questions-content">
-                                    <h4 class="item-qs">
-                                        <a href="#">Who designed the Fine Law template ?</a>
-                                    </h4>
-                                    <div class="item-reply">
-                                        Sat non proident, sunt in culpa qui officia deserunt mollit anim id boramet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    
+                    
                 </div>
             </div>
         </div>
     </div><!-- faq -->
-    <div class="featured-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-sm-12">
-                    <div class="content">
-                        <h6 class="title">Lets solve your problem today</h6>
-                        <p>Lorem ipsum dolor sit amet, consecte dunt ut labore</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="fl-btn">
-                        <a href="#" class="hvr-vertical">read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- featured-banner -->
-    <footer id="footer" class="footer">
-        <div class="footer-widgets">
-            <div class="container">
-                <div class="footer-top">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget-contact mg-footer-mbb">
-                                <h2 class="widget-title">Contact</h2>
-                                <div class="content">
-                                    <ul>
-                                        <li><span class="text address">20, Bardeshi, Amin Bazar Savar, Dhaka - 1348</span></li>
-                                        <li><span class="text phone">123.456.7890</span></li>
-                                        <li><span class="text email">hello@finelaw.com</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget-services mg-footer-mbb">
-                                <h2 class="widget-title">About</h2>
-                                <div class="content">
-                                    <ul class="widget-menu">
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Career</a></li>
-                                        <li><a href="#">Practice Area</a></li>
-                                        <li><a href="#">Help Guide</a></li>
-                                        <li><a href="#">Tutorials</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget-services mg-footer-mbs">
-                                <h2 class="widget-title">Help Desk</h2>
-                                <div class="content">
-                                    <ul class="widget-menu">
-                                        <li><a href="#">Customer Care</a></li>
-                                        <li><a href="#">Legal Help</a></li>
-                                        <li><a href="#">Service</a></li>
-                                        <li><a href="#">Donation</a></li>
-                                        <li><a href="#">Child Care</a></li>
-                                        <li><a href="#">Presonal Care</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget-newsletter">
-                                <h2 class="widget-title">Newsletter</h2>
-                                <div class="content">
-                                    <p>Polore eu fugiat nulla pariatur Excepteur sint occaecat cupidat at non tomake bole</p>
-                                    <form action="#" class="form-email-footer">
-                                        <input type="text" class="your-email" placeholder="Your email">
-                                        <button class="btn-email">
-                                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="widget widget-text mg-footer-mbb">
-                                <div class="content">
-                                    <div class="images-logo">
-                                        <img src="images/footer/07.png" alt="images">
-                                    </div>
-                                    <p>
-                                        Naboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden
-                                    </p>
-                                    <div class="list-socials">
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-5 col-sm-5">
-                            <div class="widget widget-gallery mg-footer-mbs clearfix">
-                                <h2 class="widget-title">Gallery</h2>
-                                <div class="content">
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/01.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/02.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/03.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/04.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/05.png" alt="images">
-                                    </div>
-                                    <div class="images-gallery hv-gallery-icon">
-                                        <div class="overlay-gallery">
-                                            <div class="item-link">
-                                                <a href="#" class="popup-gallery"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                        <img src="images/footer/06.png" alt="images">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-7 col-sm-7">
-                            <div class="widget widget-twitter">
-                                <h2 class="widget-title">Recent Tweets</h2>
-                                <div class="content">
-                                    <div class="tw-wrap">
-                                        <div class="text-link">
-                                            Lco lodoami tomader lok amitomader vai amar ar kisu naikeho <a href="#">http://bit.ly/7asF34</a>
-                                        </div>
-                                        <div class="text-time"><a href="#">@Fine Law</a>   -   2 hours ago</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="container">
-                    <div class="bottom-wrap">
-                        <div class="row">
-                            <div class="col-lg-5 col-md-12">
-                                <div class="copyright">
-                                    All rights reserved  ©  <a href="#">Storm & Rain</a>  2019
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-12">
-                                <div class="menu-footer">
-                                    <ul>
-                                        <li><a href="#">Terms & Condition</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Legal</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a id="scroll-top" class="show"></a>
-    </footer><!-- footer -->
+
+    <!-- footer -->
     
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/plugins.js"></script>
@@ -540,4 +137,5 @@
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
 </body>
+@include('pages.footer')
 </html>

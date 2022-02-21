@@ -54,6 +54,9 @@ Route::get('/h4', function () {
 Route::get('/h5', function () {
     return view('pages.practice-single');
 });
+Route::get('/h6', function () {
+    return view('pages.faq');
+});
 
 // Route::resource('estsharat', EstsharatController::class);
 Route::post('estshara', [EstsharatController::class,'store'])->name('estshara');
