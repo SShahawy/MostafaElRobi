@@ -1836,8 +1836,8 @@ input::-webkit-input-placeholder {
 }
 .flat-pagination ul li .numbers.current {
     color: #fff;
-    background-color: #cca776;
-    border: 1px solid #cca776;
+    background-color:#A15035;
+    border: 1px solid #A15035;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1885,7 +1885,7 @@ input::-webkit-input-placeholder {
     display: inline-block;
     color: #fff;
     border-radius: 50%;
-    background-color: #cca776;
+    background-color:#A15035;
     margin-bottom: 25px;
     transition: all 0.9s ease;
     -moz-transition: all 0.9s ease;
@@ -1917,6 +1917,7 @@ input::-webkit-input-placeholder {
 .form-message-pct .text-wrap {
     margin-bottom: 18px;
     
+    
 }
 .form-message-pct .text-wrap .wr-sm {
     -ms-flex-positive: 1;
@@ -1930,6 +1931,7 @@ input::-webkit-input-placeholder {
     height: 168px;
     padding: 11px 30px 23px 18px;
     margin-bottom: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 .form-message-pct .fl-btn button {
@@ -4014,15 +4016,13 @@ h3.title {
 
 .circle {
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
-    padding: 10px 0px 0px 21px;
-    background:linear-gradient(#CCA776,white);
-    /* background: #fff; */
-    border: 3px solid #000;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px 0px 10px;
+    background: lightgrey;
     color: #000;
     text-align: center;
-    font: 32px Arial, sans-serif;
+    font: 15px Arial, sans-serif;
   }
 
 

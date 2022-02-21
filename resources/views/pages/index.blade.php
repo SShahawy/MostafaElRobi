@@ -322,10 +322,11 @@
     <section class="about-home" id="rr" >
         <div class="container" >
             <div class="row">
-                <div class="col-lg-5 wow fadeIn" style=" padding: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+                <div class="col-lg-6 wow fadeIn" style=" padding: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
                 text-align: center;">
                     <div class="featured-post">
                         <div class="entry-image" >
+                            <br>
                             <img src="images/about/our vision.jpg" alt="images" style="height: 380px;">
                         </div>
                         <div class="image-move">
@@ -336,7 +337,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-6">
                     <div class="flat-spacer" data-desktop="36" data-sdesktop="20" data-mobi="0" data-smobi="0"></div>
                     <div class="content" style="text-align:right;">
                         <div class="title"><span style="font-size: 40px;font-weight:bold;text-align:right; color:#A75032;">رؤيتنا</span></div>
@@ -443,7 +444,7 @@
                                                 <a href="#"><img src="images/services/العقود الدولية.jpg" alt="العقود الدولية"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = ''><img src="images/services/scale.png" alt="images"></a>
+                                                <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -460,7 +461,7 @@
                                                 <a href="#"><img src="images/services/الاستشارات القانونية.jpg" alt="الاستشارات القانونية"></a>
                                             </div>
                                             <div class="icon">
-                                                <img src="images/services/scale.png" alt="images" style="width: 80px;">
+                                                <img src="images/services/scale.png" alt="images" >
                                             </div>
                                         </div>
                                         <div class="content-law">
@@ -583,7 +584,7 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/الاوراق الرسمية.jpg" alt="images"></a>
+                                            <a href="#"><img src="images/services/money.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
@@ -600,14 +601,16 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                            <a href="#"><img src="images/services/paper.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
-                                        <h4 class="name">خدمات التأمينات الاجتماعية.</h4>
+                                        <h4 class="name">خدمات التأمينات الاجتماعية.
+                                            <br>
+                                        </h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = 'ta2menat'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                     </div>
@@ -617,7 +620,7 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                            <a href="#"><img src="images/services/1.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
@@ -634,7 +637,7 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                            <a href="#"><img src="images/services/work.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
@@ -653,14 +656,16 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                            <a href="#"><img src="images/services/العقاري.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
-                                        <h4 class="name">مصلحة الشهر العقاري.</h4>
+                                        <h4 class="name">مصلحة الشهر العقاري.
+                                            <br>
+                                        </h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = '3akary'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                     </div>
@@ -670,7 +675,7 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                            <a href="#"><img src="images/services/الفكرية.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
@@ -687,14 +692,16 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                            <a href="#"><img src="images/services/الجنسية.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
-                                        <h4 class="name">كسب الجنسية.</h4>
+                                        <h4 class="name">كسب الجنسية.
+                                            <br>
+                                        </h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = 'gensya'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                     </div>
@@ -704,14 +711,16 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                            <a href="#"><img src="images/services/compu.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
                                         </div>
                                     </div>
                                     <div class="content-law">
-                                        <h4 class="name"> الجرائم الإلكترونية.</h4>
+                                        <h4 class="name"> الجرائم الإلكترونية.
+                                            <br>
+                                        </h4>
                                         {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
                                         <a href="javascript:void(0)" id = 'elec'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                     </div>
@@ -728,7 +737,7 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/زواج.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
                                                 <img src="images/services/scale.png" alt="images">
@@ -745,7 +754,7 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/الهجرة.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
                                                 <img src="images/services/scale.png" alt="images">
@@ -762,7 +771,7 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/البترول.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
                                                 <img src="images/services/scale.png" alt="images">
@@ -779,7 +788,7 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/الجمرك.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
                                                 <img src="images/services/scale.png" alt="images">
@@ -798,14 +807,16 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/الفني.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
                                                 <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
-                                            <h4 class="name">الإنتاج الفني والسينمائي.</h4>
+                                            <h4 class="name">الإنتاج الفني والسينمائي.
+                                                <br>
+                                            </h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'cinema'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
@@ -815,14 +826,15 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/العقار.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
                                                 <img src="images/services/scale.png" alt="images">
                                             </div>
                                         </div>
                                         <div class="content-law">
-                                            <h4 class="name">ادارة الاملاك العقارية </h4>
+                                            <h4 class="name">ادارة الاملاك العقارية
+                                                <br> </h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'amlaak'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
@@ -832,7 +844,7 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/تملك.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
                                                 <img src="images/services/scale.png" alt="images">
@@ -849,7 +861,7 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/service.png" alt="images"></a>
+                                                <a href="#"><img src="images/services/الاسرة.jpg" alt="images"></a>
                                             </div>
                                             <div class="icon">
                                                 <img src="images/services/scale.png" alt="images">
@@ -1287,4 +1299,14 @@
 </body>
 
 @include('pages.footer')
+
+
+<style>
+    .icon img{
+        height: 50px;
+    }
+    .entry-image img{
+        height: 200px;
+    }
+</style>
 </html>
