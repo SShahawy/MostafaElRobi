@@ -1210,10 +1210,10 @@ function swap(action) {
       leftitem = itemCount;
     }
     
-    $('.right-pos').removeClass('right-pos').addClass('back-pos');
+    $('.right-pos').removeClass('right-pos').addClass('left-pos');
     $('.main-pos').removeClass('main-pos').addClass('right-pos');
     $('.left-pos').removeClass('left-pos').addClass('main-pos');
-    $('#'+leftitem+'').removeClass('back-pos').addClass('left-pos');
+    // $('#'+leftitem+'').removeClass('back-pos').addClass('left-pos');
     
     startItem--;
     if(startItem < 1) {

@@ -80,7 +80,7 @@
 
 <center>
     {{-- <div id="wrap" style="background-image: url('images/services/slide_.png') !important;padding-top:200px;"> --}}
-    <div id="wrap" style="  padding-top:200px;">
+    <div id="wrap" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-22" >
@@ -219,18 +219,21 @@
                     <div class="bck-stand"></div>
                     <div class="bnc">
                         <div class="iconbox-wrap">
-                            <div class="iconbox-icon">
-                                <img src="images/home1/01.png" alt="images">
-                            </div>
-                            <div class="iconbox-content">
-                                <h5 class="title slidertitle"><a href="#">المحامي المقبول لدي المحكمة الدستورية العليا</a></h5>
-                                {{-- <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p> --}}
-                                {{-- <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div> --}}
-                            </div>
+                            <center>
+                                <div class="iconbox-content">
+                                    <h5 class="title slidertitle"><a href="/request">حجز استشاره</a></h5>
+                                    {{-- <p class="description">
+                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
+                                    </p> --}}
+                                    {{-- <div class="fl-btn">
+                                        <a href="#">read more</a>
+                                    </div> --}}
+                                </div>
+    
+                                <br>
+                                <div class="iconbox-image" style="">
+                                    <img src="images/about/res.jpg"  alt="images">
+                                </div></center>
                         </div>
                     </div>
                 </div>
@@ -362,32 +365,19 @@
 
 
 
+<section class="have">
 
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-5 wow fadeIn">
+        <h1 style="color: #A75032; font-size:30px;text-align:center; ">لدينا اقوي المحامين للدفاع عنك<br> 
+            و نقدم الحماية القانونية لك 
+            <h1>
+        </div>
+    </div>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-        <h1 style="color: #A75032; font-size:30px; text-align:center;">خبرة في مجال تأسيس الشركات<h1>
+        </section>
     <section class="about-home"  >
         <div class="container" >
             <div class="row">
