@@ -1,8 +1,42 @@
-<footer id="footer" class="footer" style=" background-image: linear-gradient(to left,#cca776c4,#3c1e13d7) !important;">
-    <div class="footer-widgets">
+<footer id="footer" class="footer"  style=" background-image: url(images/footer/footer.jpg) !important; position: relative; background-size:cover; ">
+    <div class="footer-widgets" >
+        <div id="color-overlay" style=" position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+       background-image:linear-gradient(to right,#CECAC7,#3F2217);
+        opacity: 0.8;"></div>
         <div class="container">
             <div class="footer-top">
                 <div class="row">
+
+
+                    <div class="col-lg-5 col-md-6 col-sm-6" >
+                        <div class="widget widget-text mg-footer-mbb">
+                            <div class="content">
+                                <div class="images-logo" >
+                                    <br>
+                                    {{-- <img src="images/logo/l w.png" style="background-size:10% 10%;height:80px; " alt="images"> --}}
+                                    <img src="images/logo/logo-01.png"  alt="images" style="float: right;" data-retina="images/logo/logo-01.png">
+                                  <ul>
+                                    <li style="color: white; text-align:right; float:right;"><span class="text " style="text-align: right;">170 طريق الحرية باب شرقي
+                                        الأسكندرية</span></li>
+                                       
+                                  </ul>
+                                </div>
+                                {{-- <p>
+                                    نغطي مجالات عمل وخدمات المؤسسة نطاقاً واسعآ من المجالات والتخصصات إذا تقدم المؤسسة حلول مبتكرة واستشارات موجهة للأفراد والشركات فى جميع المراحل بداية من متطلبات انظمة إدارة حقوق الملكية الفكرية ويضمن التعاون الموثق بين إدارات المكتب ان يصبح مركزآ مؤهلاً لتلبية احتياجات العملاء. 
+                                </p> --}}
+                                {{-- <div class="list-socials">
+                                    <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
                  
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="widget widget-contact mg-footer-mbb">
@@ -38,31 +72,7 @@
                     </div>
                     <div class="col-lg-1 col-md-6 col-sm-6" >
                     </div>
-                    <div class="col-lg-5 col-md-6 col-sm-6" >
-                        <div class="widget widget-text mg-footer-mbb">
-                            <div class="content">
-                                <div class="images-logo" >
-                                    <br>
-                                    {{-- <img src="images/logo/l w.png" style="background-size:10% 10%;height:80px; " alt="images"> --}}
-                                    <img src="images/logo/logo-01.png"  alt="images" style="float: right;" data-retina="images/logo/logo-01.png">
-                                  <ul>
-                                    <li style="color: white; text-align:right; float:right;"><span class="text " style="text-align: right;">170 طريق الحرية باب شرقي
-                                        الأسكندرية</span></li>
-                                       
-                                  </ul>
-                                </div>
-                                {{-- <p>
-                                    نغطي مجالات عمل وخدمات المؤسسة نطاقاً واسعآ من المجالات والتخصصات إذا تقدم المؤسسة حلول مبتكرة واستشارات موجهة للأفراد والشركات فى جميع المراحل بداية من متطلبات انظمة إدارة حقوق الملكية الفكرية ويضمن التعاون الموثق بين إدارات المكتب ان يصبح مركزآ مؤهلاً لتلبية احتياجات العملاء. 
-                                </p> --}}
-                                {{-- <div class="list-socials">
-                                    <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </div> --}}
-                            </div>
-                        </div>
-                    </div>
+                  
                     {{-- <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="widget widget-services mg-footer-mbs">
                             <h2 class="widget-title">Help Desk</h2>
