@@ -2,10 +2,14 @@
 <html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <title>Suprimo</title>
+    <title>مصطفي الروبي | محامون . مستشارون</title>
 
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
+    <link rel="manifest" href="images/logo/logo.png">
     
     <!-- Bootstrap-->
     <link rel="stylesheet" href="stylesheet/bootstrap.css">
@@ -76,7 +80,7 @@
     <div class="write-something" >
         <div class="container">
             <div class="title-section text-center">
-                <h3 class="flat-title" style="color: #A95D43;">ارسال البيانات للتوظيف</h3>
+                <h3 class="flat-title" style="color: #A95D43;">مصطفي الروبي | محامون . مستشارون</h3>
                 <br>
                 <span id="">
                     نتطلع دائماًً للبحث عن الاشخاص الطموحين الذين يتميزون بالتفاني والجدية بالعمل ويبحثون عن وظائف في بيئة مليئة بالتحديات ، ونرحب دوماً بتوظيف الاشخاص ذوي الإسهامات والإنتاجية العالية.

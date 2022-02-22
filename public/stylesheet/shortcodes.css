@@ -556,7 +556,7 @@
     visibility: hidden;
     cursor: pointer;
     overflow: hidden;
-    /* background: #cca776; */
+    background: transparent;
 }
 #scroll-top.show {
     right: 24px;
@@ -586,6 +586,7 @@
     visibility: hidden;
     cursor: pointer;
     overflow: hidden;
+
 
 }
 #scroll-whatsappp.show {

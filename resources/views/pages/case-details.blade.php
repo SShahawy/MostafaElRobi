@@ -2,10 +2,14 @@
 <html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <title>Suprimo</title>
+    <title>مصطفي الروبي | محامون . مستشارون</title>
 
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
+    <link rel="manifest" href="images/logo/logo.png">
     
     <!-- Bootstrap-->
     <link rel="stylesheet" href="stylesheet/bootstrap.css">
@@ -28,8 +32,44 @@
     <div id="loading-overlay">
         <div class="loader"></div>
     </div>
-
+    <style>
+        /* body {
+          font-family: 'Source Sans Pro', sans-serif;
+        } */
+        .img-behind-hire {
+          background: linear-gradient(180deg, rgba(68, 62, 55, 0.466), rgba(204, 177, 59, 0.466)), url("images/transparent-head/sharekat.jpg");
+          background-size: cover;
+            background-position: center;
+            background-repeat: none;
+            background-attachment: fixed;
+          height: 60vh;
+        }
+       .second {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-align: center;
+        }
+        #span {
+          text-transform: uppercase;
+          margin: 0;
+          font-size: 15px;
+          white-space: nowrap;
+        } 
+      </style>
     @include('pages.header')
+    <div class="contact clearfix img-behind-hire">
+        <div class="container second">
+
+                <div class="title-section text-center">
+
+                       <span>تأسيس الشركات</span>
+            </div>
+        
+    </div>
+    </div><!-- contact -->
 
     <div class="case-details" style="text-align: right;">
         <div class="container">
@@ -42,7 +82,7 @@
                             </div>
                         </div>
                         <div class="case-dt introduction-content">
-                            <h3 class="title"><a href="#">تأسيس شركات</a></h3>
+                            <h3 class="title"><a href="#" style="color:#B5735D !important;">تأسيس شركات</a></h3>
                             <p>
                                 نقوم بتوفير كافة الخدمات القانونية للشركات الجديدة والقائمة بالعمل كوكيل للشركة. ويوفر مكتبنا كل ما يتعلق بخدمات تأسيس الشركات لدينا كجزء من خدمتنا مساعدة الأفراد الأجانب والكيانات التجارية الأخرى لتأسيس وجودهم قانونا. 
                             </p>
@@ -56,14 +96,14 @@
                                     <span class="rg-ct">Alexender Flame</span>
                                 </li> --}}
                                 <li>
-                                    <span class="categories">محامون . مستشارون</span>
-                                    <span class="rg-ct">مصطفي الروبي</span>
+                                    <span class="categories" style="color:#B5735D !important;">محامون . مستشارون</span>
+                                    <span class="rg-ct" >مصطفي الروبي</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="overview case-dt mg-case-details">
-                        <h3 class="title">خبرتنا</h3>
+                        <h3 class="title" style="color:#B5735D !important;">خبرتنا</h3>
                         <p>
                             خبرتنا المتخصصة ومعرفتنا الواسعة تؤهلنا لعمل إجراءات تأسيس الشركات بسرعة وكفاءة. يمكننا تسجيل الشركة المحدودة بالاسهم وشركة محدودة بالضمان و أيضا تسجيل الشركات الاجنبية فى مصر
 ويمكن تأسيس الشركات بطريقة من عدة طرق وعلي حسب نوع الشركة الذي يختاره مالكها, وسيتحدد معه نوع االمسؤولية القانونية لأصحابها, والمعاملة الضريبة.
@@ -72,7 +112,7 @@
                         </p>
                     </div>
                     <div class="challange case-dt mg-case-details">
-                        <h3 class="title">انواع الشركات</h3>
+                        <h3 class="title" style="color:#B5735D !important;">انواع الشركات</h3>
                         {{-- <p>
                             Duis aute irure dolor in reprehenderit in vount in culpa qui officia deserunt mollit anim id est laborum. Sediste natus error sit voluptatem accusantium doloremque laudariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                         </p> --}}
@@ -99,23 +139,23 @@
                         <div class="container">
                         <div class="flat-portfolio">
                                 <ul class="flat-filter-isotype">
-                                    <li class="active"><a href="#" data-filter=".mosahma"><button style="padding:20px;" class="btn-read-more">شركات المساهمة</button> </a></li>
-                                    <li><a href="#" data-filter=".fardya"><button style="padding:20px;" class="btn-read-more ">الملكية الفردية</button></a></li>
-                                    <li><a href="#" data-filter=".ma7doda"><button style="padding:20px;" class="btn-read-more">شركات ذات المسئولية المحدودة </button></a></li>
-                                    <li><a href="#" data-filter=".baseeta"><button style="padding:20px;" class="btn-read-more"> شركات التوصية البسيطة </button></a></li>
+                                    <li class="active"><a href="#" data-filter=".mosahma"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more" >شركات المساهمة</button> </a></li>
+                                    <li><a href="#" data-filter=".fardya"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more ">الملكية الفردية</button></a></li>
+                                    <li><a href="#" data-filter=".ma7doda"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more">شركات ذات المسئولية المحدودة </button></a></li>
+                                    <li><a href="#" data-filter=".baseeta"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more"> شركات التوصية البسيطة </button></a></li>
 
                                 </ul>
                             </div>
                             <div class="flat-courses clearfix isotope-courses" >
                                 <div class="case clearfix mosahma" style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title">شركات مساهمه</h3>
+                                        <h3 class="title" style="color:#B5735D !important;">شركات مساهمه</h3>
                                         
                                         <p >
                                             تعتبر شركات المساهمة كيان تجارى يمتلكه المساهمون. يمتلك حاملي الأسهم حصة في الشركة تتناسب مع ما يمتلكوه من أسهم الشركة (سندات الملكية). ويسمح هذا بالتفاوت فى الحصص المملوكة لبعض المساهمين الذين يملكون نسبة اكبر من أسهم الشركاء الآخرين, يستطيع حاملي الأسهم نقل اسهمهم للغير دون التأثير علي استمرار وجود الشركة    
                                         </p>
                                         <hr style="border:1px #CCA776 solid;">
-                                        <p style="font-size: 25px;font-weight:500">المطلوب لتأسيس الشركه</p>
+                                        <p style="font-size: 25px;font-weight:500;color:#B5735D !important;">المطلوب لتأسيس الشركه</p>
 
                                         <ul class="process-steps"> 
                                             <li class="steps">
@@ -204,13 +244,13 @@
                                 </div>
                                 <div class="case clearfix fardya " style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title">الملكية الفردية</h3>
+                                        <h3 class="title" style="color:#B5735D !important;">الملكية الفردية</h3>
                                         
                                         <p >
                                             تعتبر الشركات ذات الملكية الفردية الخيار المفترض أن تكون مالكا وحيداً. مع كون هذا الخيار الأقل شيوعاً والأقل تعقيداً يالنسبة لإجراءات تأسيسها عن الشركات التجارية الاخرى   
                                         </p>
                                         <hr style="border:1px #CCA776 solid;">
-                                        <p style="font-size: 25px;font-weight:500">المطلوب لتأسيس الشركه</p>
+                                        <p style="font-size: 25px;font-weight:500;color:#B5735D !important;">المطلوب لتأسيس الشركه</p>
 
                                         <ul class="process-steps"> 
                                             <li class="steps">
@@ -236,7 +276,7 @@
                                 </div>
                                 <div class="case clearfix ma7doda" style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title">شركات ذات المسئولية المحدودة</h3>
+                                        <h3 class="title" style="color:#B5735D !important;">شركات ذات المسئولية المحدودة</h3>
                                         
                                         <p >
                                             تختلف الشركة ذات المسئولية المحدودة عن الملكية الفردية في أن مسئولية الشركاء تنحصر في حدود مقدار حصصهم في رأس مال الشركة فقط وبذلك يوفر هذا النوع من الشركات حماية من المسئولية التضامنية ولكن توجد حالات استثنائية يتحمل فيها الشركاء مسئولية تضامنية كاستعمال طرق إحتيالية أو غير قانونية أو لم يتم الفصل بين أنشطة الشركة والذمة المالية الشخصية.
@@ -270,7 +310,7 @@
                                 </div>
                                 <div class="case clearfix baseeta" style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title">شركات ذات المسئولية المحدودة</h3>
+                                        <h3 class="title" style="color:#B5735D !important;">شركات ذات المسئولية المحدودة</h3>
                                         
                                         <p >
                                             تعتبر شركات التوصية البسيطة إذا كانت مسئولية كل الشركاء أو بعضهم مسئولية محدودة , لذلك فشركة التوصية من حيث الشكل تعتبر مناسبة إذا كنت لا ترغب في البقاء كمالك وحيد.

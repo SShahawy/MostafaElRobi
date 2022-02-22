@@ -2,11 +2,15 @@
 <html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <title>Suprimo</title>
+    <title>مصطفي الروبي | محامون . مستشارون</title>
     
 
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
+    <link rel="manifest" href="images/logo/logo.png">
     
     <!-- Bootstrap-->
     <link rel="stylesheet" href="stylesheet/bootstrap.css">
@@ -66,7 +70,7 @@ background-attachment: fixed;
 
               <div class="title-section text-center">
 
-                     <span style="font-size: 35px;text-shadow:1px 1px 3px white;"> تواصل بنا</span>
+                     <span >احجز استشاره</span>
           </div>
       
   </div>
@@ -80,9 +84,9 @@ background-attachment: fixed;
                  
                 </div>
                 <div class="contact-options">
-                    <div class="icon-box">
+                    <div class="icon-box ">
                         <div class="icon">
-                           <img src="images/icon/location.png">
+                           <img src="images/icon/icon 4.png" style="width:80%">
                         </div>
                         <div class="content-info">
                             <h4 class="name">العنوان</h4>
@@ -93,7 +97,7 @@ background-attachment: fixed;
                     </div>
                     <div class="icon-box border-both-sides">
                         <div class="icon">
-                            <img src="images/icon/phone.png">
+                            <img src="images/icon/icon 5.png">
                         </div>
                         <div class="content-info">
                             <h4 class="name">ارقام التواصل</h4>
@@ -106,7 +110,7 @@ background-attachment: fixed;
                     </div>
                     <div class="icon-box">
                         <div class="icon">
-                            <img src="images/icon/envolpe.png" style="height: 50px;">
+                            <img src="images/icon/icon 3.png" style="height: 50px;">
                         </div>
                         <div class="content-info" >
                             <h4 class="name">الإميل</h4>

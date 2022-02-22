@@ -4007,11 +4007,14 @@ h3.title {
 .testimonial .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
     width: 35px;
     height: 35px;
-    background-color: #604242;
+    background-color: transparent;
 }
 /* ------testimonial  close-------*/
 
-
+.title-section p,.title-section span{
+    font-size:50px;
+    text-shadow:2px 2px 3px black;
+}
 
 
 .circle {

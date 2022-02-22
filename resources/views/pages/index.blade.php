@@ -2,11 +2,14 @@
 <html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <title>Mostafa ElRobi</title>
+    <title>مصطفي الروبي | محامون . مستشارون</title>
 
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
+    <link rel="manifest" href="images/logo/logo.png">
     <!-- Bootstrap-->
     <link rel="stylesheet" href="stylesheet/bootstrap.css">
 
@@ -501,7 +504,7 @@
                                         <div class="content-law">
                                             <h4 class="name">تأسيس الشركات وهيكلتها بكافة انواعها.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'sharekat'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="/company-open" id = 'sharekat'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1021,16 +1024,21 @@
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>CLALSDLASD 2 </p>
-                            <h4>Client 2</h4>
+                            <img src="images/testimon/testim1.jpg" class="img-circle img-responsive" />
+                            <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
+                            <h4>أ/ محمد كمال</h4>
+                            <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
+                            <h4>2</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>CLALSDLASD 3</p>
-                            <h4>Client 3</h4>
-                            <h3>Client 2</h3>
+                            <img src="images/testimon/testim1.jpg" class="img-circle img-responsive" />
+
+                            <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
+                            <h4>أ/ محمد كمال</h4>
+                            <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
+                            <h4>3</h4>
                         </div>
                     </div>
                 </div>

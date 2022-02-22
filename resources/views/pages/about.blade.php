@@ -2,10 +2,14 @@
 <html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <title>Suprimo</title>
+    <title>مصطفي الروبي | محامون . مستشارون</title>
 
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
+    <link rel="manifest" href="images/logo/logo.png">
     
     <!-- Bootstrap-->
     <link rel="stylesheet" href="stylesheet/bootstrap.css">
@@ -360,7 +364,7 @@
                 <div class="col-lg-6">
                     <div class="content">
                         <div class="caption">Our Features</div>
-                        <h4 class="heading">Reason to choose Suprimo over others in the market</h4>
+                        <h4 class="heading">Reason to choose مصطفي الروبي | محامون . مستشارون over others in the market</h4>
                         <p class="description">
                             Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor amco laboris nisi ut aliqui
                         </p>
