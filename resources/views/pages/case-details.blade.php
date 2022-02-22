@@ -118,16 +118,16 @@
                         </p> --}}
                         <ul class="list-challange">
                             <li>
-                                <span class="text">شركات المساهمة</span>
+                                <span class="text">شركات المساهمة <span>&bigodot;</span></span>
                             </li>
                             <li>
-                                <span class="text">شركات ذات الملكية الفردية</span>
+                                <span class="text">شركات ذات الملكية الفردية <span>&bigodot;</span></span>
                             </li>
                             <li>
-                                <span class="text">شركات ذات المسئولية المحدودة</span>
+                                <span class="text">شركات ذات المسئولية المحدودة <span>&bigodot;</span></span>
                             </li>
                             <li>
-                                <span class="text">شركات التوصية البسيطة</span>
+                                <span class="text">شركات التوصية البسيطة <span>&bigodot;</span></span>
                             </li>
                         </ul>
                     </div>
@@ -155,7 +155,7 @@
                                             تعتبر شركات المساهمة كيان تجارى يمتلكه المساهمون. يمتلك حاملي الأسهم حصة في الشركة تتناسب مع ما يمتلكوه من أسهم الشركة (سندات الملكية). ويسمح هذا بالتفاوت فى الحصص المملوكة لبعض المساهمين الذين يملكون نسبة اكبر من أسهم الشركاء الآخرين, يستطيع حاملي الأسهم نقل اسهمهم للغير دون التأثير علي استمرار وجود الشركة    
                                         </p>
                                         <hr style="border:1px #CCA776 solid;">
-                                        <p style="font-size: 25px;font-weight:500;color:#B5735D !important;">المطلوب لتأسيس الشركه</p>
+                                        <p id="ti2" style="font-weight:500;color:#B5735D !important;">المطلوب لتأسيس الشركه</p>
 
                                         <ul class="process-steps"> 
                                             <li class="steps">
@@ -250,7 +250,7 @@
                                             تعتبر الشركات ذات الملكية الفردية الخيار المفترض أن تكون مالكا وحيداً. مع كون هذا الخيار الأقل شيوعاً والأقل تعقيداً يالنسبة لإجراءات تأسيسها عن الشركات التجارية الاخرى   
                                         </p>
                                         <hr style="border:1px #CCA776 solid;">
-                                        <p style="font-size: 25px;font-weight:500;color:#B5735D !important;">المطلوب لتأسيس الشركه</p>
+                                        <p id="ti3" style="font-size: 25px;font-weight:500;color:#B5735D !important;">المطلوب لتأسيس الشركه</p>
 
                                         <ul class="process-steps"> 
                                             <li class="steps">
@@ -431,7 +431,7 @@
             </div>
         </div>
     </div><!-- featured-banner --> --}}
-    
+    </div>
     
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/plugins.js"></script>

@@ -3659,6 +3659,28 @@ h3.title {
 .team-grid {
     text-align: center;
 }
+.case-dt p {
+    font-size:20px;
+}
+
+.case-dt .list-challange li .text{
+    font-size:20px;
+    line-height: 60px;
+}
+
+.case-dt ul li .categories {
+    font-size:20px;
+    
+}
+.process p{
+font-size: 20px;
+}
+.process #ti2,.process #ti3{
+    font-size: 35px;
+}
+.case-dt ul li .rg-ct {
+    font-size:18px;
+}
 .col-xs-4.team-grid {
     width:50%;
     float: left;
