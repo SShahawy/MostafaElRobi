@@ -341,7 +341,7 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus {
-    border: 1px solid #cca776;
+    border: 1px solid #A5553A;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -420,14 +420,13 @@ input::-webkit-input-placeholder {
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    padding: 8px;
-
+    padding: 18px;
     background: #fff;
     border: 2px solid #666;
     color: #666;
     text-align: center;
-
     font: 32px Arial, sans-serif;
+  
 }
 .widget-list-common li a:hover:before,
 .widget-list-common li a.active:before {
@@ -460,7 +459,7 @@ input::-webkit-input-placeholder {
 .footer-widgets .widget-services .content li a:hover,
 .footer-widgets .widget-twitter .tw-wrap .text-link a:hover,
 .bottom .menu-footer ul li a:hover {
-    color: #fff;
+    color: #A45539;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -469,8 +468,8 @@ input::-webkit-input-placeholder {
 }
 .flat-pagination ul li .numbers:hover {
     color: #fff;
-    background-color: #cca776;
-    border: 1px solid #cca776;
+    background-color: #A5553A;
+    border: 1px solid #A5553A;
 }
 .hvr-vertical {
     display: inline-block;
@@ -725,6 +724,7 @@ input::-webkit-input-placeholder {
     align-items: center;
     -ms-flex-pack: start;
     justify-content: flex-start;
+    float: right;
 }
 .flex-header {
     display: -ms-flexbox;
@@ -1635,44 +1635,23 @@ input::-webkit-input-placeholder {
 .footer-widgets .widget .widget-title {
     font-size: 21px;
     font-weight: 700;
-    color: #fff;
+    color: #A35135;
     margin-bottom: 30px;
+    text-align: right;
 }
 .footer-widgets .widget .content {
-    color: #bbbbbb;
+    color: #3F2217;
     
 }
-.footer-widgets .widget-contact ul li {
-    margin-bottom: 9px;
-    color: white;
-}
-.footer-widgets .widget-contact ul li .text {
-    padding-right: 27px;
-    line-height: 27px;
-    display: block;
-    position: relative;
-    color: white;
-}
-.footer-widgets .widget-contact ul li .text:before {
-    /* content: '\f041'; */
-    top: 0;
-    left: 0;
-    color: white;
-    position: absolute;
-    /* font-family: "FontAwesome"; */
-}
-.footer-widgets .widget-contact ul li .text.phone:before {
-    content: '\f095';
-}
-.footer-widgets .widget-contact ul li .text.email:before {
-    content: '\f003';
-}
+
 .footer-widgets .widget-services .content li {
     margin-bottom: 4px;
+    text-align: right;
 }
 .footer-widgets .widget-services .content li a {
-    color: white;
+    color: #3F2217;
     text-align: right;
+   
 }
 .footer-widgets .widget-gallery .images-gallery {
     float: left;
@@ -1745,13 +1724,15 @@ input::-webkit-input-placeholder {
 .footer-widgets .widget-text p {
     margin-bottom: 60px;
 }
-.footer-widgets .widget-text .list-socials a {
-    padding-right: 14px;
+
+.footer-widgets .widget-text  a {
+   text-align: right;
+   color:#3F2217;
 }
-.footer-widgets .widget-text .list-socials a i {
-    font-size: 22px;
-    color: #fff;
-}
+.footer-widgets .widget-text  a:hover {
+    text-align: right;
+    color:#A45337;
+ }
 .footer-widgets .widget-newsletter p {
     margin-bottom: 29px;
 } 
@@ -1909,8 +1890,8 @@ input::-webkit-input-placeholder {
     color: #291d0d;
     margin-bottom: 13px;
 }
-.contact-options .icon-box .content-info .info-wrap {
-    
+.contact-options .icon-box .content-info .info-wrap p a {
+    text-align: center;
 }
 .write-something {
     padding: 0 0 120px 0;
@@ -2432,7 +2413,7 @@ margin-top: -25px;
     border-radius: 50%;
     display: inline-block;
     color: #fff;
-    background-color: #cca776;
+    background-color: #A5553A;
 }
 .process-steps .steps-name .name {
     font-size: 18px;
@@ -2982,6 +2963,20 @@ margin-top: -25px;
     /* width:200px;
     height:100px; */
     background-image: url(../images/transparent-head/back2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+
+.company {
+    padding: 59px 0 77px 0;
+    width: 100%;
+    height: 80vh;
+    /* width:200px;
+    height:100px; */
+    background-image: url(../images/about/company1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: none;

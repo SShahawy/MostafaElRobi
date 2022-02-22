@@ -10,6 +10,7 @@
     <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
     <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
     <link rel="manifest" href="images/logo/logo.png">
+    
     <!-- Bootstrap-->
     <link rel="stylesheet" href="stylesheet/bootstrap.css">
 
@@ -24,12 +25,9 @@
     <link rel="stylesheet" href="rev-slider/css/navigation.css">
     <link rel="stylesheet" href="rev-slider/css/settings.css">
 
-    
 
-
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <header id="header" style="background-color: rgba(255, 255, 255, 0.2);" class="header bg-color ">
     
     <div class="container" style="height: 135px;">

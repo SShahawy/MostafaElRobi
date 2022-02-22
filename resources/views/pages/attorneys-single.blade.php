@@ -68,14 +68,14 @@
         /* body {
           font-family: 'Source Sans Pro', sans-serif;
         } */
-        .img-behind-hire {
-          background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/about/cv.jpg");
+        /* .img-behind-hire {
+          background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/head/mostafaelrobi2.jpg");
           background-size: cover;
 background-position: center;
 background-repeat: none;
 background-attachment: fixed;
           height: 60vh;
-        }
+        } */
        .second {
           position: absolute;
           top: 50%;
@@ -93,16 +93,7 @@ background-attachment: fixed;
       </style>
 
 
-  <div class="contact clearfix img-behind-hire">
-      <div class="container second">
 
-              <div class="title-section text-center">
-
-                     <span>مصطفي الروبي | محامون . مستشارون</span>
-          </div>
-      
-  </div>
-  </div><!-- contact -->
 
     <div class="attorneys-single" style="  background-image: linear-gradient(to bottom right, #E5E1DE,white);">
         <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:50px; background-color:white;">
@@ -110,7 +101,7 @@ background-attachment: fixed;
                 <div class="col-lg-9 col-md-12">
                     <div class="attorneys-single-warp d-md-flex">
                         <div class="col-left">
-                            <div class="personal-details" style="position:absolute;">
+                            <div class="personal-details" >
                                 <div class="featured-post">
                                     <div class="entry-image">
                                         <img src="images/transparent-head/cv 2.png" alt="images" style="height: 240px;position:relative;bottom:-25px;width:100%;">

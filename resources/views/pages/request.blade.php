@@ -73,36 +73,40 @@ background-attachment: fixed;
                 <div class="contact-options">
                     <div class="icon-box ">
                         <div class="icon">
+                            <a href="https://www.google.com/maps/place/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+%D9%85%D8%B5%D8%B7%D9%81%D9%8A+%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%8A+%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D9%87+%D9%88%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%8A%D9%85+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%E2%80%AD/@31.20094,29.9141309,15z/data=!4m5!3m4!1s0x0:0x3e068f474249bcde!8m2!3d31.20094!4d29.9141309" target="_blank">
                            <img src="images/icon/icon 4.png" style="width:80%">
+                            </a>
                         </div>
                         <div class="content-info">
                             <h4 class="name">العنوان</h4>
                             <div class="info-wrap">
-                                <p>170 طريق الحرية باب شرقي الأسكندرية</p>
+                                <p style="text-align: center;">  <a href="https://www.google.com/maps/place/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+%D9%85%D8%B5%D8%B7%D9%81%D9%8A+%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%8A+%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D9%87+%D9%88%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%8A%D9%85+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%E2%80%AD/@31.20094,29.9141309,15z/data=!4m5!3m4!1s0x0:0x3e068f474249bcde!8m2!3d31.20094!4d29.9141309" target="_blank">170 طريق الحرية باب شرقي الأسكندرية
+                                </a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box border-both-sides">
                         <div class="icon">
-                            <img src="images/icon/icon 5.png">
+                            <a href="tel:00201278823809" target="_blank"> <img src="images/icon/icon 5.png"></s>
                         </div>
                         <div class="content-info">
                             <h4 class="name">ارقام التواصل</h4>
-                            <div class="info-wrap">
-                                <p ><a href="tel:201278823809">+201278823809</a></p>
-                                <p ><a href="tel:2035902759">+2035902759</a></p>
-                                    <p ><a href="tel:201272653225">+201272653225</a></p>
+                            <div class="info-wrap " >
+                                <p  style="text-align: center;" ><a href="tel:00201278823809">201278823809+</a></p>
+                                <p  style="text-align: center;"><a href="tel:002035902759">2035902759+</a></p>
+                                 <p  style="text-align: center;" ><a href="tel:00201272653225">201272653225+</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box">
                         <div class="icon">
-                            <img src="images/icon/icon 3.png" style="height: 50px;">
+                            <a   href="mailto:info@mostafaelroby.com"> <img src="images/icon/icon 3.png" style="height: 50px;"></a>
                         </div>
                         <div class="content-info" >
                             <h4 class="name">الإميل</h4>
                             <div class="info-wrap">
-                                <p>info@mostafaelroby.com</p>
+                                <p style="text-align: center;"><a   href="mailto:info@mostafaelroby.com">info@mostafaelroby.com</a></p>
                             </div>
                         </div>
                     </div>

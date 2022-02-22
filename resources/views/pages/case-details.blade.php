@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <title>مصطفي الروبي | محامون . مستشارون</title>
-
-    <!-- Mobile Specific Metas-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
-    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
-    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
-    <link rel="manifest" href="images/logo/logo.png">
-    
-    <!-- Bootstrap-->
-    <link rel="stylesheet" href="stylesheet/bootstrap.css">
-
-    <!-- Template Style-->
-    <link rel="stylesheet" href="stylesheet/all.css">
-    <link rel="stylesheet" href="stylesheet/animate.css">
-    <link rel="stylesheet" href="stylesheet/style.css">
-    <link rel="stylesheet" href="stylesheet/shortcodes.css">
-    <link rel="stylesheet" href="stylesheet/responsive.css">
-    <link rel="stylesheet" href="stylesheet/flexslider.css">
-    <link rel="stylesheet" href="rev-slider/css/layers.css">
-    <link rel="stylesheet" href="rev-slider/css/navigation.css">
-    <link rel="stylesheet" href="rev-slider/css/settings.css">
-
-
-</head>
 
 <body>
     <div id="loading-overlay">
@@ -37,7 +8,7 @@
           font-family: 'Source Sans Pro', sans-serif;
         } */
         .img-behind-hire {
-          background: linear-gradient(180deg, rgba(68, 62, 55, 0.466), rgba(204, 177, 59, 0.466)), url("images/transparent-head/sharekat.jpg");
+          background:  url("images/transparent-head/sharekat.jpg");
           background-size: cover;
             background-position: center;
             background-repeat: none;
@@ -78,7 +49,7 @@
                     <div class="introduction mg-case-details d-md-flex">
                         <div class="featured-post">
                             <div class="entry-image">
-                                <img src="images/services/company.jpg" style="border: 0.1px white solid;box-shadow:1px 2px 15px black;border-radius : 4px;" alt="images">
+                                <img src="images/about/company.jpg" style="border: 0.1px white solid;box-shadow:1px 2px 15px black;border-radius : 4px;" alt="images">
                             </div>
                         </div>
                         <div class="case-dt introduction-content">
@@ -102,34 +73,68 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="overview case-dt mg-case-details">
-                        <h3 class="title" style="color:#B5735D !important;">خبرتنا</h3>
-                        <p>
+
+                </div>
+            </div>
+        </div>
+
+        <section class="company" >
+ 
+            <div class="container" >
+                <div class="row">
+                    <div class="col-lg-12 whitebox wow fadeIn">
+                <h1 style="color: #A75032; font-size:30px; text-align:center; ">
+                    خبرتنا  
+                    <h1>
+
+                        <p style="font-size: 20px;line-height:60px;">
                             خبرتنا المتخصصة ومعرفتنا الواسعة تؤهلنا لعمل إجراءات تأسيس الشركات بسرعة وكفاءة. يمكننا تسجيل الشركة المحدودة بالاسهم وشركة محدودة بالضمان و أيضا تسجيل الشركات الاجنبية فى مصر
 ويمكن تأسيس الشركات بطريقة من عدة طرق وعلي حسب نوع الشركة الذي يختاره مالكها, وسيتحدد معه نوع االمسؤولية القانونية لأصحابها, والمعاملة الضريبة.
                         <br><br><b>وفيما يلى ابرز الخيارات الشائعة للشركات وسماتها المميزة </b>
  
                         </p>
-                    </div>
+                </div>
+            </div>
+        </div>
+        
+                </section>
+
+
+
+                   <br>
                     <div class="challange case-dt mg-case-details">
-                        <h3 class="title" style="color:#B5735D !important;">انواع الشركات</h3>
+                        <div class="container">
+                        <h3 class="title" style="color:#A5553A !important;">انواع الشركات</h3>
                         {{-- <p>
                             Duis aute irure dolor in reprehenderit in vount in culpa qui officia deserunt mollit anim id est laborum. Sediste natus error sit voluptatem accusantium doloremque laudariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                         </p> --}}
-                        <ul class="list-challange">
-                            <li>
-                                <span class="text">شركات المساهمة <span>&bigodot;</span></span>
+                        <ul class="process-steps" style="margin-right: 20px;" > 
+                            <li class="steps"   >
+                                <div class="steps-name" dir="rtl">
+                                    <span class="number" style=" ">١</span>
+                                    <span class="name" > شركات المساهمة</span>
+                                </div>
                             </li>
-                            <li>
-                                <span class="text">شركات ذات الملكية الفردية <span>&bigodot;</span></span>
+                            <li class="steps"  >
+                                <div class="steps-name" dir="rtl">
+                                    <span class="number" style=" ">٢</span>
+                                    <span class="name" > شركات ذات الملكية الفردية </span>
+                                </div>
                             </li>
-                            <li>
-                                <span class="text">شركات ذات المسئولية المحدودة <span>&bigodot;</span></span>
+                            <li class="steps"   >
+                                <div class="steps-name" dir="rtl">
+                                    <span class="number" style=" ">٣</span>
+                                    <span class="name" > شركات ذات المسئولية المحدودة</span>
+                                </div>
                             </li>
-                            <li>
-                                <span class="text">شركات التوصية البسيطة <span>&bigodot;</span></span>
+                            <li class="steps"   >
+                                <div class="steps-name" dir="rtl">
+                                    <span class="number" style=" ">٤</span>
+                                    <span class="name" >شركات التوصية البسيط</span>
+                                </div>
                             </li>
                         </ul>
+                    </div>
                     </div>
 
 
@@ -160,61 +165,61 @@
                                         <ul class="process-steps"> 
                                             <li class="steps">
                                                 <div class="steps-name" >
-                                                    <span class="number" style="float:right;margin-left:10px;">1</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">١</span>
                                                     <span class="name" > •	شهادة من البنك بإيداع 10% من قيمة رأس المال</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">2</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٢</span>
                                                     <span class="name" > •	صور من البطاقات الشخصية أو جوازات السفر للمؤسسين أو شهادة ميلاد بالنسبة للقاصر. (إذا وجد)</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">3</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٣</span>
                                                     <span class="name" > •	توكيل من المؤسسين</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">4</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٤</span>
                                                     <span class="name" > •	عقد الإيجار الأصلي بإسم الشركة الجديدة بعد الحصول علي السجل التجاري شريطة أن يكون تاريخة مسجل في الشهر العقاري بغرض الحصول علي البطاقة الضريبية للشركة</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">5</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٥</span>
                                                     <span class="name" > •	الحد الأدنى من رأس المال المسموح به “مائتين وخمسين الف جنيه مصرى (نسبة مساهمة الاجانب يمكن 100%</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">6</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٦</span>
                                                     <span class="name" > •	يجب الا يقل عدد أعضاء مجلس الادارة عن “ثلاثة”, ويمكن أن يكون جميع اعضاء مجلس الإدارة من أجانب</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">7</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٧</span>
                                                     <span class="name" > •	أدنى قيمة العضوية لضمان حصة كل عضو “5000 جنيه مصرى”</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">8</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٨</span>
                                                     <span class="name" > •	يمكن لمجلس الإدارة ان يشمل علي الأكثر اثنين من ذوى الخبرة الذين لا يستوفون النصاب القانونى</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">9</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٩</span>
                                                     <span class="name" > •	يجب الا يقل عدد مؤسسو الشركة عن ثلاث (3) أشخاص طبيعين أو اعتباريين, شريطة وجود الأهلية </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">10</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">١٠</span>
                                                     <span class="name" > القانونية لمؤسسى الشركة من الأشخاص الطبيعية وأن يكون الاشخاص الاعتباريين كيانات منفصلة<br>
                                                         •	يجب الا تقل قيمة السهم عن خمسة جنيهات
                                                         </span>
@@ -222,19 +227,19 @@
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">11</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">١١</span>
                                                     <span class="name" > •	يجب الا تزيد قيمة السهم عن ألف جنية</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">12</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">١٢</span>
                                                     <span class="name" > •	يجب الا يقل رأس مال الشركة المدفوع عن 10% من رأس المال المسموح به</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">13</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">١٣</span>
                                                     <span class="name" > •	يجب الا تقل قيمة الأسهم النقدية عن 25% من قيمة رأس المال المسموح به</span>
                                                 </div>
                                             </li>
