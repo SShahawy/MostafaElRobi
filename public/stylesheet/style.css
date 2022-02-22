@@ -4011,7 +4011,7 @@ h3.title {
 }
 /* ------testimonial  close-------*/
 
-.title-section p,.title-section span{
+.title-section p:first-child,.title-section span:first-child{
     font-size:50px;
     text-shadow:2px 2px 3px black;
 }

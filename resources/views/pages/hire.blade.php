@@ -71,7 +71,7 @@
 
                 <div class="title-section text-center">
 
-                       <span style="font-size: 35px;text-shadow:1px 1px 3px white;"> التوظيف و التدريب</span>
+                       <span> التوظيف و التدريب</span>
             </div>
         
     </div>
