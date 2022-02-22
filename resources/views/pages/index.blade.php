@@ -47,7 +47,7 @@
                         <img src="images/transparent-head/mostafaelrobi.jpg" class="d-block w-100"  alt="مصطفي الروبي" name="محامون مستشارون" style="object-fit: cover;" data-bgposition="center center" data-no-retina>
                         <div class="carousel-caption  d-md-block" style="">
        
-                            <div class="text-center btn-read-more wow fadeInUp " style="margin-top: -20%;" ><a href="cv" class="btn-read-more" style="font-size: 25px;" target="_blank" class=" cta hvr-vertical ">نبذة عننا</a>
+                            <div class="text-center btn-read-more wow fadeInUp " style="margin-top: -20%;" ><a href="company-open" class="btn-read-more" style="font-size: 25px;" target="_blank" class=" cta hvr-vertical ">اسس شركتك</a>
                             
                                
                             </div>
@@ -886,13 +886,13 @@
 
             </div>
             <center>
-                <div class="row" style="margin-left:30%;text-align:center;">
-            <a href="javascript:void(0);" class="circle" id="num1" onclick="page1()" >1&emsp;</a> 
-            <a href="javascript:void(0);" class="circle" id="num2" onclick="page2()" >2&emsp;</a> 
-            <a href="javascript:void(0);" class="circle" id="num3" onclick="page3()" >3&emsp;</a> 
-            <a href="javascript:void(0);" class="circle" id="num4" onclick="page4()" >4&emsp;</a> 
-            <a href="javascript:void(0);" class="circle" id="num5" onclick="page5()" >5&emsp;</a> 
-            <a href="javascript:void(0);" class="circle" id="num6" onclick="page6()" >6&emsp;</a> 
+            <div class="row" style="margin-left:38%; text-align:center; ">
+            <a href="javascript:void(0);" class="circle" id="num1" onclick="page1()" style="margin-right:20px;">1&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num2" onclick="page2()" style="margin-right:20px;">2&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num3" onclick="page3()" style="margin-right:20px;">3&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num4" onclick="page4()" style="margin-right:20px;">4&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num5" onclick="page5()" style="margin-right:20px;">5&emsp;</a> 
+            <a href="javascript:void(0);" class="circle" id="num6" onclick="page6()" style="margin-right:20px;">6&emsp;</a> 
             {{-- <a href="javascript:void(0);" onclick="page2()"><div class="circle" id="num2">2&emsp;</div></a> 
             <a href="javascript:void(0);" onclick="page3()"><div class="circle" id="num3">3&emsp;</div></a>
             <a href="javascript:void(0);" onclick="page4()"><div class="circle" id="num4">4&emsp;</div></a>
@@ -1016,7 +1016,7 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
-                            <img src="images/testimon/testim1.jpg" class="img-circle img-responsive" />
+                            <img src="images/home1/testim1.jpg" class="img-circle img-responsive" />
                             <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
                             <h4>أ/ محمد كمال</h4>
                             <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
@@ -1024,7 +1024,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="images/testimon/testim1.jpg" class="img-circle img-responsive" />
+                            <img src="images/home1/11.png" class="img-circle img-responsive" />
                             <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
                             <h4>أ/ محمد كمال</h4>
                             <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
@@ -1033,7 +1033,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="images/testimon/testim1.jpg" class="img-circle img-responsive" />
+                            <img src="images/home1/10.png" class="img-circle img-responsive" />
 
                             <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
                             <h4>أ/ محمد كمال</h4>
