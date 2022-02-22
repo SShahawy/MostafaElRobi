@@ -1,40 +1,27 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <title>مصطفي الروبي | محامون . مستشارون</title>
-    
-
-    <!-- Mobile Specific Metas-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
-    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
-    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
-    <link rel="manifest" href="images/logo/logo.png">
-    
-    <!-- Bootstrap-->
-    <link rel="stylesheet" href="stylesheet/bootstrap.css">
-
-    <!-- Template Style-->
-    <link rel="stylesheet" href="stylesheet/all.css">
-    <link rel="stylesheet" href="stylesheet/animate.css">
-    <link rel="stylesheet" href="stylesheet/style.css">
-    <link rel="stylesheet" href="stylesheet/shortcodes.css">
-    <link rel="stylesheet" href="stylesheet/responsive.css">
-    <link rel="stylesheet" href="stylesheet/flexslider.css">
-    <link rel="stylesheet" href="rev-slider/css/layers.css">
-    <link rel="stylesheet" href="rev-slider/css/navigation.css">
-    <link rel="stylesheet" href="rev-slider/css/settings.css">
-
-
-</head>
+@include('pages.header')
 
 <body>
     <div id="loading-overlay">
         <div class="loader"></div>
     </div>
+    @if(session()->has('message'))
+    <script>
+const swalWithBootstrapButtons = Swal.mixin({
+  customClass: {
+    confirmButton: 'btn btn-warning',
+  },
+  buttonsStyling: false
+})
+swalWithBootstrapButtons.fire({
+        html:
+        '<b>تم حجز الاستشاره, سيتم التواصل</b>',
+          showConfirmButton:true,
 
-    @include('pages.header')
+          confirmButtonText:'<i style="padding:10px 50px;" class="btn-lg btn-warning">تم!</i> ',
+          
+      });
+        </script>
+    @endif
 
     <style>
         /* body {
@@ -123,39 +110,40 @@ background-attachment: fixed;
             </div>
         </div>
     </div><!-- contact -->
-    <div class="write-something" >
-        <div class="container"   style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:10px;" >
+    <div class="write-something" dir="rtl";>
+        <div class="container"    >
             <div class="title-section text-center ">
-                <h3 class="flat-title">احجز استشاره</h3>
+                <h2 class="flat-title">احجز استشاره</h2>
             </div>
             <form action="{{ route('estshara') }}" method="post" class="form-message-pct">
                 @csrf
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">الاَسم</label>
-                        <input required type="text" name="name" style="text-align: right;color:#3C2118;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-name" placeholder="اسمك بالكامل">
+                        <input required type="text" name="name" style="" class="your-name" placeholder="اسمك بالكامل">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">إيميل</label>
-                        <input required type="email" name="email" style="text-align: right;color:#3C2118;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-email" placeholder="إيميل">
+                        <input required type="email" name="email" style="" class="your-email" placeholder="إيميل">
                     </div>
                     <div class="wr-sm">
                         <label for="" style="float:right;color:#A15035">رقم التليفون</label>
-                        <input required type="text" name="phone" style="text-align: right;color:#3C2118; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-phone" placeholder="رقم التليفون">
+                        <input required type="text" name="phone" style="" class="your-phone" placeholder="رقم التليفون">
                     </div>
                     <div class="wr-sm">
-                        <label for="" style="float:right;color:#A15035">تاريخ الأستشاره</label>
-                        <input required type="date" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" name="date" class="your-email">
+                        <label for="date" style="float:right;color:#A15035">تاريخ الأستشاره</label>
+                        <input required type="date" style="" name="date" class="your-name">
                     </div>
                 </div>
-                <textarea  name="details" required style="text-align: right;color:#3C2118; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
+                <textarea  name="details" required  id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
                 {{-- 
                     <button class="hvr-vertical">احجز الاَن</button>
                 --}}
                 <div class="fl-btn">
-
-                <input type="submit"  class="hvr-vertical" style="background-color: #A15035;" value="احجز الاَن">
+                    
+                <input type="submit"  class="hvr-vertical" style="" value="احجز الاَن">
             </div> 
+            <br><br>
             </form>
         </div>
     </div><!-- write-something -->

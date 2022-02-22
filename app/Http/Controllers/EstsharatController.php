@@ -66,7 +66,7 @@ class EstsharatController extends Controller
               );
       
            Mail::to('combidino6@gmail.com')->send(new SendMail($data));
-          return redirect()->route('index')->with('success', 'Thanks for contacting us!');
+          return redirect()->route('request')->with('message', 'تم حجز الإستشاره');
 
         //    return redirect()->route('index')
         //    ->with('success', 'Created successfully.');

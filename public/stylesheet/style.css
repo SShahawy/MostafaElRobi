@@ -31,6 +31,7 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Mirza&display=swap');   
 @import url('font-awesome.css');
 
+
 /* Reset
 -------------------------------------------------------------- */
 body, body *,html {
@@ -256,7 +257,12 @@ b, strong {
 button {
     border: none;
 }
-
+.title span{
+    font-size: 40px;font-weight:bold;text-align:right; color:#A75032;
+}
+.content .description{
+    font-size: 18px;font-weight:bold;text-align:right;
+}
 button,
 input[type="button"],
 input[type="reset"],
@@ -267,7 +273,8 @@ input[type="submit"] {
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
-    background: #cca776;
+    background: #A15035;
+    float:right;
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1911,6 +1918,9 @@ input::-webkit-input-placeholder {
 .write-something .title-section {
     margin-bottom: 42px;
 }
+.write-something .title-section span {
+    font-size: 18px;
+}
 .form-message-pct {
     padding: 0 200px;
 }
@@ -2041,11 +2051,38 @@ input::-webkit-input-placeholder {
 .item-case .featured-post .entry-image {
     overflow: hidden;
     position: relative;
+    
+}
+#mainnav ul li a{
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-wrap .btn-warning{
+    transition: all 0.4s ease;
+}
+
+.text-wrap .btn-warning:hover{
+    border:2px solid;
+ box-shadow: 1px 2px 8px #AA5F44;
+}
+.entry-image #i2{
+    margin-top: 30%;
+    height:380px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.attorneys-single .entry-image img{
+    margin-top: 0;
+    height:280px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.attorneys-single .col-left{
+margin-right:20px;
+margin-top: -25px;
 }
 .item-case .featured-post .entry-image:before {
     content: '';
     width: 100%;
-    height: 0%;
+    height: 100%;
     top: 0;
     left: 0;
     position: absolute;
@@ -3531,7 +3568,7 @@ body{
     font-size: 100%;
     background: #fff;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.42857143;
+    line-height: 2;
     color: #333;
 }
 .team {
@@ -3622,8 +3659,8 @@ h3.title {
 .team-grid {
     text-align: center;
 }
-.col-xs-4 {
-    width:25%;
+.col-xs-4.team-grid {
+    width:50%;
     float: left;
     position: relative;
     min-height: 1px;
@@ -4015,6 +4052,25 @@ h3.title {
     font-size:50px;
     text-shadow:2px 2px 3px black;
 }
+.text-wrap .wr-sm input{
+    float:right;
+    text-align: right;
+    color:#3C2118;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-wrap .wr-sm input[type='date'],.text-wrap .wr-sm label[for='date']{
+    margin-right:10%;
+}
+.text-wrap .wr-sm label{
+   font-size:18px
+}
+.form-message-pct textarea{
+    margin-right:2.4%;
+}
+.write-something .container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:10px;
+}
+
 
 
 .circle {
@@ -4162,3 +4218,7 @@ img {
 @media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 14px}
 }
+
+
+
+

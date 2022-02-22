@@ -98,7 +98,7 @@ background-attachment: fixed;
 
               <div class="title-section text-center">
 
-                     <span>الدكتور مصطفي عبد الحي الروبي</span>
+                     <span>مصطفي الروبي | محامون . مستشارون</span>
           </div>
       
   </div>
@@ -118,7 +118,7 @@ background-attachment: fixed;
                                 </div>
                                 <ul class="attorneys-info-sn" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border: solid 2px #4F362C; padding:10px">
                                     <li>
-                                        <h2 class="name-info name-size">الدكتور مصطفي عبد الحي الروبي</h2>
+                                        <h2 class="name-info name-size"> مصطفي عبد الحي الروبي</h2>
                                         {{-- <p>Senior Attorney</p> --}}
                                     </li>
                                     <li>

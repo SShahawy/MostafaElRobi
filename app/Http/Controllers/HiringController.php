@@ -54,7 +54,7 @@ class HiringController extends Controller
         );
 
      Mail::to('combidino6@gmail.com')->send(new Mailer($data));
-    return redirect()->route('index')->with('success', 'Thanks for contacting us!');
+    return redirect()->route('hire')->with('message', 'تم إرسال الطلب , سيتم التواصل ');
 
         // return redirect()->route('index')
         //     ->with('success', 'Product created successfully.');

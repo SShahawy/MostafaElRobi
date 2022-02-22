@@ -612,16 +612,6 @@ $('#akarat').on('click',function(){
           '<a href="//sweetalert2.github.io">links</a> ' +
           'and other HTML tags',
           showConfirmButton:false,
-          
-        // showCloseButton: true,
-        // showCancelButton: true,
-        // focusConfirm: false,
-        // confirmButtonText:
-        //   '<i class="fa fa-thumbs-up"></i> Great!',
-        // confirmButtonAriaLabel: 'Thumbs up, great!',
-        // cancelButtonText:
-        //   '<i class="fa fa-thumbs-down"></i>',
-        // cancelButtonAriaLabel: 'Thumbs down'
       })
 })
 $('#monaz3at').on('click',function(){
@@ -1416,3 +1406,5 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+
