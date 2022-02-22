@@ -35,10 +35,10 @@ Route::get('/contact', function () {
 });
 Route::get('/request', function () {
     return view('pages.request');
-});
+})->name('request');
 Route::get('/hire', function () {
     return view('pages.hire');
-});
+})->name('hire');
 Route::get('/company-open', function () {
     return view('pages.case-details');
 });

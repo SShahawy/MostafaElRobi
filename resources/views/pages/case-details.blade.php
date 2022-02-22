@@ -132,24 +132,38 @@
 
                    <br>
                     <div class="challange case-dt mg-case-details">
-                        <h3 class="title" style="color:#B5735D !important;">انواع الشركات</h3>
+                        <div class="container">
+                        <h3 class="title" style="color:#A5553A !important;">انواع الشركات</h3>
                         {{-- <p>
                             Duis aute irure dolor in reprehenderit in vount in culpa qui officia deserunt mollit anim id est laborum. Sediste natus error sit voluptatem accusantium doloremque laudariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                         </p> --}}
-                        <ul class="list-challange">
-                            <li>
-                                <span class="text">شركات المساهمة</span>
+                        <ul class="process-steps" style="margin-right: 20px;" > 
+                            <li class="steps"   >
+                                <div class="steps-name" dir="rtl">
+                                    <span class="number" style=" ">١</span>
+                                    <span class="name" > شركات المساهمة</span>
+                                </div>
                             </li>
-                            <li>
-                                <span class="text">شركات ذات الملكية الفردية</span>
+                            <li class="steps"  >
+                                <div class="steps-name" dir="rtl">
+                                    <span class="number" style=" ">٢</span>
+                                    <span class="name" > شركات ذات الملكية الفردية </span>
+                                </div>
                             </li>
-                            <li>
-                                <span class="text">شركات ذات المسئولية المحدودة</span>
+                            <li class="steps"   >
+                                <div class="steps-name" dir="rtl">
+                                    <span class="number" style=" ">٣</span>
+                                    <span class="name" > شركات ذات المسئولية المحدودة</span>
+                                </div>
                             </li>
-                            <li>
-                                <span class="text">شركات التوصية البسيطة</span>
+                            <li class="steps"   >
+                                <div class="steps-name" dir="rtl">
+                                    <span class="number" style=" ">٤</span>
+                                    <span class="name" >شركات التوصية البسيط</span>
+                                </div>
                             </li>
                         </ul>
+                    </div>
                     </div>
 
 

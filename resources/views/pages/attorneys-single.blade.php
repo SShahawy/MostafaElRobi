@@ -93,8 +93,13 @@ background-attachment: fixed;
       </style>
 
 
-  <div class=" clearfix img-behind-hire">
-    <div class="carousel-item active">
+  <div class="contact clearfix img-behind-hire">
+      <div class="container second">
+
+              <div class="title-section text-center">
+
+                     <span>مصطفي الروبي | محامون . مستشارون</span>
+          </div>
       
         <img src="images/head/mostafaelrobi22.jpg"  class="d-block w-100"  alt="مصطفي الروبي" name="محامون مستشارون"  style="object-fit: cover;" data-bgposition="center center" data-no-retina>
         <div class="carousel-caption d-none d-md-block ">
@@ -119,7 +124,7 @@ background-attachment: fixed;
                                 </div>
                                 <ul class="attorneys-info-sn" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border: solid 2px #4F362C; padding:10px">
                                     <li>
-                                        <h2 class="name-info name-size">الدكتور مصطفي عبد الحي الروبي</h2>
+                                        <h2 class="name-info name-size"> مصطفي عبد الحي الروبي</h2>
                                         {{-- <p>Senior Attorney</p> --}}
                                     </li>
                                     <li>

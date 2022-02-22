@@ -1,41 +1,16 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <title>مصطفي الروبي | محامون . مستشارون</title>
 
-    <!-- Mobile Specific Metas-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
-    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
-    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
-    <link rel="manifest" href="images/logo/logo.png">
-    <!-- Bootstrap-->
-    <link rel="stylesheet" href="stylesheet/bootstrap.css">
-
-    <!-- Template Style-->
-    <link rel="stylesheet" href="stylesheet/all.css">
-    <link rel="stylesheet" href="stylesheet/animate.css">
-    <link rel="stylesheet" href="stylesheet/style.css">
-    <link rel="stylesheet" href="stylesheet/shortcodes.css">
-    <link rel="stylesheet" href="stylesheet/responsive.css">
-    <link rel="stylesheet" href="stylesheet/flexslider.css">
-    <link rel="stylesheet" href="rev-slider/css/layers.css">
-    <link rel="stylesheet" href="rev-slider/css/navigation.css">
-    <link rel="stylesheet" href="rev-slider/css/settings.css">
-
-    
-
-
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
+@include('pages.header')
+@if(session()->has('message'))
+    <div class="alert alert-success">
+        {{ session()->get('message') }}
+    </div>
+@endif
 
 <body class="counter-scroll">
     <div id="loading-overlay">
         <div class="loader"></div>
     </div>
-    @include('pages.header')
+    
     <div class="flat-slider clearfix" >
         <div class="rev_slider_wrapper fullwidthbanner-container" >
             <div id="rev-slider1" class="rev_slider fullwidthabanner">
@@ -325,12 +300,11 @@
     <section class="about-home" id="rr" >
         <div class="container" >
             <div class="row">
-                <div class="col-lg-6 wow fadeIn" style=" padding: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-                text-align: center;">
+                <div class="col-lg-6 wow fadeIn">
                     <div class="featured-post">
                         <div class="entry-image" >
                             <br>
-                            <img src="images/about/our vision.jpg" alt="images" style="height: 380px;">
+                            <img id="i2" src="images/about/our vision.jpg" alt="images" >
                         </div>
                         <div class="image-move">
                             <img src="images/home1/05.png" alt="images" class="oval-one">
@@ -343,8 +317,8 @@
                 <div class="col-lg-6">
                     <div class="flat-spacer" data-desktop="36" data-sdesktop="20" data-mobi="0" data-smobi="0"></div>
                     <div class="content" style="text-align:right;">
-                        <div class="title"><span style="font-size: 40px;font-weight:bold;text-align:right; color:#A75032;">رؤيتنا</span></div>
-                        <p class="description" >
+                        <div class="title"><span >رؤيتنا</span></div>
+                        <p class="description " >
                             استثمار طاقتنا العلمية والمهنية لنكون في مركز الصدارة بين مؤسسات المحاماة والتحكيم في مصر والشرق الأوسط بما لدينا من فريق عمل يضم نخبة من كبار المحامين والمستشارين القانونين في كافة المعهود إليهم خدمات قانونية كبري لكافة الشركات متعدده الجنسيات والمصالح والمؤسسات العامة داخل مصر والشرق الاوسط لتحقق لعملائنا النتائج المرجوة.
                         </p>
                         <p class="description">
@@ -944,7 +918,7 @@
 			<h3 class="title"style="color:#A75032;" >فريق العمل</h3>
          
             <div class="row">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-12 col-md-12 ">
                     <div class="content ">
                       
                         <p class="description" style="text-align: center;">

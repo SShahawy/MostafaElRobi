@@ -1,39 +1,30 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <title>مصطفي الروبي | محامون . مستشارون</title>
+@include('pages.header')
 
-    <!-- Mobile Specific Metas-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
-    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
-    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
-    <link rel="manifest" href="images/logo/logo.png">
-    
-    <!-- Bootstrap-->
-    <link rel="stylesheet" href="stylesheet/bootstrap.css">
 
-    <!-- Template Style-->
-    <link rel="stylesheet" href="stylesheet/all.css">
-    <link rel="stylesheet" href="stylesheet/animate.css">
-    <link rel="stylesheet" href="stylesheet/style.css">
-    <link rel="stylesheet" href="stylesheet/shortcodes.css">
-    <link rel="stylesheet" href="stylesheet/responsive.css">
-    <link rel="stylesheet" href="stylesheet/flexslider.css">
-    <link rel="stylesheet" href="rev-slider/css/layers.css">
-    <link rel="stylesheet" href="rev-slider/css/navigation.css">
-    <link rel="stylesheet" href="rev-slider/css/settings.css">
-
-</head>
 
 <body>
     <div id="loading-overlay">
         <div class="loader"></div>
     </div>
 
-    @include('pages.header')
+    @if(session()->has('message'))
+    <script>
+const swalWithBootstrapButtons = Swal.mixin({
+  customClass: {
+    confirmButton: 'btn btn-warning',
+  },
+  buttonsStyling: false
+})
+swalWithBootstrapButtons.fire({
+        html:
+        '<b>تم إرسال الطلب , سيتم التواصل</b>',
+          showConfirmButton:true,
 
+          confirmButtonText:'<i style="padding:10px 50px;" class="btn-lg btn-warning">تم!</i> ',
+          
+      });
+        </script>
+    @endif
 
 
 
@@ -96,7 +87,7 @@
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>الاَسم</label>
                         <input type="text" name="name" style="text-align: right;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="your-name" placeholder="اسمك بالكامل">
                     </div>
-                </div><br>
+                </div>
                 <div class="text-wrap d-md-flex clearfix">
                     <div class="wr-sm">
                         <label for="" style="float:right;"><span style="color:red;font-weight:bold;">*</span>البريد الإلكتروني</label>
@@ -121,13 +112,16 @@
                     </div>
                 </div>
                 <textarea name="details" style="text-align: right;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
-                <div class="text-wrap d-md-flex clearfix">
-                    <span style="color:red;font-weight:bold;">*&emsp;</span> <input type="file" class="your-phone">
-                </div>
-                <div class="fl-btn">
+                <div class="text-wrap d-md-flex clearfix " style="margin-left: 30%;">
+                    <span class="btn btn-warning" style="display:block;background-color:transparent;border:1px #AA5F44 solid;color:#AA5F44;" onclick="document.getElementById('getFile').click()">ارفع السيره الزاتيه</span>
+  <input type='file' id="getFile" style="display:none">
 
-                    <input type="submit"  class="hvr-vertical" style="background-color: #AA5F44" value="احجز الاَن">
-                </div> 
+  <div class="fl-btn">
+
+    <input type="submit"  class="hvr-vertical" style="background-color: #AA5F44" value="احجز الاَن">
+</div> 
+                </div>
+                
                 
             </form>
         </div>
