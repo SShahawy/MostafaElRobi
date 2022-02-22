@@ -121,7 +121,7 @@ background-attachment: fixed;
     </div><!-- contact -->
     <div class="write-something" >
         <div class="container"   style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:10px;" >
-            <div class="title-section text-center ">
+            <div class="title-section text-center " style="padding-top: 20px; padding-bottom:20px;">
                 <h3 class="flat-title">احجز استشاره</h3>
             </div>
             <form action="{{ route('estshara') }}" method="post" class="form-message-pct">
