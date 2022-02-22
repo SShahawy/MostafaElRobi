@@ -28,7 +28,7 @@ swalWithBootstrapButtons.fire({
           font-family: 'Source Sans Pro', sans-serif;
         } */
         .img-behind-hire {
-          background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/featured-banner/contact.jpg");
+          background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/head/contact.jpg");
           background-size: cover;
 background-position: center;
 background-repeat: none;
