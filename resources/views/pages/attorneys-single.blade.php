@@ -98,7 +98,7 @@ background-attachment: fixed;
 
               <div class="title-section text-center">
 
-                     <span style="font-size: 35px;text-shadow:1px 1px 3px white;">الدكتور مصطفي عبد الحي الروبي</span>
+                     <span>الدكتور مصطفي عبد الحي الروبي</span>
           </div>
       
   </div>
