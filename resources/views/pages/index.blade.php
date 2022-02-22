@@ -2,11 +2,14 @@
 <html lang="zxx">
 <head>
     <meta charset="UTF-8">
-    <title>Mostafa ElRobi</title>
+    <title>مصطفي الروبي | محامون . مستشارون</title>
 
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
+    <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
+    <link rel="manifest" href="images/logo/logo.png">
     <!-- Bootstrap-->
     <link rel="stylesheet" href="stylesheet/bootstrap.css">
 
@@ -501,7 +504,7 @@
                                         <div class="content-law">
                                             <h4 class="name">تأسيس الشركات وهيكلتها بكافة انواعها.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'sharekat'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="/company-open" id = 'sharekat'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
                                         </div>
                                     </div>
                                 </div>

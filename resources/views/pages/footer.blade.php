@@ -164,5 +164,13 @@
             </div>
         </div>
     </div>
-    <a id="scroll-top" class="show"></a>
+    <a id="scroll-top" class="show">
+
+        <img src="images/icon/up-arrow.png"  height="160px" width="160px"  >
+    </a>
+
+    <a href="https://wa.me/+201278823809" id="scroll-whatsappp" class="show" target="_blank" >
+        <img src="images/icon/whatsapp.png" height="70px" width="70px"  >
+    
+    </a>
 </footer><!-- footer -->
