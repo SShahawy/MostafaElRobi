@@ -35,7 +35,7 @@
     </head>
     <header id="header" style="background-color: rgba(255, 255, 255, 0.2)" class="header bg-color">
         
-        <div class="container" style="height: 125px;" dir="rtl">
+        <div class="container" style="height: 135px;" dir="rtl">
             <div style="margin-bottom: 30%;" class="flex-header">
                 <div id="logo" class="logo">
                     <a  href="index.html" title="Logo" ><img src="images/logo/logo-01.png"   alt="images" data-retina="images/logo/logo-01.png"></a>

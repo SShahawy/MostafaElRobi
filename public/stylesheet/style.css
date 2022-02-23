@@ -3028,6 +3028,19 @@ margin-top: -25px;
     height:auto;
     /* padding-top:600px; */
 }
+
+.facts2 {
+    padding: 59px 0 77px 0;
+    width: 100%;
+    height: 100vh;
+    /* width:200px;
+    height:100px; */
+    background-image: url(../images/head/mostafaelrobi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+}
 .practice-featured {
     /* background-image: url('../images/home1/13.png'); */
     background-color: transparent !important;
@@ -3606,7 +3619,7 @@ h3.title {
     text-align: center;
 }
 .col-xs-4 {
-    width: 33.33333333%;
+    width: 25%;
     float: left;
     position: relative;
     min-height: 1px;
@@ -3676,7 +3689,7 @@ font-size: 20px;
 .case-dt ul li .rg-ct {
     font-size:18px;
 }
-.col-xs-4.team-grid {
+/* .col-xs-4.team-grid {
     width:50%;
     float: left;
     position: relative;
@@ -3684,7 +3697,7 @@ font-size: 20px;
     padding-right: 15px;
     padding-left: 15px;
 
-}
+} */
 /*-- Team --*/
 
 .team {
@@ -4233,10 +4246,28 @@ img {
   width: 10px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .prev, .next,.text {font-size: 14px}
-}
 
+  .col-xs-4.team-grid {
+    width:25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+}
+.col-xs-12.team-grid {
+    width:25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
 
 
 /* first */

@@ -32,31 +32,7 @@
     <div id="loading-overlay">
         <div class="loader"></div>
     </div>
-    <div class="top-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <ul class="flat-information d-lg-flex align-items-center">
-                        <li class="email"><a href="#" title="Email">hello@finelaw.com</a></li>
-                        <li class="address"><a href="#" title="Address">20 Bardeshi, Amin Bazar, Dhaka</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="flat-contact-us d-lg-flex align-items-center">
-                        <a href="#" class="phone">123.456.7890</a>
-                        <a href="#" class="cosulting hvr-vertical">FREE COSULTING
-                            <div class="border-animate">
-                                <div class="top"></div>
-                                <div class="right"></div>
-                                <div class="bottomb"></div>
-                                <div class="left"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- top-bar -->
+    
     @include('pages.header')
     <div class="attorneys attorneys-style1">
         <div class="container">

@@ -90,7 +90,7 @@
                         <p style="font-size: 20px;line-height:60px;">
                             خبرتنا المتخصصة ومعرفتنا الواسعة تؤهلنا لعمل إجراءات تأسيس الشركات بسرعة وكفاءة. يمكننا تسجيل الشركة المحدودة بالاسهم وشركة محدودة بالضمان و أيضا تسجيل الشركات الاجنبية فى مصر
 ويمكن تأسيس الشركات بطريقة من عدة طرق وعلي حسب نوع الشركة الذي يختاره مالكها, وسيتحدد معه نوع االمسؤولية القانونية لأصحابها, والمعاملة الضريبة.
-                        <br><br><b>وفيما يلى ابرز الخيارات الشائعة للشركات وسماتها المميزة </b>
+                        <br><b>وفيما يلى ابرز الخيارات الشائعة للشركات وسماتها المميزة </b>
  
                         </p>
                 </div>
@@ -260,19 +260,19 @@
                                         <ul class="process-steps"> 
                                             <li class="steps">
                                                 <div class="steps-name" >
-                                                    <span class="number" style="float:right;margin-left:10px;">1</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">١</span>
                                                     <span class="name" > •	صورة من البطاقة الشخصية أو جواز السفر للمؤسسين أو مالك الشركة وشهادة الميلاد بالنسبة للقاصر(إذا وجد)</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">2</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٢</span>
                                                     <span class="name" > •	توكيل من مؤسسي الشركة</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">3</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٣</span>
                                                     <span class="name" >•	عقد الإيجار الأصلي أو التعهد بتقديمة خلال سنة واحدة من تاريخ تسجيله في الشهر العقاري</span>
                                                 </div>
                                             </li>

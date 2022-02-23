@@ -57,7 +57,7 @@ background-attachment: fixed;
 
               <div class="title-section text-center">
 
-                     <span >احجز استشاره</span>
+                     <span>اتصل بنا</span>
           </div>
       
   </div>
@@ -73,7 +73,7 @@ background-attachment: fixed;
                 <div class="contact-options">
                     <div class="icon-box ">
                         <div class="icon">
-                            <a href="https://www.google.com/maps/place/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+%D9%85%D8%B5%D8%B7%D9%81%D9%8A+%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%8A+%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D9%87+%D9%88%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%8A%D9%85+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%E2%80%AD/@31.20094,29.9141309,15z/data=!4m5!3m4!1s0x0:0x3e068f474249bcde!8m2!3d31.20094!4d29.9141309" target="_blank">
+                            <a href="https://maps.app.goo.gl/pzGi23QeVDGHx9TM8" target="_blank">
                            <img src="images/icon/icon 4.png" style="width:80%">
                             </a>
                         </div>

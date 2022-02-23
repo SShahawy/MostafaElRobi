@@ -104,7 +104,7 @@ background-attachment: fixed;
                             <div class="personal-details" >
                                 <div class="featured-post">
                                     <div class="entry-image">
-                                        <img src="images/transparent-head/cv 2.png" alt="images" style="height: 240px;position:relative;bottom:-25px;width:100%;">
+                                        <img src="images/head/cv 2.png" alt="images" style="height: 240px;position:relative;bottom:-25px;width:100%;">
                                     </div>
                                 </div>
                                 <ul class="attorneys-info-sn" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border: solid 2px #4F362C; padding:10px">
@@ -114,18 +114,20 @@ background-attachment: fixed;
                                     </li>
                                     <li>
                                         <div class="name-info">العنوان</div>
-                                        <p>170 طريق الحرية باب شرقي </p>
-                                        <p>الأسكندرية</p>
+                                        <a href="https://www.google.com/maps/place/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+%D9%85%D8%B5%D8%B7%D9%81%D9%8A+%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%8A+%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D9%87+%D9%88%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%8A%D9%85+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%E2%80%AD/@31.20094,29.9141309,15z/data=!4m5!3m4!1s0x0:0x3e068f474249bcde!8m2!3d31.20094!4d29.9141309" target="_blank">170 طريق الحرية باب شرقي
+                                            الأسكندرية</a>
                                     </li>
                                     <li>
                                         <div class="name-info">الايميل</div>
-                                        <p>info@mostafaelroby.com</p>
+                                        <a href="mailto:info@mostafaelroby.com">info@mostafaelroby.com</a>
                                     </li>
                                     <li>
                                         <div class="name-info">رقم التليفون</div>
-                                        <p><a href="tel:201278823809">201278823809</a> <br>
-                                            <a href="tel:2035902759">2035902759</a><br>
-                                            <a href="tel:201272653225">201272653225</a>
+                                        <p style="text-align: center;">
+                                            <a href="tel:002035902759">2035902759+</a><br>
+                                            <a href="tel:00201278823809">201278823809+</a> <br>
+                                         
+                                            <a href="tel:00201272653225">201272653225+</a>
                                             
                                             </p>
                                     </li>
@@ -320,9 +322,9 @@ background-attachment: fixed;
                             <div class="description" >
                                 <br><br><br><br><br><br><br><br><br>
                                 {{-- <p>Architecto beatae vitae dicta su nt explicabo. Nemo enimu ta em qui asper</p> --}}
-                                <a href="#" class="btn-download hvr-vertical">السيره الزاتيه <i class="fa fa-download" aria-hidden="true"></i></a>
-                                <br><br><br><br><br><br>
-                                <a href="sh" class="btn-download hvr-vertical">الشهادات <i class="fa fa-download" aria-hidden="true"></i></a>
+                                <a href="images/cv.pdf" class="btn-download hvr-vertical">السيره الذاتيه <img src="images/icon/icon 2.png" style="height: 28px;" aria-hidden="true"></a>
+                                <br><br><br>
+                                <a href="sh" class="btn-download hvr-vertical">الشهادات <img src="images/icon/icon 1.png" style="height: 30px;" aria-hidden="true"></a>
                             </div>
                         </div>
                     </div>

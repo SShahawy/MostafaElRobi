@@ -4,18 +4,18 @@
     display: block;
     width: 100%;
     height: 300px;
-    -webkit-transition: all 0.7s ease;
-    -moz-transition: all 0.7s ease;
-    -ms-transition: all 0.7s ease;
-    -o-transition: all 0.7s ease;
-    transition: all 0.7s ease;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
 }
 .image-box-law .content-law #yy {
     font-size: 22px;
 }
 .img-slider {
     position: relative;
-    width: 50vw;
+    width: 800px;
     height: 400px;
 }
 .img-slider .slider-container {
@@ -25,7 +25,7 @@
     /* top: 0;
     left: 0; */
     overflow: hidden;
-    animation: slider 26s infinite;
+    animation: slider 8s infinite;
 }
 .img-slider .slider-container .slide {
     font-size: 25px;
@@ -41,7 +41,7 @@
   /* height: 100%; */
 }
 .img-slider .slider-container .slide{
-    height:1200px;
+    height:500px;
 }
 @keyframes slider {
     0%, 25%, 100%{left: 0}
@@ -65,7 +65,23 @@
         <div class="loader"></div>
     </div>
     
-    <div class="flat-slider clearfix" >
+
+
+
+
+    <section class="facts2" id="facts" >
+       
+        
+    
+    </section>
+
+<br><br>
+
+
+
+
+
+    {{-- <div class="flat-slider clearfix" >
         <div class="rev_slider_wrapper fullwidthbanner-container" >
             <div id="rev-slider1" class="rev_slider fullwidthabanner">
                 <ul>
@@ -93,7 +109,7 @@
            
         </div>
     </div><!-- flat-slider -->
-
+    </div> --}}
 
 
 
@@ -142,14 +158,14 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a href="#"><img src="images/services/company.jpg" class="tt" alt="الخدمات"></a>
+                                                <a id="yy" href="#services" ><img src="images/services/company.jpg" class="tt" alt="الخدمات"></a>
                                             </div>
                                             <div class="icon">
-                                                <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
+                                                <a id="yy" href="#services" ><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
                                             </div>
                                         </div>
                                         <div class="content-law">
-                                            <h4 class="name"><a id="yy" href="#services"  >الخدمات </a></h4>
+                                            <h4 class="name"><a  id="yy" href="#rr">الخدمات </a></h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                                         </div>
@@ -163,10 +179,10 @@
                 <div class="image-box-law">
                     <div class="featured-post">
                         <div class="entry-image">
-                            <a href="#"><img src="images/about/vision.jpg" class="tt" alt="رؤيتنا"></a>
+                            <a  id="yy" href="#rr"><img src="images/about/vision.jpg" class="tt" alt="رؤيتنا"></a>
                         </div>
                         <div class="icon">
-                            <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
+                            <a  id="yy" href="#rr"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
                         </div>
                     </div>
                     <div class="content-law">
@@ -186,10 +202,10 @@
                 <div class="image-box-law">
                     <div class="featured-post">
                         <div class="entry-image">
-                            <a href="#"><img src="images/services/companyy.jpg" class="tt" alt="اسس شركتك"></a>
+                            <a id="yy" href="/company-open"><img src="images/services/companyy.jpg" class="tt" alt="اسس شركتك"></a>
                         </div>
                         <div class="icon">
-                            <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
+                            <a id="yy" href="/company-open" id = ''><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
                         </div>
                     </div>
                     <div class="content-law">
@@ -209,10 +225,10 @@
                 <div class="image-box-law">
                     <div class="featured-post">
                         <div class="entry-image">
-                            <a href="#"><img src="images/about/res.jpg" class="tt" alt="حجز استشاره"></a>
+                            <a id="yy" href="/request"><img src="images/about/res.jpg" class="tt" alt="حجز استشاره"></a>
                         </div>
                         <div class="icon">
-                            <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
+                            <a id="yy" href="/request"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
                         </div>
                     </div>
                     <div class="content-law">
@@ -1069,7 +1085,7 @@
             </div>
             <br>
 			<div class="team-grids">
-				<div class="col-xs-4 team-grid">
+				<div class="col-xs-4 col-xs-12 team-grid">
 					<div class="pic">
 						<div class="stack twisted">
 							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " style=" height: 300px;" class="img-responsive">
@@ -1078,7 +1094,7 @@
 					<h4>Peter Parker</h4>
 					
 				</div>
-				<div class="col-xs-4 team-grid">
+				<div class="col-xs-4 col-xs-12 team-grid">
 					<div class="pic">
 						<div class="stack twisted">
                             
@@ -1088,7 +1104,7 @@
 					<h4>Michael Loe</h4>
 					
 				</div>
-				<div class="col-xs-4 team-grid">
+				<div class="col-xs-4 col-xs-12 team-grid">
 					<div class="pic">
 						<div class="stack twisted">
 							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " style=" height: 300px;" class="img-responsive">
@@ -1097,7 +1113,7 @@
 					<h4>Mary Jane</h4>
 					
 				</div>
-                <div class="col-xs-4 team-grid">
+                <div class="col-xs-4 col-xs-12 team-grid">
 					<div class="pic">
 						<div class="stack twisted">
 							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " style=" height: 300px;" class="img-responsive">
@@ -1224,9 +1240,9 @@
                                 {{-- <h3 class="phone-number"> --}}
                                     <br>
 
-                                    <a class="phone-number1" style="color: #43200F; font-size:20px;" href="tel:0201278823809">0201278823809</a><br><br>
+                                    <a class="phone-number1" style="color: #43200F; font-size:20px;" href="tel:00201278823809">+201278823809</a><br><br>
                                     {{-- <a class="phone-number2" style="color:white;;font-size:40px;"  href="tel:02035902759">02035902759</a><br><br> --}}
-                                    <a class="phone-number3" style="color: #43200F; font-size:20px;"  href="tel:0201272653225">0201272653225</a>
+                                    <a class="phone-number3" style="color: #43200F; font-size:20px;"  href="tel:00201272653225">+201272653225</a>
  
                                 {{-- </h3> --}}
                             </div>
