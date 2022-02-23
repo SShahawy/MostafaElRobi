@@ -8,7 +8,7 @@
           font-family: 'Source Sans Pro', sans-serif;
         } */
         .img-behind-hire {
-          background:  url("images/head/sharekat.jpg");
+          background:  url("images/head/company.jpg");
           background-size: cover;
             background-position: center;
             background-repeat: none;

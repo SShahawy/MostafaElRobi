@@ -158,7 +158,7 @@
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
-                                                <a id="yy" href="#services" ><img src="images/services/company.jpg" class="tt" alt="الخدمات"></a>
+                                                <a id="yy" href="#services"><img src="images/services/company1.jpg" class="tt" alt="الخدمات"></a>
                                             </div>
                                             <div class="icon">
                                                 <a id="yy" href="#services" ><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
@@ -202,7 +202,7 @@
                 <div class="image-box-law">
                     <div class="featured-post">
                         <div class="entry-image">
-                            <a id="yy" href="/company-open"><img src="images/services/companyy.jpg" class="tt" alt="اسس شركتك"></a>
+                            <a id="yy" href="/company-open"><img src="images/services/company2.jpg" class="tt" alt="اسس شركتك"></a>
                         </div>
                         <div class="icon">
                             <a id="yy" href="/company-open" id = ''><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
@@ -500,7 +500,7 @@
      
         <div class="container">
             <div class="flat-counter" >
-                <div class="row " style="width:50% ; float:right;">
+                <div class="row " style="width:50% ;">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="counter">                      
                             <div class="content-counter" >
@@ -524,7 +524,7 @@
                                     <span class="numb-bs">+</span>
                                 </div>
                                 <div class="name-count">عملاء سعداء</div>
-                                <div class="icon-count"><img src="images/hoe1/11.png" alt="images"></div>
+                                <div class="icon-count"><img src="images/home1/11.png" alt="images"></div>
                                 </div>
                             </div>
                         </div>
@@ -733,7 +733,7 @@
                                 <div class="image-box-law">
                                     <div class="featured-post">
                                         <div class="entry-image">
-                                            <a href="#"><img src="images/services/paper.jpg" alt="images"></a>
+                                            <a href="#"><img src="images/services/insure.jpg" alt="images"></a>
                                         </div>
                                         <div class="icon">
                                             <img src="images/services/scale.png" alt="images">
