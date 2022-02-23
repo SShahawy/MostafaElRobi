@@ -37,7 +37,7 @@
           font-family: 'Source Sans Pro', sans-serif;
         } */
         .img-behind-hire {
-          background: linear-gradient( rgba(208,179,143,0.65), rgba(168,140,114,0.65)), url("images/transparent-head/faq.jpg");
+          background:  url("images/head/ques.jpg");
           background-size: cover;
 background-position: center;
 background-repeat: none;

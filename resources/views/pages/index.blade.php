@@ -1,4 +1,58 @@
+<style>
 
+.image-box-law .featured-post .entry-image .tt{
+    display: block;
+    width: 100%;
+    height: 300px;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.image-box-law .content-law #yy {
+    font-size: 22px;
+}
+.img-slider {
+    position: relative;
+    width: 50vw;
+    height: 400px;
+}
+.img-slider .slider-container {
+    
+    position: absolute;
+    width: 400%;
+    /* top: 0;
+    left: 0; */
+    overflow: hidden;
+    animation: slider 26s infinite;
+}
+.img-slider .slider-container .slide {
+    font-size: 25px;
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden
+}
+.img-slider .slider-container .slide img {
+  display: block;
+  width: 100%;
+  /* height: 100%; */
+}
+.img-slider .slider-container .slide{
+    height:1200px;
+}
+@keyframes slider {
+    0%, 25%, 100%{left: 0}
+    
+    30%, 55%{left: -100%}
+    
+    60%, 85%{left: -200%}
+}
+
+
+    </style>
 @include('pages.header')
 @if(session()->has('message'))
     <div class="alert alert-success">
@@ -19,7 +73,7 @@
                     <li data-transition="random" >
                         <!-- Main Image -->
                         <div class="carousel-item active">
-                        <img src="images/head/mostafaelrobi.jpg" class="d-block w-100"  alt="مصطفي الروبي" name="محامون مستشارون" style="object-fit: cover;" data-bgposition="center center" data-no-retina>
+                        <img src="images/head/mostafaelrobi.jpg"  class="d-block w-100"  alt="مصطفي الروبي" name="محامون مستشارون" style="object-fit: cover;" data-bgposition="center center" data-no-retina>
                         <div class="carousel-caption  d-md-block" style="">
        
                             <div class="text-center btn-read-more wow fadeInUp " style="margin-top: -20%;" ><a href="company-open" class="btn-read-more" style="font-size: 25px;" target="_blank" class=" cta hvr-vertical ">اسس شركتك</a>
@@ -31,6 +85,10 @@
                      
                     </li>
                     <!-- /End Slide 1 -->
+
+          
+                    
+              
                 </ul>
            
         </div>
@@ -75,14 +133,113 @@
 
 
 
+    <Section class="img-slider">
+        <div class="slider-container ">
+          
+          <div class="slide">
 
-    
+                <div class="col-lg-12 col-md-6 col-sm-6 col-12">
+                                    <div class="image-box-law">
+                                        <div class="featured-post">
+                                            <div class="entry-image">
+                                                <a href="#"><img src="images/services/company.jpg" class="tt" alt="الخدمات"></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
+                                            </div>
+                                        </div>
+                                        <div class="content-law">
+                                            <h4 class="name"><a id="yy" href="#services"  >الخدمات </a></h4>
+                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                                            {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                                        </div>
+                                    </div>
+                                </div>
+          </div>
+          
+          <div class="slide">
+
+            <div class="col-lg-12 col-md-6 col-sm-6 col-12">
+                <div class="image-box-law">
+                    <div class="featured-post">
+                        <div class="entry-image">
+                            <a href="#"><img src="images/about/vision.jpg" class="tt" alt="رؤيتنا"></a>
+                        </div>
+                        <div class="icon">
+                            <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
+                        </div>
+                    </div>
+                    <div class="content-law">
+                        <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
+                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+
+          <div class="slide" >
+
+            <div class="col-lg-12 col-md-6 col-sm-6 col-12" >
+                <div class="image-box-law">
+                    <div class="featured-post">
+                        <div class="entry-image">
+                            <a href="#"><img src="images/services/companyy.jpg" class="tt" alt="اسس شركتك"></a>
+                        </div>
+                        <div class="icon">
+                            <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
+                        </div>
+                    </div>
+                    <div class="content-law">
+                        <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
+                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+
+          <div class="slide">
+
+            <div class="col-lg-12 col-md-6 col-sm-6 col-12">
+                <div class="image-box-law">
+                    <div class="featured-post">
+                        <div class="entry-image">
+                            <a href="#"><img src="images/about/res.jpg" class="tt" alt="حجز استشاره"></a>
+                        </div>
+                        <div class="icon">
+                            <a href="javascript:void(0)" id = ''><img src="images/services/scale.png"  alt="images"></a>
+                        </div>
+                    </div>
+                    <div class="content-law">
+                        <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
+                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+
+
+      
+          
+          
+        </div>
+      </Section>
+      <br><br><br><br><br><br>
 
 
 
 <center>
+    
     {{-- <div id="wrap" style="background-image: url('images/services/slide_.png') !important;padding-top:200px;"> --}}
-    <div id="wrap" >
+    {{-- <div id="wrap" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-22" >
@@ -107,17 +264,17 @@
                         <div class="iconbox-wrap">
                             {{-- <div class="iconbox-icon" >
                                 <img src="images/home1/01.png" alt="images">
-                            </div> --}}
+                            </div> 
                             <center>
                                 <div class="iconbox-content">
                                     <h5 class="title slidertitle" ><a href="#services"  >الخدمات </a></h5>
                                         
                                     {{-- <p class="description">
                                         
-                                    </p> --}}
+                                    </p> 
                                     {{-- <div class="fl-btn">
                                         <a href="#">read more</a>
-                                    </div> --}}
+                                    </div> 
                                 </div>
                                 <br>
                             <div class="iconbox-image" style="">
@@ -152,10 +309,10 @@
                                 <h5 class="title slidertitle"><a href="#rr">رؤيتنا</a></h5>
                                 {{-- <p class="description">
                                     Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p> --}}
+                                </p> 
                                 {{-- <div class="fl-btn">
                                     <a href="#">read more</a>
-                                </div> --}}
+                                </div> 
                             </div>
 
                             <br>
@@ -192,12 +349,12 @@
                                     </p> --}}
                                     {{-- <div class="fl-btn">
                                         <a href="#">read more</a>
-                                    </div> --}}
+                                    </div> 
                                 </div>
     
                                 <br>
                                 <div class="iconbox-image" style="">
-                                    <img src="images/about/company.jpg"  alt="images">
+                                    <img  src="images/services/companyy.jpg"  style="height: 200px;" alt="images">
                                 </div></center>
                         </div>
                     </div>
@@ -229,7 +386,7 @@
                                     </p> --}}
                                     {{-- <div class="fl-btn">
                                         <a href="#">read more</a>
-                                    </div> --}}
+                                    </div> 
                                 </div>
     
                                 <br>
@@ -251,7 +408,7 @@
                                 <span class="slider">
                                   <a href="javascript:void(0);" value="Prev" id="prev"><i class="material-icons">&#xE314;</i></a>
                                   <a href="javascript:void(0);" value="Next" id="next"><i class="material-icons">&#xE315;</i></a>
-                                  {{-- 5alek faker --}}
+                                  {{-- 5alek faker 
                                 </span>
                             </section>
                         </div>
@@ -259,7 +416,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 
 </center>
@@ -351,7 +508,7 @@
                                     <span class="numb-bs">+</span>
                                 </div>
                                 <div class="name-count">عملاء سعداء</div>
-                                <div class="icon-count"><img src="images/home1/11.png" alt="images"></div>
+                                <div class="icon-count"><img src="images/hoe1/11.png" alt="images"></div>
                                 </div>
                             </div>
                         </div>

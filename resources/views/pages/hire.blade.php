@@ -33,7 +33,7 @@ swalWithBootstrapButtons.fire({
             font-family: 'Source Sans Pro', sans-serif;
           } */
           .img-behind-hire {
-            background:  url("images/head/job.jpg");
+            background:  url("images/head/15.png");
             background-size: cover;
   background-position: center;
   background-repeat: none;
