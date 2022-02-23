@@ -76,6 +76,7 @@
 
 
 
+    
 
 
 
@@ -914,7 +915,7 @@
 				<div class="col-xs-4 team-grid">
 					<div class="pic">
 						<div class="stack twisted">
-							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " class="img-responsive">
+							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " style=" height: 300px;" class="img-responsive">
 						</div>
 					</div>
 					<h4>Peter Parker</h4>
@@ -924,7 +925,7 @@
 					<div class="pic">
 						<div class="stack twisted">
                             
-							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " class="img-responsive">
+							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " style=" height: 300px;" class="img-responsive">
 						</div>
 					</div>
 					<h4>Michael Loe</h4>
@@ -933,7 +934,7 @@
 				<div class="col-xs-4 team-grid">
 					<div class="pic">
 						<div class="stack twisted">
-							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " class="img-responsive">
+							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " style=" height: 300px;" class="img-responsive">
 						</div>
 					</div>
 					<h4>Mary Jane</h4>
@@ -942,7 +943,7 @@
                 <div class="col-xs-4 team-grid">
 					<div class="pic">
 						<div class="stack twisted">
-							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " class="img-responsive">
+							<img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" alt=" " style=" height: 300px;" class="img-responsive">
 						</div>
 					</div>
 					<h4>Mary Jane</h4>
@@ -979,7 +980,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="images/home1/11.png" class="img-circle img-responsive" />
+                            <img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" class="img-circle img-responsive" />
                             <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
                             <h4>أ/ محمد كمال</h4>
                             <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
@@ -988,7 +989,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="images/home1/10.png" class="img-circle img-responsive" />
+                            <img src="images/home1/testim1.jpg" class="img-circle img-responsive" />
 
                             <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
                             <h4>أ/ محمد كمال</h4>
