@@ -17,7 +17,7 @@ swalWithBootstrapButtons.fire({
         '<b>تم حجز الاستشاره, سيتم التواصل</b>',
           showConfirmButton:true,
 
-          confirmButtonText:'<i style="padding:10px 50px;" class="btn-lg btn-warning">تم!</i> ',
+          confirmButtonText:'<i style="padding:10px 50px;" class="btn-lg btn-warning">!تم</i> ',
           
       });
         </script>

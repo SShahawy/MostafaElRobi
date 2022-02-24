@@ -20,7 +20,7 @@ swalWithBootstrapButtons.fire({
         '<b>تم إرسال الطلب , سيتم التواصل</b>',
           showConfirmButton:true,
 
-          confirmButtonText:'<i style="padding:10px 50px;" class="btn-lg btn-warning">تم!</i> ',
+          confirmButtonText:'<i style="padding:10px 50px;" class="btn-lg btn-warning">!تم</i> ',
           
       });
         </script>
@@ -118,7 +118,7 @@ swalWithBootstrapButtons.fire({
 
   <div class="fl-btn">
 
-    <input type="submit"  class="hvr-vertical" style="background-color: #AA5F44" value="احجز الاَن">
+    <input type="submit"  class="hvr-vertical" style="background-color: #AA5F44" value="قدم الاَن">
 </div> 
                 </div>
                 
