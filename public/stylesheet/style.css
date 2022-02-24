@@ -2991,7 +2991,7 @@ margin-top: -25px;
     height: 100vh;
     /* width:200px;
     height:100px; */
-    background-image: url(../images/home1/12.jpg);
+    background:  url(../images/head/company.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: none;
@@ -4308,4 +4308,7 @@ img {
     
     60%, 85%{left: -200%}
 }
+
+
+/* 3d button */
 

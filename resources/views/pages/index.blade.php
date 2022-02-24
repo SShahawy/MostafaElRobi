@@ -55,10 +55,23 @@
     </style>
 @include('pages.header')
 @if(session()->has('message'))
-    <div class="alert alert-success">
-        {{ session()->get('message') }}
-    </div>
-@endif
+    <script>
+const swalWithBootstrapButtons = Swal.mixin({
+  customClass: {
+    confirmButton: 'btn btn-warning',
+  },
+  buttonsStyling: false
+})
+swalWithBootstrapButtons.fire({
+        html:
+        '<b>تم حجز الاستشاره, سيتم التواصل</b>',
+          showConfirmButton:true,
+
+          confirmButtonText:'<i style="padding:10px 50px;" class="btn-lg btn-warning">!تم</i> ',
+          
+      });
+        </script>
+    @endif
 
 <body class="counter-scroll">
     <div id="loading-overlay">
@@ -202,7 +215,7 @@
                 <div class="image-box-law">
                     <div class="featured-post">
                         <div class="entry-image">
-                            <a id="yy" href="/company-open"><img src="images/services/company2.jpg" class="tt" alt="اسس شركتك"></a>
+                            <a id="yy" href="/company-open"><img src="images/about/company.jpg" class="tt" alt="اسس شركتك"></a>
                         </div>
                         <div class="icon">
                             <a id="yy" href="/company-open" id = ''><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
@@ -1066,6 +1079,7 @@
         </div><!-- featured --> --}}
     </section><!-- practice-featured --> 
 
+  
 
 
 	<div class="team" id="team">
@@ -1133,12 +1147,13 @@
     
 
 
-
+   
     <section class="testimonial text-center" id="rev">
         <div class="container">
 
             <div class="heading white-heading">
                 اراء عملائنا
+               
             </div>
             <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
              
@@ -1190,34 +1205,35 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="go-up">
                         <div class="themesflat-content-box" data-padding="0% 0% 0% 0%" data-sdesktoppadding="0% 0% 0% 0%" data-ssdesktoppadding="0% 0% 0% 0%" data-mobipadding="100px 0% 0% 0%" data-smobipadding="100px 0% 0% 0%">
-                            <form action="#" class="form-evaluation">
+                            <form action="{{ route('estshara') }}" method="post" class="form-evaluation">
+                                @csrf
                                 <div class="wrap-evaluation" >
                                     {{-- <h5 class="title">Free Case Evaluation</h5> --}}
                                     <div class="your-name mg-text">
-                                        <label>الاسم كامل</label>
-                                        <input type="text" class="your-name" placeholder="الاسم كامل">
+                                        <label for="" style="float:right;color:#A15035">الاَسم</label>
+                        <input required type="text" name="name" style="" class="your-name" placeholder="اسمك بالكامل">
                                     </div>
                                     <div class="your-email mg-text">
-                                        <label> الإميل</label>
-                                        <input type="text" class="your-email" placeholder="الإميل">
+                                        <label for="" style="float:right;color:#A15035">إيميل</label>
+                        <input required type="email" name="email" style="" class="your-email" placeholder="إيميل">
                                     </div>
                                     <div class="your-phone mg-text">
-                                        <label>رقم التليفون</label>
-                                        <input type="text" class="your-phone" placeholder="رقم التليفون">
+                                        <label for="" style="float:right;color:#A15035">رقم التليفون</label>
+                        <input required type="text" name="phone" style="" class="your-phone" placeholder="رقم التليفون">
                                     </div>
                                     <div class="your-phone mg-text " >
-                                        <label> رقم التليفون</label>
-                                        <input type="date" class="date" placeholder="">
+                                        <label for="date" style="float:right;color:#A15035">تاريخ الأستشاره</label>
+                        <input required type="date" style="" name="date" class="your-name">
                                     </div>
                                     {{-- <div class="subject mg-text">
                                         <input type="text" class="subject" placeholder="Subject">
                                     </div> --}}
                                     <div class="message-wrap mg-text">
 
-                                        <textarea name="message" id="message" rows="8" placeholder="تفاصيل"></textarea>
+                                        <textarea  name="details" required  id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
                                     </div>
                                     <div class="fl-btn">
-                                        <button class="hvr-vertical" style="font-size: 25px; background-color:#A75032;">حجز</button>
+                                        <input type="submit"  class="hvr-vertical" style="font-size: 25px; background-color:#A75032;" value="احجز الاَن">
                                     </div>
                                 </div>
                             </form>

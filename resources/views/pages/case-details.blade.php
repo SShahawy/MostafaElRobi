@@ -8,7 +8,7 @@
           font-family: 'Source Sans Pro', sans-serif;
         } */
         .img-behind-hire {
-          background:  url("images/head/company.jpg");
+          background:  url("images/head/sharekat.jpg");
           background-size: cover;
             background-position: center;
             background-repeat: none;
@@ -49,7 +49,7 @@
                     <div class="introduction mg-case-details d-md-flex">
                         <div class="featured-post">
                             <div class="entry-image">
-                                <img src="images/about/company.jpg" style="border: 0.1px white solid;box-shadow:1px 2px 15px black;border-radius : 4px;" alt="images">
+                                <img src="images/services/company2.jpg" style="border: 0.1px white solid;box-shadow:1px 2px 15px black;border-radius : 4px;" alt="images">
                             </div>
                         </div>
                         <div class="case-dt introduction-content">
