@@ -83,8 +83,15 @@ swalWithBootstrapButtons.fire({
 
 
     <section class="facts2" id="facts" >
+        {{-- <div class="carousel-caption  d-md-block" style=""> --}}
        
-        
+            {{-- <div class="text-center btn-read-more wow fadeInUp btn btn-warning" style="margin-top: -20%;" ><a href="company-open" class="btn-read-more" style="font-size: 25px;" target="_blank" class=" cta hvr-vertical ">اسس شركتك</a> --}}
+                {{-- <div class="btn4-wrapper"><div class="myBtn4"><a href="#">Button</a></div></div> --}}
+               
+            {{-- </div> --}}
+            <div class="carousel-caption  d-md-block" style="">
+            <div class="btn4-wrapper"><div class="myBtn4"><a href="#">اسس شركتك</a></div></div>
+            </div>
     
     </section>
 

@@ -77,7 +77,7 @@
                                 
                                 </li>
                                 <li>
-                                    <a href="/request" class="" style="font-weight: bold;font-size:15px !important;">للتواصل</a>
+                                    <a href="/request" class="" style="font-weight: bold;font-size:15px !important; color:white;">للتواصل</a>
                                 
                                 </li>
                             </ul>                                   

@@ -1161,7 +1161,7 @@ $('#العقود').on('click',function(){
 
 
 //slideshow style interval
-var autoSwap = setInterval( swap,2000);
+var autoSwap = setInterval( swap,7000);
 
 //pause slideshow and reinstantiate on mouseout
 $('.carousel, .slider').hover(
