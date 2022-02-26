@@ -107,7 +107,7 @@ background-attachment: fixed;
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="questions-content">
                                     <h4 class="item-qs"  style="text-align: right;">
-                                        <a href="#">ما هي اهم انواع الشركات؟</a>
+                                        <a href="https://www.youtube.com/embed/7gmQYtqdx3k">ما هي اهم انواع الشركات؟</a>
                                     </h4><br>
                                     <div class="item-reply">
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/7gmQYtqdx3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -116,8 +116,8 @@ background-attachment: fixed;
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="questions-content">
-                                    <h4 class="item-qs" style="text-align: right;">
-                                        <a href="#">ما هي اهم 8 نصائح قبل بدل بتأسيس الشركه؟</a>
+                                    <h4 class=" item-qs" style="text-align: right;">
+                                        <a href="https://www.youtube.com/embed/6WIDSf8Vx04">ما هي اهم 8 نصائح قبل بدل بتأسيس الشركه؟</a>
                                     </h4><br>
                                     <div class="item-reply">
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/6WIDSf8Vx04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

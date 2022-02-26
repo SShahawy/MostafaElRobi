@@ -135,12 +135,12 @@ swalWithBootstrapButtons.fire({
                 </div>
                 <textarea name="details" style="text-align: right;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
                 <div class="text-wrap d-md-flex clearfix " style="margin-left: 30%;">
-                    <span class="btn btn-warning" style="display:block;background-color:transparent;border:1px #AA5F44 solid;color:#AA5F44;" onclick="document.getElementById('getFile').click()">ارفع السيره الزاتيه</span>
+                    <span class="all-buttons btn btn-warning" style="display:block;background-color:transparent;border:1px #AA5F44 solid;color:#AA5F44;" onclick="document.getElementById('getFile').click()">ارفع السيره الزاتيه</span>
   <input type='file' id="getFile" style="display:none">
 
   <div class="fl-btn">
 
-    <input type="submit"  class="hvr-vertical" style="background-color: #AA5F44" value="قدم الاَن">
+    <input type="submit"  class="all-buttons hvr-vertical" style="background-color: #AA5F44" value="قدم الاَن">
 </div> 
 
 
