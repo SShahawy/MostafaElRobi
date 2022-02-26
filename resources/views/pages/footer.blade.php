@@ -32,7 +32,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6" style="margin-left:-40px;">
                         <br><br>
                         <div class="widget widget-services mg-footer-mbb">
-                            <h2 class="widget-title" >تواصل</h2>
+                            <h2 class="widget-title nav-texts" >تواصل</h2>
                             <div class="content">
                                 <ul>
                                    
@@ -52,7 +52,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6" style="margin-left:25px;">
                         <br><br>
                         <div class="widget widget-services mg-footer-mbb">
-                            <h2 class="widget-title" >التعريف</h2>
+                            <h2 class="widget-title nav-texts" >التعريف</h2>
                             <div class="content">
                                 <ul class="widget-menu" >
                                     <li><a href="/cv" >نبذة عننا </a></li>

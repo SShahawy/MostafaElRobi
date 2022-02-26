@@ -65,7 +65,30 @@ background-attachment: fixed;
 
                 <div class="title-section text-center">
 
-                       <span style="font-size: 45px;text-shadow:2px 2px 3px black;">اسئله شائعه</span>
+                    
+                       <div class="scene">
+
+                        <div class="current">
+                            <div class="cube">
+                                <div class="face">اسئله شائعة</div>
+                            </div>
+                          
+                        </div>
+                    
+                        <div class="next">
+                            <div class="cube">
+                                <div class="face">محامون</div>
+                            </div>
+                            <div class="cube">
+                                <div class="face">.</div>
+                            </div>
+                            <div class="cube">
+                                <div class="face">مستشارون</div>
+                            </div>
+                           
+                        </div>
+                        
+                    </div>
             </div>
         
     </div>

@@ -109,20 +109,20 @@ background-attachment: fixed;
                                 </div>
                                 <ul class="attorneys-info-sn" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border: solid 2px #4F362C; padding:10px">
                                     <li>
-                                        <h2 class="name-info name-size"> مصطفي عبد الحي الروبي</h2>
+                                        <h2 class="name-info name-size nav-texts"> مصطفي عبد الحي الروبي</h2>
                                         {{-- <p>Senior Attorney</p> --}}
                                     </li>
                                     <li>
-                                        <div class="name-info">العنوان</div>
+                                        <div class="name-info nav-texts">العنوان</div>
                                         <a href="https://www.google.com/maps/place/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+%D9%85%D8%B5%D8%B7%D9%81%D9%8A+%D8%A7%D9%84%D8%B1%D9%88%D8%A8%D9%8A+%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D9%87+%D9%88%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%8A%D9%85+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%E2%80%AD/@31.20094,29.9141309,15z/data=!4m5!3m4!1s0x0:0x3e068f474249bcde!8m2!3d31.20094!4d29.9141309" target="_blank">170 طريق الحرية باب شرقي
                                             الأسكندرية</a>
                                     </li>
                                     <li>
-                                        <div class="name-info">الايميل</div>
+                                        <div class="name-info nav-texts">الايميل</div>
                                         <a href="mailto:info@mostafaelroby.com">info@mostafaelroby.com</a>
                                     </li>
                                     <li>
-                                        <div class="name-info">رقم التليفون</div>
+                                        <div class="name-info nav-texts">رقم التليفون</div>
                                         <p style="text-align: center;">
                                             <a href="tel:002035902759">2035902759+</a><br>
                                             <a href="tel:00201278823809">201278823809+</a> <br>
@@ -144,7 +144,7 @@ background-attachment: fixed;
                         </div>
                         <div class="col-right">
                             <div class="introduce-attorneys" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border:solid 2px #4F362C; padding:20px;   text-align: right;">
-                                <h4 class="title">من نحن</h4>
+                                <h4 class="title nav-texts">من نحن</h4>
                                 <div class="text">
                                     <p>
                                         
@@ -162,7 +162,7 @@ background-attachment: fixed;
                                         <div class="toggle-title d-flex align-items-center active" style="float:right;">
                                                                             <img src="images/home1/03.png" alt="images">
                                             
-                                            <h5 class="name d-flex align-items-sm-center active">المؤهل و الشهادات الاكاديميه</h5>
+                                            <h5 class="name d-flex align-items-sm-center active nav-texts">المؤهل و الشهادات الاكاديميه</h5>
                                             <img src="images/home1/03.png" style="padding-left:20px" alt="images">
                                         </div>
                                         <ol style="text-align:right;" dir="rtl">
@@ -306,7 +306,7 @@ background-attachment: fixed;
                 <div class="col-lg-3 col-md-12">
                     <div class="sidebar mg-sidebar-res" style="height:650px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:20px; border:solid 2px #3F2217;">
                         <div class="widget widget-list-common">
-                            <h3 class="widget-title" style="text-align: right;"><span>الوظائف</span></h3>
+                            <h3 class="widget-title nav-texts" style="text-align: right;"><span>الوظائف</span></h3>
                             <ul style="text-align: right;">
                                 <li><a href="#">مؤسس ومدير مؤسسة مصطفي الروبي للمحاماة والتحكيم 
                                     التجاري الدولي</a></li>

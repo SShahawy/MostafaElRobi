@@ -57,7 +57,32 @@ background-attachment: fixed;
 
               <div class="title-section text-center">
 
-                     <span>اتصل بنا</span>
+                    
+
+                    
+                     <div class="scene">
+
+                        <div class="current">
+                            <div class="cube">
+                                <div class="face">اتصل بنا</div>
+                            </div>
+                          
+                        </div>
+                    
+                        <div class="next">
+                            <div class="cube">
+                                <div class="face">محامون</div>
+                            </div>
+                            <div class="cube">
+                                <div class="face">.</div>
+                            </div>
+                            <div class="cube">
+                                <div class="face">مستشارون</div>
+                            </div>
+                           
+                        </div>
+                        
+                    </div>
           </div>
       
   </div>
@@ -67,7 +92,7 @@ background-attachment: fixed;
         <div class="container">
             <div class="contact-us">
                 <div class="title-section text-center">
-                    <h3 class="flat-title">مصطفي الروبي | محامون . مستشارون</h3>
+                    <h3 class="title texts">مصطفي الروبي | محامون . مستشارون</h3>
                  
                 </div>
                 <div class="contact-options">
@@ -117,7 +142,7 @@ background-attachment: fixed;
     <div class="write-something" dir="rtl";>
         <div class="container"    >
             <div class="title-section text-center ">
-                <h2 class="flat-title">احجز استشاره</h2>
+                <h2 class="texts">احجز استشاره</h2>
             </div>
             <form action="{{ route('estshara') }}" method="post" class="form-message-pct">
                 @csrf

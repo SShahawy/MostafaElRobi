@@ -81,20 +81,50 @@ swalWithBootstrapButtons.fire({
 
 
 
-
-    <section class="facts2" id="facts" >
-        {{-- <div class="carousel-caption  d-md-block" style=""> --}}
-       
-            {{-- <div class="text-center btn-read-more wow fadeInUp btn btn-warning" style="margin-top: -20%;" ><a href="company-open" class="btn-read-more" style="font-size: 25px;" target="_blank" class=" cta hvr-vertical ">اسس شركتك</a> --}}
-                {{-- <div class="btn4-wrapper"><div class="myBtn4"><a href="#">Button</a></div></div> --}}
-               
-            {{-- </div> --}}
-            <div class="carousel-caption  d-md-block" style="">
-            <div class="btn4-wrapper"><div class="myBtn4"><a href="#">اسس شركتك</a></div></div>
+    <div id="slider-home" class="carousel slide" data-ride="carousel" data-pause="false">
+        <ul class="carousel-indicators">
+            <li data-target="#slider-home" data-slide-to="0" class="active"></li>
+            <li data-target="#slider-home" data-slide-to="1"></li>
+            <li data-target="#slider-home" data-slide-to="2"></li>
+            <li data-target="#slider-home" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/head/mostafaelrobi.jpg" alt="Los Angeles">
+                <div class="carousel-caption">
+              
+                    <a class="btn" href="#">اسس شركتك</a>
+                </div>
             </div>
-    
-    </section>
-
+            <div class="carousel-item">
+                <img src="images/head/mostafaelrobi2.jpg" alt="Chicago">
+                <div class="carousel-caption">
+                  
+                    <a class="btn" href="#">احجز استشاره</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.ibb.co/JRrHmhv/shanghai.jpg" alt="New York">
+                <div class="carousel-caption">
+                
+                    <a class="btn" href="#">Make an appointment</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.ibb.co/JRrHmhv/shanghai.jpg" alt="New York">
+                <div class="carousel-caption">
+                 
+                    <a class="btn" href="#">Make an appointment</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#slider-home" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slider-home" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
 <br><br>
 
 
@@ -492,7 +522,7 @@ swalWithBootstrapButtons.fire({
                 <div class="col-lg-6">
                     <div class="flat-spacer" data-desktop="36" data-sdesktop="20" data-mobi="0" data-smobi="0"></div>
                     <div class="content" style="text-align:right;">
-                        <div class="title"><span >رؤيتنا</span></div>
+                        <div class="texts">رؤيتنا</div>
                         <p class="description " >
                             استثمار طاقتنا العلمية والمهنية لنكون في مركز الصدارة بين مؤسسات المحاماة والتحكيم في مصر والشرق الأوسط بما لدينا من فريق عمل يضم نخبة من كبار المحامين والمستشارين القانونين في كافة المعهود إليهم خدمات قانونية كبري لكافة الشركات متعدده الجنسيات والمصالح والمؤسسات العامة داخل مصر والشرق الاوسط لتحقق لعملائنا النتائج المرجوة.
                         </p>
@@ -511,7 +541,11 @@ swalWithBootstrapButtons.fire({
 
     <br><br><br><br><br>
 
-
+    <button>
+        <span class="btn-inner">
+          <span class="btn-text">Click Me</span>
+          </span>
+      </button> 
 
     <section class="facts" id="facts" >
         <div class="box1" style="position: relative" >
@@ -581,7 +615,7 @@ swalWithBootstrapButtons.fire({
         <div class="practice-area practice-area-style2" >
             <div class="container">
                 <div class="title-section text-center">
-                    <h3 class="flat-title" style="color:#A75032; font-size:30px;">الخدمات</h3>
+                    <h3 class="texts" >الخدمات</h3>
                     {{-- <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p> --}}
                 </div>
                 <div class="practice-area-wrap">
@@ -1086,12 +1120,13 @@ swalWithBootstrapButtons.fire({
         </div><!-- featured --> --}}
     </section><!-- practice-featured --> 
 
-  
+   
+   
 
 
 	<div class="team" id="team">
 		<div class="container" id="att">
-			<h3 class="title"style="color:#A75032;" >فريق العمل</h3>
+			<h3 class="title texts" >  فريق العمل</h3>
          
             <div class="row">
                 <div class="col-lg-12 col-md-12 ">
@@ -1158,9 +1193,9 @@ swalWithBootstrapButtons.fire({
     <section class="testimonial text-center" id="rev">
         <div class="container">
 
-            <div class="heading white-heading">
-                اراء عملائنا
-               
+            <div class="heading white-heading" >
+             <h2 class="title texts ">   اراء عملائنا
+             </h2> 
             </div>
             <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
              
@@ -1251,7 +1286,7 @@ swalWithBootstrapButtons.fire({
                     <div class="content-evaluation">
                         <div class="themesflat-content-box" data-padding="113px 0% 101px 100px" data-sdesktoppadding="113px 0% 101px 0" data-ssdesktoppadding="113px 0% 101px 0" data-mobipadding="50px 0 100px 0" data-smobipadding="50px 0 100px 0">
                             {{-- <div class="caption">تواصل</div> --}}
-                            <h4 class="heading" style="color:#A75032;">احصل علي استشاره</h4>
+                            <h4 class="heading title texts" style="color:#A75032;">احصل علي استشاره</h4>
                             <p class="description" style="font-size:25px;font-weight:bold;color:#3A1F0E;">
                                 تغطي مجالات عمل وخدمات المؤسسة نطاقاً واسعآ من المجالات والتخصصات إذا تقدم المؤسسة حلول مبتكرة واستشارات موجهة للأفراد والشركات فى جميع المراحل بداية من متطلبات انظمة إدارة حقوق الملكية الفكرية ويضمن التعاون الموثق بين إدارات المكتب ان يصبح مركزآ مؤهلاً لتلبية احتياجات العملاء. 
                             </p>
@@ -1451,6 +1486,65 @@ swalWithBootstrapButtons.fire({
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.parallax.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
+    <script>
+        (function($) {
+            $.fn.menumaker = function(options) {
+                var cssmenu = $(this),
+                    settings = $.extend({
+                        format: "dropdown",
+                        sticky: false
+                    }, options);
+                return this.each(function() {
+                    $(this).find(".button").on('click', function() {
+                        $(this).toggleClass('menu-opened');
+                        var mainmenu = $(this).next('ul');
+                        if (mainmenu.hasClass('open')) {
+                            mainmenu.slideToggle().removeClass('open');
+                        } else {
+                            mainmenu.slideToggle().addClass('open');
+                            if (settings.format === "dropdown") {
+                                mainmenu.find('ul').show();
+                            }
+                        }
+                    });
+                    cssmenu.find('li ul').parent().addClass('has-sub');
+                    multiTg = function() {
+                        cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+                        cssmenu.find('.submenu-button').on('click', function() {
+                            $(this).toggleClass('submenu-opened');
+                            if ($(this).siblings('ul').hasClass('open')) {
+                                $(this).siblings('ul').removeClass('open').slideToggle();
+                            } else {
+                                $(this).siblings('ul').addClass('open').slideToggle();
+                            }
+                        });
+                    };
+                    if (settings.format === 'multitoggle') multiTg();
+                    else cssmenu.addClass('dropdown');
+                    if (settings.sticky === true) cssmenu.css('position', 'fixed');
+                    resizeFix = function() {
+                        var mediasize = 1000;
+                        if ($(window).width() > mediasize) {
+                            cssmenu.find('ul').show();
+                        }
+                        if ($(window).width() <= mediasize) {
+                            cssmenu.find('ul').hide().removeClass('open');
+                        }
+                    };
+                    resizeFix();
+                    return $(window).on('resize', resizeFix);
+                });
+            };
+        })(jQuery);
+
+        (function($) {
+            $(document).ready(function() {
+                $("#cssmenu").menumaker({
+                    format: "multitoggle"
+                });
+            });
+        })(jQuery);
+     </script>   
 </body>
 
 @include('pages.footer')

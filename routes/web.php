@@ -58,6 +58,9 @@ Route::get('/h6', function () {
     return view('pages.faq');
 });
 
+Route::get('/services', function () {
+    return view('pages.services');
+});
 // Route::resource('estsharat', EstsharatController::class);
 Route::post('estshara', [EstsharatController::class,'store'])->name('estshara');
 Route::post('tawzeef', [HiringController::class,'store'])->name('tawzeef');

@@ -34,9 +34,32 @@
     <div class="contact clearfix img-behind-hire">
         <div class="container second">
 
-                <div class="title-section text-center">
+                <div class="title-section text-center ">
+                      
+                      <div class="scene">
 
-                       <span>تأسيس الشركات</span>
+                        <div class="current">
+                            <div class="cube">
+                                <div class="face">تأسيس الشركات</div>
+                            </div>
+                          
+                        </div>
+                    
+                        <div class="next">
+                            <div class="cube">
+                                <div class="face">محامون</div>
+                            </div>
+                            <div class="cube">
+                                <div class="face">.</div>
+                            </div>
+                            <div class="cube">
+                                <div class="face">مستشارون</div>
+                            </div>
+                           
+                        </div>
+                        
+                    </div>
+
             </div>
         
     </div>
@@ -53,7 +76,7 @@
                             </div>
                         </div>
                         <div class="case-dt introduction-content">
-                            <h3 class="title"><a href="#" style="color:#B5735D !important;">تأسيس شركات</a></h3>
+                            <h3 class="title texts"><a href="#">تأسيس شركات</a></h3>
                             <p>
                                 نقوم بتوفير كافة الخدمات القانونية للشركات الجديدة والقائمة بالعمل كوكيل للشركة. ويوفر مكتبنا كل ما يتعلق بخدمات تأسيس الشركات لدينا كجزء من خدمتنا مساعدة الأفراد الأجانب والكيانات التجارية الأخرى لتأسيس وجودهم قانونا. 
                             </p>
@@ -67,7 +90,7 @@
                                     <span class="rg-ct">Alexender Flame</span>
                                 </li> --}}
                                 <li>
-                                    <span class="categories" style="color:#B5735D !important;">محامون . مستشارون</span>
+                                    <span class="categories nav-texts" >محامون . مستشارون</span>
                                     <span class="rg-ct" >مصطفي الروبي</span>
                                 </li>
                             </ul><br>
@@ -86,7 +109,7 @@
             <div class="container" >
                 <div class="row">
                     <div class="col-lg-12 whitebox wow fadeIn">
-                <h1 style="color: #A75032; font-size:30px; text-align:center; ">
+                <h1 class="texts">
                     خبرتنا  
                     <h1>
 
@@ -107,7 +130,7 @@
                    <br>
                     <div class="challange case-dt mg-case-details">
                         <div class="container">
-                        <h3 class="title" style="color:#A5553A !important;">انواع الشركات</h3>
+                        <h3 class=" title texts">انواع الشركات</h3>
                         {{-- <p>
                             Duis aute irure dolor in reprehenderit in vount in culpa qui officia deserunt mollit anim id est laborum. Sediste natus error sit voluptatem accusantium doloremque laudariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                         </p> --}}
@@ -157,7 +180,7 @@
                             <div class="flat-courses clearfix isotope-courses" >
                                 <div class="case clearfix mosahma" style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title" style="color:#B5735D !important;">شركات مساهمه</h3>
+                                        <h3 class="title texts" >شركات مساهمة</h3>
                                         
                                         <p >
                                             تعتبر شركات المساهمة كيان تجارى يمتلكه المساهمون. يمتلك حاملي الأسهم حصة في الشركة تتناسب مع ما يمتلكوه من أسهم الشركة (سندات الملكية). ويسمح هذا بالتفاوت فى الحصص المملوكة لبعض المساهمين الذين يملكون نسبة اكبر من أسهم الشركاء الآخرين, يستطيع حاملي الأسهم نقل اسهمهم للغير دون التأثير علي استمرار وجود الشركة    

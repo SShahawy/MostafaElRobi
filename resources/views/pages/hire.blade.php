@@ -60,9 +60,31 @@ swalWithBootstrapButtons.fire({
     <div class="contact clearfix img-behind-hire">
         <div class="container second">
 
-                <div class="title-section text-center">
+                <div class="title-section text-center ">
 
-                       <span> التوظيف و التدريب</span>
+                       <div class="scene">
+
+                        <div class="current">
+                            <div class="cube">
+                                <div class="face">التوظيف و التدريب</div>
+                            </div>
+                          
+                        </div>
+                    
+                        <div class="next">
+                            <div class="cube">
+                                <div class="face">محامون</div>
+                            </div>
+                            <div class="cube">
+                                <div class="face">.</div>
+                            </div>
+                            <div class="cube">
+                                <div class="face">مستشارون</div>
+                            </div>
+                           
+                        </div>
+                        
+                    </div>
             </div>
         
     </div>
@@ -71,7 +93,7 @@ swalWithBootstrapButtons.fire({
     <div class="write-something" >
         <div class="container">
             <div class="title-section text-center">
-                <h3 class="flat-title" style="color: #A95D43;">مصطفي الروبي | محامون . مستشارون</h3>
+                <h3 class="title texts" >مصطفي الروبي | محامون . مستشارون</h3>
                 <br>
                 <span id="">
                     نتطلع دائماًً للبحث عن الاشخاص الطموحين الذين يتميزون بالتفاني والجدية بالعمل ويبحثون عن وظائف في بيئة مليئة بالتحديات ، ونرحب دوماً بتوظيف الاشخاص ذوي الإسهامات والإنتاجية العالية.
@@ -123,11 +145,6 @@ swalWithBootstrapButtons.fire({
 
 
 
-    <button>
-    <span class="btn-inner">
-      <span class="btn-text">Click Me</span>
-      </span>
-  </button>  
 
                 </div>
                 
@@ -164,10 +181,6 @@ swalWithBootstrapButtons.fire({
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.parallax.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
-    <script>
-        
-    </script>
-
 </body>
 @include('pages.footer')
 </html>
