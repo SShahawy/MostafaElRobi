@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Estsharat;
+use App\Models\Company;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
 class EstsharatController extends Controller
@@ -36,15 +37,6 @@ class EstsharatController extends Controller
      */
     public function store(Request $request)
     {
-        // dd('test');
-        // $request->validate([
-        //     'name' => 'required',
-        //     'details' => 'required',
-        //     'email' => 'required',
-        //     'phone' => 'required',
-        //     'date' => 'required'
-        // ]);
-
 
         $estshara = new Estsharat();
         
@@ -71,6 +63,47 @@ class EstsharatController extends Controller
         //    return redirect()->route('index')
         //    ->with('success', 'Created successfully.');
     }
+
+
+    public function storeCom(Request $request)
+    {
+        // dd($request);
+        $com = new Company();
+        
+        $com->type = $request->type;
+        $com->count = $request->count;
+        $com->work = $request->work;
+        $com->name = $request->name;
+        $com->money = $request->money;
+        $com->email = $request->email;
+        $com->phone = $request->phone;
+        $com->location = $request->location;
+        $com->attach = $request->attach;
+
+        $com->save();
+
+      
+              $data = array(
+                  'type'      =>  $request->type,
+                  'count'   =>   $request->count,
+                  'work'   =>   $request->work,
+                  'name'   =>   $request->name,
+                  'money'   =>   $request->money,
+                  'location'   =>   $request->location,
+                  'attach'   =>   $request->attach,
+                  'email'   =>   $request->email,
+                  'phone'   =>   $request->phone
+              );
+      
+        //    Mail::to('combidino6@gmail.com')->send(new SendMail($data));
+          return redirect()->route('company-open')->with('message', 'تم ارسال بيانات الشركة');
+
+        //    return redirect()->route('index')
+        //    ->with('success', 'Created successfully.');
+    }
+
+
+
 
     /**
      * Display the specified resource.

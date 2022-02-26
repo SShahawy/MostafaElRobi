@@ -41,7 +41,7 @@ Route::get('/hire', function () {
 })->name('hire');
 Route::get('/company-open', function () {
     return view('pages.case-details');
-});
+})->name('company-open');
 Route::get('/h2', function () {
     return view('pages.case-results');
 });
@@ -58,6 +58,12 @@ Route::get('/h6', function () {
     return view('pages.faq');
 });
 
+Route::get('_modal_com_show', function () {
+    return view('modals._modal_com_show');
+});
+
+
 // Route::resource('estsharat', EstsharatController::class);
 Route::post('estshara', [EstsharatController::class,'store'])->name('estshara');
 Route::post('tawzeef', [HiringController::class,'store'])->name('tawzeef');
+Route::post('company', [EstsharatController::class,'storeCom'])->name('company');

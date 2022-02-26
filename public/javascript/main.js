@@ -1327,8 +1327,20 @@ $( document ).ready(function() {
   $('.page4').hide();
   $('.page5').hide();
   $('.page6').hide();
+
+
+    
 });
 
+    function comShow() {
+        // $('div#js-modal-add-location').find('input').val('');
+        // $('div#js-modal-add-location').find('select#is_d2d').val(0);
+        // $('div#js-modal-add-location').find('select#state').val('');
+        $('div#js-modal-add-location').modal();
+        // $('div#js-modal-add-location').css('display','block');
+        // $('div#js-div-alert').addClass('d-none');
+    }
+            
 function page1(){
   $('.page1').show();
   $('.page2').hide();
@@ -1406,5 +1418,4 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
-
 
