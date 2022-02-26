@@ -96,9 +96,9 @@
                             </ul><br>
                             
                                 {{-- <div class="btn4-wrapper"><div class="myBtn4"><a href="#">ابدأ بتأسيس الشركه الاَن</a></div></div> --}}
-                                <button type="button" data-toggle="modal" id="mediumButton" data-target="#mediumModal" class="btn btn-primary" >
+                                <button type="button" data-toggle="modal" id="mediumButton" data-target="#mediumModal" class=" all-buttons" >
                                     <i class="fa fa-map-marker"></i>
-                                    ابدأ بتأسيس الشركه الاَن
+                                    أسس شركتك الاَن
                                 </button>
 
                         </div>
@@ -174,10 +174,10 @@
                         <div class="container">
                         <div class="flat-portfolio">
                                 <ul class="flat-filter-isotype">
-                                    <li class="active"><a href="#" data-filter=".mosahma"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more" >شركات المساهمة</button> </a></li>
-                                    <li><a href="#" data-filter=".fardya"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more ">الملكية الفردية</button></a></li>
-                                    <li><a href="#" data-filter=".ma7doda"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more">شركات ذات المسئولية المحدودة </button></a></li>
-                                    <li><a href="#" data-filter=".baseeta"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more"> شركات التوصية البسيطة </button></a></li>
+                                    <li class="active"><a href="#" data-filter=".mosahma"><button style="background-color:#B5735D !important;" class="all-buttons btn-read-more" >شركات المساهمة</button> </a></li>
+                                    <li><a href="#" data-filter=".fardya"><button style="background-color:#B5735D !important;" class="all-buttons btn-read-more ">الملكية الفردية</button></a></li>
+                                    <li><a href="#" data-filter=".ma7doda"><button style="background-color:#B5735D !important;" class="all-buttons btn-read-more">شركات ذات المسئولية المحدودة </button></a></li>
+                                    <li><a href="#" data-filter=".baseeta"><button style="background-color:#B5735D !important;" class="all-buttons btn-read-more"> شركات التوصية البسيطة </button></a></li>
 
                                 </ul>
                             </div>
@@ -279,7 +279,7 @@
                                 </div>
                                 <div class="case clearfix fardya " style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title" style="color:#B5735D !important;">الملكية الفردية</h3>
+                                        <h3 class="title texts" style="color:#B5735D !important;">الملكية الفردية</h3>
                                         
                                         <p >
                                             تعتبر الشركات ذات الملكية الفردية الخيار المفترض أن تكون مالكا وحيداً. مع كون هذا الخيار الأقل شيوعاً والأقل تعقيداً يالنسبة لإجراءات تأسيسها عن الشركات التجارية الاخرى   
@@ -311,7 +311,7 @@
                                 </div>
                                 <div class="case clearfix ma7doda" style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title" style="color:#B5735D !important;">شركات ذات المسئولية المحدودة</h3>
+                                        <h3 class="title texts" style="color:#B5735D !important;">شركات ذات المسئولية المحدودة</h3>
                                         
                                         <p >
                                             تختلف الشركة ذات المسئولية المحدودة عن الملكية الفردية في أن مسئولية الشركاء تنحصر في حدود مقدار حصصهم في رأس مال الشركة فقط وبذلك يوفر هذا النوع من الشركات حماية من المسئولية التضامنية ولكن توجد حالات استثنائية يتحمل فيها الشركاء مسئولية تضامنية كاستعمال طرق إحتيالية أو غير قانونية أو لم يتم الفصل بين أنشطة الشركة والذمة المالية الشخصية.
@@ -345,7 +345,7 @@
                                 </div>
                                 <div class="case clearfix baseeta" style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title" style="color:#B5735D !important;">شركات ذات المسئولية المحدودة</h3>
+                                        <h3 class="title texts" style="color:#B5735D !important;">شركات ذات المسئولية المحدودة</h3>
                                         
                                         <p >
                                             تعتبر شركات التوصية البسيطة إذا كانت مسئولية كل الشركاء أو بعضهم مسئولية محدودة , لذلك فشركة التوصية من حيث الشكل تعتبر مناسبة إذا كنت لا ترغب في البقاء كمالك وحيد.
@@ -528,7 +528,7 @@
                         @endforeach
                         <div class="modal-footer">
                             <div class="modal-button-default">
-                                {{ Form::submit('تقديم البيانات!',['class'=> 'btn btn-primary']) }}
+                                {{ Form::submit('تقديم البيانات!',['class'=> ' all-buttons btn btn-primary']) }}
                                 {{-- <button type="button" class="btn btn-primary" id="js-btn-save-new-location">تقديم البيانات</button> --}}
                             </div>
                         </div>

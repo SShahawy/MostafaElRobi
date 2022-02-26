@@ -53,6 +53,7 @@
 
 
     </style>
+    
 @include('pages.header')
 @if(session()->has('message'))
     <script>
@@ -78,9 +79,6 @@ swalWithBootstrapButtons.fire({
         <div class="loader"></div>
     </div>
     
-
-
-
     <div id="slider-home" class="carousel slide" data-ride="carousel" data-pause="false">
         <ul class="carousel-indicators">
             <li data-target="#slider-home" data-slide-to="0" class="active"></li>
@@ -1292,7 +1290,7 @@ swalWithBootstrapButtons.fire({
                 <div class="col-lg-5 col-md-12">
                     <div class="go-up">
                         <div class="themesflat-content-box" data-padding="0% 0% 0% 0%" data-sdesktoppadding="0% 0% 0% 0%" data-ssdesktoppadding="0% 0% 0% 0%" data-mobipadding="100px 0% 0% 0%" data-smobipadding="100px 0% 0% 0%">
-                            <form action="{{ route('estshara') }}" method="post" class="form-evaluation">
+                            <form action="{{ route('estshara') }}" method="post"   class="form-evaluation">
                                 @csrf
                                 <div class="wrap-evaluation" >
                                     {{-- <h5 class="title">Free Case Evaluation</h5> --}}
@@ -1319,8 +1317,10 @@ swalWithBootstrapButtons.fire({
 
                                         <textarea  name="details" required  id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
                                     </div>
+                                   
                                     <div class="fl-btn">
-                                        <input type="submit"  class="hvr-vertical" style="font-size: 25px; background-color:#A75032;" value="احجز الاَن">
+                                        <input type="submit"  class="all-buttons hvr-vertical" style="font-size: 25px; background-color:#A75032;" value="احجز الاَن">
+
                                     </div>
                                 </div>
                             </form>
@@ -1331,7 +1331,7 @@ swalWithBootstrapButtons.fire({
                     <div class="content-evaluation">
                         <div class="themesflat-content-box" data-padding="113px 0% 101px 100px" data-sdesktoppadding="113px 0% 101px 0" data-ssdesktoppadding="113px 0% 101px 0" data-mobipadding="50px 0 100px 0" data-smobipadding="50px 0 100px 0">
                             {{-- <div class="caption">تواصل</div> --}}
-                            <h4 class="heading title texts" style="color:#A75032;">احصل علي استشاره</h4>
+                            <h4 class="heading title texts" style="color:#A75032;margin-right:40% !important;">احصل علي استشاره</h4>
                             <p class="description" style="font-size:25px;font-weight:bold;color:#3A1F0E;">
                                 تغطي مجالات عمل وخدمات المؤسسة نطاقاً واسعآ من المجالات والتخصصات إذا تقدم المؤسسة حلول مبتكرة واستشارات موجهة للأفراد والشركات فى جميع المراحل بداية من متطلبات انظمة إدارة حقوق الملكية الفكرية ويضمن التعاون الموثق بين إدارات المكتب ان يصبح مركزآ مؤهلاً لتلبية احتياجات العملاء. 
                             </p>
