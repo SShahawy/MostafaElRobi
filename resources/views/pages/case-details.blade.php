@@ -95,8 +95,12 @@
                                 </li>
                             </ul><br>
                             
-                                <div class="btn4-wrapper"><div class="myBtn4"><a href="#">ابدأ بتأسيس الشركه الاَن</a></div></div>
-                                
+                                {{-- <div class="btn4-wrapper"><div class="myBtn4"><a href="#">ابدأ بتأسيس الشركه الاَن</a></div></div> --}}
+                                <button type="button" data-toggle="modal" id="mediumButton" data-target="#mediumModal" class="btn btn-primary" >
+                                    <i class="fa fa-map-marker"></i>
+                                    ابدأ بتأسيس الشركه الاَن
+                                </button>
+
                         </div>
                     </div>
 
@@ -445,6 +449,128 @@
             </div>
         </div>
     </div><!-- case-details -->
+
+
+
+
+
+
+
+
+    <!-- medium modal -->
+    <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel"
+        aria-hidden="true">
+        <br><br><br><br><br><br>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title">أسس شركتك</h4>
+                </div>
+                <div class="modal-body" id="mediumBody">
+                    <div>
+                        <div class="alert alert-danger alert-dismissable d-none" id="js-div-alert">
+                            <p>Error message</p>
+                        </div>
+        
+                        {{-- <div class="form-group row alert alert-success d-none" id="js-div-notification">
+                            <div class="col-sm-10">
+                                <label id="js-label-verified-address"></label>
+                                <input type="hidden" id="js-hidden-confirm-address" value="" />
+                                <input type="hidden" id="js-hidden-confirm-city" value="" />
+                                <input type="hidden" id="js-hidden-confirm-state" value="" />
+                                <input type="hidden" id="js-hidden-confirm-zip" value="" />
+                            </div>
+                            <div class="col-sm-2">
+                                <button type="button" class="btn btn-primary btn-block" id="js-btn-save-address">Fill</button>
+                            </div>
+                        </div> --}}
+                        {{ Form::open(array('route' => 'company', 'method' => 'post')) }}
+                        @csrf
+                        @foreach ([
+                                'type' => 'نوع الشركه',
+                                'count' => 'عدد الشركاء',
+                                'work' => 'النشاط و الغرض',
+                                'name' => 'اسمه التجاري',
+                                'money' => 'ميكنه رأس المال',
+                                'location' => 'مقر الشركه',
+                                'email' => 'البريج الإلكتروني',
+                                'phone' => 'رقم التليفون',
+
+                                'attach' => 'المستندات',
+                                ] as $key => $value)
+                            <div class="form-group row" id="js-div-{!! $key !!}">
+                                
+                                <div class="col-sm-8">
+                                    @if ($key == 'type')
+                                        {!! Form::select($key,
+                                        array(
+                                            '' => '--- اختر نوع الشركه ---',
+                                            'شركه مساهمة'=>'شركه مساهمة',
+                                            'شركه ذات مسئوليه محدودة'=>'شركه ذات مسئوليه محدودة',
+                                            'شركه توصيه بالاسهم'=>'شركه توصيه بالاسهم',
+                                            'شركه تضامن'=>'شركه تضامن',
+                                            'شركه توصيه بسيطة'=>'شركه توصيه بسيطة',
+                                            ), ['class' => 'form-control', 'style' => 'padding-bottom:25px;']) !!}
+                                            @elseif($key == 'attach')
+                                            {!! Form::file('attach') !!}
+                                            {!! Form::label('attach', "ارفع مستنداتك", ['class' => 'col-sm-5 col-form-label text-right font-weight-bold required' ]) !!}
+                                    @else
+                                        {!! Form::text($key, NULL, ['class' => 'form-control', ]) !!}
+                                        
+                                    @endif
+                                </div>
+                                {!! Form::label($key, ' : '.$value, ['class' => 'col-sm-4 col-form-label text-right font-weight-bold required' ]) !!}
+
+                            </div>
+                        @endforeach
+                        <div class="modal-footer">
+                            <div class="modal-button-default">
+                                {{ Form::submit('تقديم البيانات!',['class'=> 'btn btn-primary']) }}
+                                {{-- <button type="button" class="btn btn-primary" id="js-btn-save-new-location">تقديم البيانات</button> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+        // display a modal (medium modal)
+        $(document).on('click', '#mediumButton', function(event) {
+            event.preventDefault();
+            let href = $(this).attr('data-attr');
+            $.ajax({
+                url: href,
+                beforeSend: function() {
+                    $('#loader').show();
+                },
+                // return the result
+                success: function(result) {
+                    $('#mediumModal').modal("show");
+                    $('#mediumBody').html(result).show();
+                },
+                complete: function() {
+                    $('#loader').hide();
+                },
+                error: function(jqXHR, testStatus, error) {
+                    console.log(error);
+                    alert("Page " + href + " cannot open. Error:" + error);
+                    $('#loader').hide();
+                },
+                timeout: 8000
+            })
+        });
+
+    </script>
+
+
     {{-- <div class="featured-banner">
         <div class="container">
             <div class="row">
@@ -473,13 +599,12 @@
     <script src="javascript/equalize.min.js"></script>
     <script src="javascript/jquery-countTo.js"></script>
     <script src="javascript/flex-slider.min.js"></script>
-    <script src="javascript/main.js"></script>
-
+    
     <!-- slider -->
     <script src="rev-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="rev-slider/js/jquery.themepunch.revolution.min.js"></script>
     <script src="javascript/rev-slider.js"></script>
-
+    
     <!-- Load Extensions only on Local File Systems ! The following part can be removed on Server for On Demand Loading -->
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.actions.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.carousel.min.js"></script>
@@ -490,6 +615,12 @@
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.parallax.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
+    <script src="javascript/main.js"></script>
+
+    <script>
+       
+    </script>
 </body>
 @include('pages.footer')
+@include('pages.modals._modal_com_show')
 </html>
