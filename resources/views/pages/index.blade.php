@@ -1122,6 +1122,51 @@ swalWithBootstrapButtons.fire({
 
    
    
+<div class="logo-slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="images/logo/1.jpg" height="100" width="100" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/2.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/3.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/4.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/5.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/6.jpg" height="400" width="250" alt="" >
+		</div>
+		<div class="slide">
+			<img src="images/logo/7.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/8.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/9.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/10.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/11.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/12.jpg" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/13.jpg" height="100" width="250" alt="" />
+		</div>
+	
+	</div>
+</div>
+
 
 
 	<div class="team" id="team">
@@ -1311,153 +1356,10 @@ swalWithBootstrapButtons.fire({
         </div>
     </div><!-- case-evaluation -->
 
-
     
-    <section class="featured featured-style3">
-        <div class="container">
-            <div class="row">
-                {{-- <div class="col-lg-5 col-md-12">
-                    <div class="content">
-                        <div class="caption">Our Features</div>
-                        <h4 class="heading">Reason to choose us over others in market</h4>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        </p>
-                        <div class="view-all"><a href="#">view all</a></div>
-                    </div>
-                </div> --}}
-
-
-
-
-
-
-                {{-- <div class="col-lg-6 col-md-6">
-                    <div class="iconbox-features type3">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <div class="iconbox">
-                                    <div class="iconbox-icon">
-                                        <img src="images/practice/11.png" alt="images">
-                                    </div>
-                                    <div class="iconbox-content">
-                                        <h5 class="title"><a href="#">Best Legal 1 Security</a></h5>
-                                        <p class="description">
-                                            orem ipsum dolor sit dot  nostrud exercitation ulla mco laboris
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <div class="iconbox">
-                                    <div class="iconbox-icon">
-                                        <img src="images/practice/12.png" alt="images">
-                                    </div>
-                                    <div class="iconbox-content">
-                                        <h5 class="title"><a href="#">Top Skilled Attorney2</a></h5>
-                                        <p class="description">
-                                            orem ipsum dolor sit dot  nostrud exercitation ulla mco laboris
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <div class="iconbox">
-                                    <div class="iconbox-icon">
-                                        <img src="images/practice/13.png" alt="images">
-                                    </div>
-                                    <div class="iconbox-content">
-                                        <h5 class="title"><a href="#">All Ti3me Support </a></h5>
-                                        <p class="description">
-                                            orem ipsum dolor sit dot  nostrud exercitation ulla mco laboris
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <div class="iconbox">
-                                    <div class="iconbox-icon">
-                                        <img src="images/practice/14.png" alt="images">
-                                    </div>
-                                    <div class="iconbox-content">
-                                        <h5 class="title"><a href="#">Resonable Pr4icing</a></h5>
-                                        <p class="description">
-                                            orem ipsum dolor sit dot  nostrud exercitation ulla mco laboris
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-
-
-
-
-
-                {{-- <div class="col-lg-6 col-md-6">
-                    <div class="iconbox-features type3">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <div class="iconbox">
-                                    <div class="iconbox-icon">
-                                        <img src="images/practice/11.png" alt="images">
-                                    </div>
-                                    <div class="iconbox-content">
-                                        <h5 class="title"><a href="#">Best Lega5l Security</a></h5>
-                                        <p class="description">
-                                            orem ipsum dolor sit dot  nostrud exercitation ulla mco laboris
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <div class="iconbox">
-                                    <div class="iconbox-icon">
-                                        <img src="images/practice/12.png" alt="images">
-                                    </div>
-                                    <div class="iconbox-content">
-                                        <h5 class="title"><a href="#">Top Skille6d Attorney</a></h5>
-                                        <p class="description">
-                                            orem ipsum dolor sit dot  nostrud exercitation ulla mco laboris
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <div class="iconbox">
-                                    <div class="iconbox-icon">
-                                        <img src="images/practice/13.png" alt="images">
-                                    </div>
-                                    <div class="iconbox-content">
-                                        <h5 class="title"><a href="#">All Time7 Support </a></h5>
-                                        <p class="description">
-                                            orem ipsum dolor sit dot  nostrud exercitation ulla mco laboris
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <div class="iconbox">
-                                    <div class="iconbox-icon">
-                                        <img src="images/practice/14.png" alt="images">
-                                    </div>
-                                    <div class="iconbox-content">
-                                        <h5 class="title"><a href="#">Res8onable Pricing</a></h5>
-                                        <p class="description">
-                                            orem ipsum dolor sit dot  nostrud exercitation ulla mco laboris
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-            </div>
-        </div>
-        <div class="style-text"></div>
-    </section><!-- featured -->
-
+    
+  
+    
     
     
     <script src="javascript/jquery.min.js"></script>
