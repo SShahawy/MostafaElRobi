@@ -120,6 +120,15 @@ swalWithBootstrapButtons.fire({
 
     <input type="submit"  class="hvr-vertical" style="background-color: #AA5F44" value="قدم الاَن">
 </div> 
+
+
+
+    <button>
+    <span class="btn-inner">
+      <span class="btn-text">Click Me</span>
+      </span>
+  </button>  
+
                 </div>
                 
                 
@@ -155,6 +164,10 @@ swalWithBootstrapButtons.fire({
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.parallax.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
+    <script>
+        
+    </script>
+
 </body>
 @include('pages.footer')
 </html>

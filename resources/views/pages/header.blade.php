@@ -36,7 +36,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         
     </head>
-    <header id="header" style="background-image:linear-gradient(to right,#F1D9BE,white) !important;" class="header bg-color">
+    <header id="header" style="background-image:linear-gradient(to right,#F9D8B2,#F1D9BE,white) !important;" class="header bg-color">
         
         <div class="container" style="height: 135px;" dir="rtl">
             <div style="margin-bottom: 30%;" class="flex-header">
@@ -53,30 +53,30 @@
                             
                             
                                 <li>
-                                    <a href="/" style="font-weight: bold;font-size:15px !important;">الرئيسية</a>
+                                    <a href="/" style="font-weight: bold;font-size:15px !important;  background-image:linear-gradient(#F1D9BE,white) !important;">الرئيسيه</a>
                                 
                                 </li>
                                 <li>
-                                    <a href="/" style="font-weight: bold;font-size:15px !important;  color:white; background-image:linear-gradient(#F1D9BE,white) !important;">من نحن</a>
+                                    <a href="/" style="font-weight: bold;font-size:15px !important; ">من نحن</a>
                                     <ul class="sub-menu">
                                         <li><a href="cv">نبذه عن مصطفي الروبي</a></li>
                                         <li><a href="/#att">فريق العمل</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="/#cont" style="font-weight: bold;font-size:15px !important;  color:white;">احجز استشارة</a>
+                                    <a href="/#cont" style="font-weight: bold;font-size:15px !important;  ">احجز استشاره</a>
                                 
                                 </li>
                                 <li>
-                                    <a href="/company-open" class="" style="font-weight: bold;font-size:15px !important;  color:white;">أسس شركتك</a>
+                                    <a href="/company-open" class="" style="font-weight: bold;font-size:15px !important; ">اسس شركتك</a>
                                 
                                 </li>
                                 <li>
-                                    <a href="/hire" class="" style="font-weight: bold;font-size:15px !important;  color:white;">توظيف و تدريب</a>
+                                    <a href="/hire" class="" style="font-weight: bold;font-size:15px !important; ">توظيف و ندريب</a>
                                 
                                 </li>
                                 <li>
-                                    <a href="/h6" class="" style="font-weight: bold;font-size:15px !important;  color:white;">فديوهات هامة</a>
+                                    <a href="/h6" class="" style="font-weight: bold;font-size:15px !important; ">فديوهات هامة</a>
                                 
                                 </li>
                                 <li>

@@ -1087,6 +1087,7 @@ swalWithBootstrapButtons.fire({
         </div><!-- featured --> --}}
     </section><!-- practice-featured --> 
 
+  
 
 
 	<div class="team" id="team">
@@ -1154,12 +1155,13 @@ swalWithBootstrapButtons.fire({
     
 
 
-
+   
     <section class="testimonial text-center" id="rev">
         <div class="container">
 
             <div class="heading white-heading">
                 اراء عملائنا
+               
             </div>
             <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
              
