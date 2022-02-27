@@ -523,13 +523,7 @@ swalWithBootstrapButtons.fire({
     </section><!-- about -->
     
 
-    <br><br><br><br><br>
-
-    <button>
-        <span class="btn-inner">
-          <span class="btn-text">Click Me</span>
-          </span>
-      </button> 
+   
 
     <section class="facts" id="facts" >
         <div class="box1" style="position: relative" >
@@ -1108,23 +1102,8 @@ swalWithBootstrapButtons.fire({
    
 <div class="logo-slider">
 	<div class="slide-track">
-		<div class="slide">
-			<img src="images/logo/1.jpg" height="100" width="100" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/2.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/3.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/4.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/5.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/6.jpg" height="400" width="250" alt="" >
+        <div class="slide">
+			<img src="images/logo/6.jpg" height="100" width="250" alt="" >
 		</div>
 		<div class="slide">
 			<img src="images/logo/7.jpg" height="100" width="250" alt="" />
@@ -1147,6 +1126,22 @@ swalWithBootstrapButtons.fire({
 		<div class="slide">
 			<img src="images/logo/13.jpg" height="100" width="250" alt="" />
 		</div>
+		<div class="slide">
+			<img src="images/logo/1.jpg"  style="height: 140px; width:180px;" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/2.jpg" style="height: 140px; width:180px;" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/3.jpg" style="height: 140px; width:180px;" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/logo/4.jpg" style="height: 140px; width:180px;" alt="" />
+		</div>
+		{{-- <div class="slide">
+			<img src="images/logo/5.jpg" style="height: 140px; width:180px;" alt="" />
+		</div> --}}
+		
 	
 	</div>
 </div>
