@@ -1255,12 +1255,12 @@ function swap(action) {
 setInterval(function() {
   // console.log($('.active').next('.carousel-item').first());
   $('.active').next('.carousel-item').first().addClass('active');
-
+// console.log($('.carousel-inner .carousel-item .testimonial4_slide').first().addClass('active'));
   if(!($('.active').next('.carousel-item').first())[0]){
     $('.carousel-inner .active').removeClass('active');
     $('.carousel-inner .carousel-item').first().addClass('active');
     // console.log($('.carousel-item').first());
-  }
+  } else
   $('.carousel-inner .active').prev().removeClass('active');
 
   

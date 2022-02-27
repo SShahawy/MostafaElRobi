@@ -6222,19 +6222,19 @@ a.close.disabled {
   touch-action: pan-y;
 }
 
-.carousel-inner {
+.carousel-inner ,.carousel-innerr{
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-.carousel-inner::after {
+.carousel-inner::after ,.carousel-innerr::after{
   display: block;
   clear: both;
   content: "";
 }
 
-.carousel-item {
+.carousel-item  {
   position: relative;
   display: none;
   float: left;

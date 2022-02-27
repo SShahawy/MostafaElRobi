@@ -515,7 +515,7 @@
                                             'شركه توصيه بسيطة'=>'شركه توصيه بسيطة',
                                             ), ['class' => 'form-control', 'style' => 'padding-bottom:25px;']) !!}
                                             @elseif($key == 'attach')
-                                            {!! Form::file('attach') !!}
+                                            {!! Form::file('attach',['class' => 'dropzone']) !!}
                                             {!! Form::label('attach', "ارفع مستنداتك", ['class' => 'col-sm-5 col-form-label text-right font-weight-bold required' ]) !!}
                                     @else
                                         {!! Form::text($key, NULL, ['class' => 'form-control', ]) !!}
@@ -617,9 +617,16 @@
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
     <script src="javascript/main.js"></script>
 
-    <script>
-       
-    </script>
+    {{-- <script>
+        var drop = new Dropzone('.dropzone', {
+          createImageThumbnails: false,
+          addRemoveLinks: true,
+          url: "{{ route('company') }}",
+          headers: {
+            'X-CSRF-TOKEN': document.head.querySelector('meta[name="csrf-token"]').content
+          }
+        });
+      </script> --}}
 </body>
 @include('pages.footer')
 @include('pages.modals._modal_com_show')
