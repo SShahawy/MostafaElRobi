@@ -66,7 +66,7 @@ background-attachment: fixed;
                 <div class="title-section text-center">
 
                     
-                       <div class="scene">
+                       <div class="scene" dir="rtl">
 
                         <div class="current">
                             <div class="cube">

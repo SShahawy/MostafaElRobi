@@ -64,7 +64,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="/#cont" class="nav-texts">استشاره</a>
+                                <a href="/request" class="nav-texts">استشاره</a>
                             
                             </li>
                             <li>
@@ -85,6 +85,14 @@
                             </li>
                             <li>
                                 <a href="/request" class="nav-texts">للتواصل</a>
+                                <ul class="sub-menu" style="text-align: right; padding-right:10px;">
+                                    <li><a   href="tel:2035902759">2035902759+</a></li>
+                                    <li> <a  href="tel:201278823809">201278823809+</a></li>
+                                    <li>   <a   href="tel:201272653225">201272653225+
+                                        </a></li>
+                                </ul>
+
+                              
                             
                             </li>
                         </ul>                                   

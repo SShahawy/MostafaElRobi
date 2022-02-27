@@ -64,12 +64,12 @@ background-attachment: fixed;
 
                         <div class="current">
                             <div class="cube">
-                                <div class="face">اتصل بنا</div>
+                                <div class="face">احجز استشارة</div>
                             </div>
                           
                         </div>
                     
-                        <div class="next">
+                        <div class="next" dir="rtl">
                             <div class="cube">
                                 <div class="face">محامون</div>
                             </div>

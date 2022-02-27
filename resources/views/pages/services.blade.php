@@ -72,7 +72,7 @@ swalWithBootstrapButtons.fire({
                           
                         </div>
                     
-                        <div class="next">
+                        <div class="next" dir="rtl">
                             <div class="cube">
                                 <div class="face">محامون</div>
                             </div>
