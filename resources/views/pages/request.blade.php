@@ -170,7 +170,7 @@ background-attachment: fixed;
                 --}}
                 <div class="fl-btn">
                     
-                <input type="submit"  class="hvr-vertical" style="" value="احجز الاَن">
+                <input type="submit"  class="hvr-vertical all-buttons" style="" value="احجز الاَن">
             </div> 
             <br><br>
             </form>
