@@ -40,9 +40,7 @@
   width: 100%;
   /* height: 100%; */
 }
-.img-slider .slider-container .slide{
-    height:500px;
-}
+
 @keyframes slider {
     0%, 25%, 100%{left: 0}
     
@@ -182,13 +180,89 @@ swalWithBootstrapButtons.fire({
     </div> --}}
 
 
+    <div class="logo-slider">
+        <div class="slide-track">
+            <div class="slide">
 
-    <Section class="img-slider">
-        <div class="slider-container ">
-          
-          <div class="slide">
+                    <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
+                                        <div class="image-box-law">
+                                            <div class="featured-post">
+                                                <div class="entry-image">
+                                                    <a id="yy" href="#services"><img src="images/services/company1.jpg" class="tt" alt="الخدمات"></a>
+                                                </div>
+                                                <div class="icon">
+                                                    <a id="yy" href="#services" ><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                                                </div>
+                                            </div>
+                                            <div class="content-law">
+                                                <h4 class="name"><a  id="yy" href="#rr">الخدمات </a></h4>
+                                                {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                                                {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                                            </div>
+                                        </div>
+                                    </div>
+              
+            </div>
+            <div class="slide">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12" style="width:450px;height:300px;">
+                    <div class="image-box-law">
+                        <div class="featured-post">
+                            <div class="entry-image">
+                                <a  id="yy" href="#rr"><img src="images/about/vision.jpg" class="tt" alt="رؤيتنا"></a>
+                            </div>
+                            <div class="icon">
+                                <a  id="yy" href="#rr"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                            </div>
+                        </div>
+                        <div class="content-law">
+                            <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
+                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                            {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
+                    <div class="image-box-law">
+                        <div class="featured-post">
+                            <div class="entry-image">
+                                <a id="yy" href="/company-open"><img src="images/about/company.jpg" class="tt" alt="اسس شركتك"></a>
+                            </div>
+                            <div class="icon">
+                                <a id="yy" href="/company-open" id = ''><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                            </div>
+                        </div>
+                        <div class="content-law">
+                            <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
+                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                            {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
+                    <div class="image-box-law">
+                        <div class="featured-post">
+                            <div class="entry-image">
+                                <a id="yy" href="/request"><img src="images/about/res.jpg" class="tt" alt="حجز استشاره"></a>
+                            </div>
+                            <div class="icon">
+                                <a id="yy" href="/request"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                            </div>
+                        </div>
+                        <div class="content-law">
+                            <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
+                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                            {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
 
-                <div class="col-lg-12 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
                                     <div class="image-box-law">
                                         <div class="featured-post">
                                             <div class="entry-image">
@@ -205,11 +279,10 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                     </div>
                                 </div>
-          </div>
           
-          <div class="slide">
-
-            <div class="col-lg-12 col-md-6 col-sm-6 col-12">
+        </div>
+        <div class="slide">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12" style="width:450px;height:300px;">
                 <div class="image-box-law">
                     <div class="featured-post">
                         <div class="entry-image">
@@ -223,6 +296,184 @@ swalWithBootstrapButtons.fire({
                         <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                         {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
+                <div class="image-box-law">
+                    <div class="featured-post">
+                        <div class="entry-image">
+                            <a id="yy" href="/company-open"><img src="images/about/company.jpg" class="tt" alt="اسس شركتك"></a>
+                        </div>
+                        <div class="icon">
+                            <a id="yy" href="/company-open" id = ''><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                        </div>
+                    </div>
+                    <div class="content-law">
+                        <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
+                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
+                <div class="image-box-law">
+                    <div class="featured-post">
+                        <div class="entry-image">
+                            <a id="yy" href="/request"><img src="images/about/res.jpg" class="tt" alt="حجز استشاره"></a>
+                        </div>
+                        <div class="icon">
+                            <a id="yy" href="/request"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                        </div>
+                    </div>
+                    <div class="content-law">
+                        <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
+                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+
+            <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
+                                <div class="image-box-law">
+                                    <div class="featured-post">
+                                        <div class="entry-image">
+                                            <a id="yy" href="#services"><img src="images/services/company1.jpg" class="tt" alt="الخدمات"></a>
+                                        </div>
+                                        <div class="icon">
+                                            <a id="yy" href="#services" ><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                                        </div>
+                                    </div>
+                                    <div class="content-law">
+                                        <h4 class="name"><a  id="yy" href="#rr">الخدمات </a></h4>
+                                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                                    </div>
+                                </div>
+                            </div>
+      
+    </div>
+    <div class="slide">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12" style="width:450px;height:300px;">
+            <div class="image-box-law">
+                <div class="featured-post">
+                    <div class="entry-image">
+                        <a  id="yy" href="#rr"><img src="images/about/vision.jpg" class="tt" alt="رؤيتنا"></a>
+                    </div>
+                    <div class="icon">
+                        <a  id="yy" href="#rr"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                    </div>
+                </div>
+                <div class="content-law">
+                    <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
+                    {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                    {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
+            <div class="image-box-law">
+                <div class="featured-post">
+                    <div class="entry-image">
+                        <a id="yy" href="/company-open"><img src="images/about/company.jpg" class="tt" alt="اسس شركتك"></a>
+                    </div>
+                    <div class="icon">
+                        <a id="yy" href="/company-open" id = ''><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                    </div>
+                </div>
+                <div class="content-law">
+                    <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
+                    {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                    {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="col-lg-12 col-md-6 col-sm-6 col-12" style="width:450px;height:300px;">
+            <div class="image-box-law">
+                <div class="featured-post">
+                    <div class="entry-image">
+                        <a id="yy" href="/request"><img src="images/about/res.jpg" class="tt" alt="حجز استشاره"></a>
+                    </div>
+                    <div class="icon">
+                        <a id="yy" href="/request"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                    </div>
+                </div>
+                <div class="content-law">
+                    <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
+                    {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
+                    {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+            {{-- <div class="slide">
+                <img src="images/logo/10.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/11.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/12.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/13.jpg" height="100" width="250" alt="" />
+            </div> --}}
+            {{-- <div class="slide">
+                <img src="images/logo/5.jpg" style="height: 140px; width:180px;" alt="" />
+            </div> --}}
+            
+        
+        </div>
+    </div>
+
+    {{-- <Section class="img-slider">
+        <div class="slider-container ">
+          
+          <div class="slide">
+
+                <div class="col-lg-12 col-md-6 col-sm-6 col-12">
+                                    <div class="image-box-law">
+                                        <div class="featured-post">
+                                            <div class="entry-image">
+                                                <a id="yy" href="#services"><img src="images/services/company1.jpg" class="tt" alt="الخدمات"></a>
+                                            </div>
+                                            <div class="icon">
+                                                <a id="yy" href="#services" ><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                                            </div>
+                                        </div>
+                                        <div class="content-law">
+                                            <h4 class="name"><a  id="yy" href="#rr">الخدمات </a></h4>
+
+                                        </div>
+                                    </div>
+                                </div>
+          </div>
+          
+          <div class="slide">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+                <div class="image-box-law">
+                    <div class="featured-post">
+                        <div class="entry-image">
+                            <a  id="yy" href="#rr"><img src="images/about/vision.jpg" class="tt" alt="رؤيتنا"></a>
+                        </div>
+                        <div class="icon">
+                            <a  id="yy" href="#rr"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
+                        </div>
+                    </div>
+                    <div class="content-law">
+                        <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
+
                     </div>
                 </div>
             </div>
@@ -244,8 +495,7 @@ swalWithBootstrapButtons.fire({
                     </div>
                     <div class="content-law">
                         <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
-                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+
                     </div>
                 </div>
             </div>
@@ -267,8 +517,7 @@ swalWithBootstrapButtons.fire({
                     </div>
                     <div class="content-law">
                         <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
-                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
+
                     </div>
                 </div>
             </div>
@@ -281,7 +530,7 @@ swalWithBootstrapButtons.fire({
           
           
         </div>
-      </Section>
+      </Section> --}}
       <br><br><br><br><br><br>
 
 
@@ -1118,51 +1367,51 @@ swalWithBootstrapButtons.fire({
 
    
    
-<div class="logo-slider">
-	<div class="slide-track">
-        <div class="slide">
-			<img src="images/logo/6.jpg" height="100" width="250" alt="" >
-		</div>
-		<div class="slide">
-			<img src="images/logo/7.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/8.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/9.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/10.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/11.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/12.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/13.jpg" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/1.jpg"  style="height: 140px; width:180px;" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/2.jpg" style="height: 140px; width:180px;" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/3.jpg" style="height: 140px; width:180px;" alt="" />
-		</div>
-		<div class="slide">
-			<img src="images/logo/4.jpg" style="height: 140px; width:180px;" alt="" />
-		</div>
-		{{-- <div class="slide">
-			<img src="images/logo/5.jpg" style="height: 140px; width:180px;" alt="" />
-		</div> --}}
-		
-	
-	</div>
-</div>
+    <div class="logo-slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="images/logo/6.jpg" height="100" width="250" alt="" >
+            </div>
+            <div class="slide">
+                <img src="images/logo/7.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/8.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/9.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/10.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/11.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/12.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/13.jpg" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/1.jpg"  style="height: 140px; width:180px;" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/2.jpg" style="height: 140px; width:180px;" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/3.jpg" style="height: 140px; width:180px;" alt="" />
+            </div>
+            <div class="slide">
+                <img src="images/logo/4.jpg" style="height: 140px; width:180px;" alt="" />
+            </div>
+            {{-- <div class="slide">
+                <img src="images/logo/5.jpg" style="height: 140px; width:180px;" alt="" />
+            </div> --}}
+            
+        
+        </div>
+    </div>
 
 
 

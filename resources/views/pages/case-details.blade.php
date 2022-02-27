@@ -551,7 +551,8 @@
                                 <button type="button" class="btn btn-primary btn-block" id="js-btn-save-address">Fill</button>
                             </div>
                         </div> --}}
-                        {{ Form::open(array('route' => 'company', 'method' => 'post')) }}
+                        {{-- {{ Form::open(array('route' => 'company', 'method' => 'post')) }} --}}
+                        <form action="{{ route('company') }}" method="post">
                         @csrf
                         @foreach ([
                                 'type' => 'نوع الشركه',
@@ -578,23 +579,30 @@
                                             'شركه تضامن'=>'شركه تضامن',
                                             'شركه توصيه بسيطة'=>'شركه توصيه بسيطة',
                                             ), ['class' => 'form-control', 'style' => 'padding-bottom:25px;']) !!}
+
+
                                             @elseif($key == 'attach')
-                                            {!! Form::file('attach') !!}
-                                            {!! Form::label('attach', "ارفع مستنداتك", ['class' => 'col-sm-5 col-form-label text-right font-weight-bold required' ]) !!}
+                                            {{-- {!! Form::file('attach',['class' => 'dropzone']) !!} --}}
+                                            <input type="file" name="file" class="form-control" accept=".jpg,.jpeg,.bmp,.png,.gif,.doc,.docx,.csv,.rtf,.xlsx,.xls,.txt,.pdf,.zip">
+                                            {{-- {!! Form::label('attach', "ارفع مستنداتك", ['class' => 'col-sm-5 col-form-label text-right font-weight-bold required' ]) !!} --}}
                                     @else
-                                        {!! Form::text($key, NULL, ['class' => 'form-control', ]) !!}
+                                        {{-- {!! Form::text($key, NULL, ['class' => 'form-control', ]) !!} --}}
+                                        <input type="text" name="{{$key}}" class="form-control">
                                         
                                     @endif
                                 </div>
-                                {!! Form::label($key, ' : '.$value, ['class' => 'col-sm-4 col-form-label text-right font-weight-bold required' ]) !!}
+                                <label for="{{$key}}" class="col-sm-4 col-form-label text-right font-weight-bold required"> : {{ $value }}</label>
+                                {{-- {!! Form::label($key, ' : '.$value, ['class' => 'col-sm-4 col-form-label text-right font-weight-bold required' ]) !!} --}}
 
                             </div>
                         @endforeach
                         <div class="modal-footer">
                             <div class="modal-button-default">
-                                {{ Form::submit('تقديم البيانات!',['class'=> 'btn btn-primary']) }}
+                                <input type="submit" value="تقديم البيانات!" class="all-buttons btn btn-primary">
+                                {{-- {{ Form::submit('تقديم البيانات!',['class'=> ' all-buttons btn btn-primary']) }} --}}
                                 {{-- <button type="button" class="btn btn-primary" id="js-btn-save-new-location">تقديم البيانات</button> --}}
                             </div>
+                        </form>
                         </div>
                     </div>
                 </div>

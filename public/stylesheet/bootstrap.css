@@ -1798,7 +1798,7 @@ pre code {
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     display: block;
-    width: 100%;
+    width: auto;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
