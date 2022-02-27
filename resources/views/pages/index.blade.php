@@ -101,20 +101,6 @@ swalWithBootstrapButtons.fire({
                     <a class="btn" href="#">احجز استشاره</a>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://i.ibb.co/JRrHmhv/shanghai.jpg" alt="New York">
-                <div class="carousel-caption">
-                
-                    <a class="btn" href="#">Make an appointment</a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://i.ibb.co/JRrHmhv/shanghai.jpg" alt="New York">
-                <div class="carousel-caption">
-                 
-                    <a class="btn" href="#">Make an appointment</a>
-                </div>
-            </div>
         </div>
         <a class="carousel-control-prev" href="#slider-home" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
