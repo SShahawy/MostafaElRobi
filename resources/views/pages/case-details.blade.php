@@ -160,12 +160,12 @@
                     <div class="case-results">
                         <div class="container">
                         <div class="flat-portfolio ">
-                            <h3 class=" title texts">شركات أشخاص</h3>
+                            <h3 class=" title texts" style="color: #A83E17;">شركات أشخاص</h3>
                             <p style="font-weight:bold; font-size:20px; text-align:center;">لشركات الاشخاص في القانون المصري أشكال ثلاثة هي شركة التضامن وشركة التوصية وشركة المحاصة ، وأهم مايميز هذه الشركات أنها تقوم علي الإعتبار الشخصي والثقة المتبادلة بين الشركاء ولشركات الأشخاص خصائص وأحكام مشتركة </p>
                                 <ul class="flat-filter-isotype">
-                                    <li class="active"><a href="#" data-filter=".tdamon"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more" >شركة التضامن </button> </a></li>
-                                    <li><a href="#" data-filter=".twsya"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more ">شركات التوصية البسيطة</button></a></li>
-                                    <li><a href="#" data-filter=".ma7asa"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more">
+                                    <li class="active"><a href="#" data-filter=".tdamon"><button class="all-buttons" >شركة التضامن </button> </a></li>
+                                    <li><a href="#" data-filter=".twsya"><button class="all-buttons" >شركات التوصية البسيطة</button></a></li>
+                                    <li><a href="#" data-filter=".ma7asa"><button class="all-buttons" >
                                        شركات المحاصة
                                     </button></a></li>
                                   
@@ -307,14 +307,14 @@
                     <div class="case-results">
                         <div class="container">
                         <div class="flat-portfolio ">
-                            <h3 class=" title texts">شركات الأموال</h3>
+                            <h3 class=" title texts" style="color: #A83E17;">شركات الأموال</h3>
                             <p style="font-weight:bold; font-size:20px; text-align:center;">
                                 هي شركات تقوم علي الإعتبار المالي ويتراجع فيها الإعتبار الشخصي . والشكل الذى تتخذه هذه الشركات هو     
                             </p>
                                 <ul class="flat-filter-isotype">
-                                    <li class=""><a href="#" data-filter=".mosahma"><button style="padding:20px;background-color:#B5735D !important;" class="btn" >شركات المساهمة</button> </a></li>
-                                    <li><a href="#" data-filter=".asehom"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more ">شركات التوصية بالأسهم</button></a></li>
-                                    <li><a href="#" data-filter=".ma7doda"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more">شركات ذات المسئولية المحدودة </button></a></li>
+                                    <li class=""><a href="#" data-filter=".mosahma"><button class="all-buttons" >شركات المساهمة</button> </a></li>
+                                    <li><a href="#" data-filter=".asehom"><button class="all-buttons" >شركات التوصية بالأسهم</button></a></li>
+                                    <li><a href="#" data-filter=".ma7doda"><button class="all-buttons" >شركات ذات المسئولية المحدودة </button></a></li>
                                   
 
                                 </ul>

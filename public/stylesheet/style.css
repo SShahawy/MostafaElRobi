@@ -3074,7 +3074,7 @@ margin-top: -25px;
     /* background-image: linear-gradient(#D6CABB,#ADB4AC); */
      padding:20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 300px;
+    height: auto;
  
 }
 /* testimonial
@@ -4744,7 +4744,12 @@ div#slider-home .carousel-item::before {
     animation-name: example;
   /* animation-duration: 6s; */
 }
-
+  
+.all-buttons:hover{    
+    /* background-color: #A83E17; */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 .dropzone {
     margin-bottom: 20px;
     min-height: auto;
