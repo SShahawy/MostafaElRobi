@@ -80,9 +80,8 @@ class EstsharatController extends Controller
         $com->email = $request->email;
         $com->phone = $request->phone;
         $com->location = $request->location;
-        $com->attach = $request->attach;
+        $com->attach = $request->file;
 
-        $request->attach->store('attach');
         $com->save();
 
       
@@ -93,13 +92,27 @@ class EstsharatController extends Controller
                   'name'   =>   $request->name,
                   'money'   =>   $request->money,
                   'location'   =>   $request->location,
-                  'attach'   =>   $request->attach,
+                  'attach'   =>   $request->file,
                   'email'   =>   $request->email,
                   'phone'   =>   $request->phone
               );
-      
-        //    Mail::to('combidino6@gmail.com')->send(new SendMail($data));
-         
+              //    Mail::to('combidino6@gmail.com')->send(new SendMail($data));
+              
+              $fileName = auth()->id() . '_' . time() . '.'. $request->file->extension();  
+              dd($fileName);
+
+        $type = $request->file->getClientMimeType();
+        $size = $request->file->getSize();
+
+        $request->file->move(public_path('file'), $fileName);
+
+        File::create([
+            'user_id' => auth()->id(),
+            'name' => $fileName,
+            'type' => $type,
+            'size' => $size
+        ]);
+
         return redirect()->route('company-open')->with('message', 'تم ارسال بيانات الشركة');
    }
 
