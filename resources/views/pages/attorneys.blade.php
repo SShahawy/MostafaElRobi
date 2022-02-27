@@ -37,8 +37,8 @@
     <div class="attorneys attorneys-style1">
         <div class="container">
             <div class="title-section text-center">
-                <h3 class="flat-title">الشهادات الاكاديميه</h3>
-                <p class="sub-title">التي حصل عليها الدكتور مصطفي الروبي</p>
+                <h3 class="title texts">الشهادات الاكاديميه</h3>
+                <p class="sub-title">التي حصل عليها مصطفي الروبي</p>
             </div>
             
             <div class="attorneys-details">
@@ -366,11 +366,11 @@
                         <p>Lorem ipsum dolor sit amet, consecte dunt ut labore</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                {{-- <div class="col-lg-4 col-sm-12">
                     <div class="fl-btn">
                         <a href="#" class="hvr-vertical">read more</a>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div><!-- featured-banner -->

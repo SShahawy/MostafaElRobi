@@ -898,7 +898,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">الاستشارات القانونية والاقتصادية.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'الاستشارات'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'الاستشارات'  class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -915,7 +915,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">إدارة القضايا والمنازعات بكافة انواعها  </h4>
                                             {{-- <p class="description">يستوعب الفريق احتياجات العملاء العقارية ويتبع منهجآ عمليآ فى حل المشكلات ذات الصلة</p> --}}
-                                            <a href="javascript:void(0)" id = 'monaz3at'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'monaz3at' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -932,7 +932,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">تأسيس الشركات وهيكلتها بكافة انواعها.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="/company-open" id = 'sharekat'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="/company-open" id = 'sharekat' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -951,7 +951,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">التعامل مع مصر للمقاصة والقيد والإيداع المركزي.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'للمقاصة'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'للمقاصة' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -968,7 +968,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">منازعات التحكيم التجاري الدولي والمحلي  </h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'التحكيم'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'التحكيم' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -985,7 +985,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">التصديق على الأوراق الرسمية.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'التصديق'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'التصديق' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1002,7 +1002,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">تحصيل وتسوية الديون من القطاع المصرفي.</h4>
                                             {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
-                                            <a href="javascript:void(0)" id = 'الديون'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'الديون' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1024,7 +1024,7 @@ swalWithBootstrapButtons.fire({
                                     <div class="content-law">
                                         <h4 class="name">المسؤولية التقصيرية والتعويض</h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                        <a href="javascript:void(0)" id = 'mas2olya'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                        <a href="javascript:void(0)" id = 'mas2olya' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
                             </div>
@@ -1043,7 +1043,7 @@ swalWithBootstrapButtons.fire({
                                             <br>
                                         </h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                        <a href="javascript:void(0)" id = 'ta2menat'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                        <a href="javascript:void(0)" id = 'ta2menat' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
                             </div>
@@ -1060,7 +1060,7 @@ swalWithBootstrapButtons.fire({
                                     <div class="content-law">
                                         <h4 class="name">القضايا الإدارية ومجلس الدولة </h4>
                                         {{-- <p class="description">يستوعب الفريق احتياجات العملاء العقارية ويتبع منهجآ عمليآ فى حل المشكلات ذات الصلة</p> --}}
-                                        <a href="javascript:void(0)" id = 'dawla'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                        <a href="javascript:void(0)" id = 'dawla' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
                             </div>
@@ -1077,7 +1077,7 @@ swalWithBootstrapButtons.fire({
                                     <div class="content-law">
                                         <h4 class="name">إقامة العمل وتصاريح عمل الأجانب.</h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                        <a href="javascript:void(0)" id = 'tasaree7'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                        <a href="javascript:void(0)" id = 'tasaree7' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
                             </div>
@@ -1098,7 +1098,7 @@ swalWithBootstrapButtons.fire({
                                             <br>
                                         </h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                        <a href="javascript:void(0)" id = '3akary'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                        <a href="javascript:void(0)" id = '3akary' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
                             </div>
@@ -1115,7 +1115,7 @@ swalWithBootstrapButtons.fire({
                                     <div class="content-law">
                                         <h4 class="name">حقوق الملكية الفكرية وبراءة الاختراع </h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                        <a href="javascript:void(0)" id = 'e5tra3'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                        <a href="javascript:void(0)" id = 'e5tra3' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
                             </div>
@@ -1134,7 +1134,7 @@ swalWithBootstrapButtons.fire({
                                             <br>
                                         </h4>
                                         {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                        <a href="javascript:void(0)" id = 'gensya'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                        <a href="javascript:void(0)" id = 'gensya' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
                             </div>
@@ -1153,7 +1153,7 @@ swalWithBootstrapButtons.fire({
                                             <br>
                                         </h4>
                                         {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
-                                        <a href="javascript:void(0)" id = 'elec'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                        <a href="javascript:void(0)" id = 'elec' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
                             </div>
@@ -1177,7 +1177,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">زواج ومنازعات الأجانب</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'zawag'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'zawag' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1194,7 +1194,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">الهجرة.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'hegra'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'hegra' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1210,8 +1210,8 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">قطاع البترول </h4>
-                                            {{-- <p class="description">يستوعب الفريق احتياجات العملاء العقارية ويتبع منهجآ عمليآ فى حل المشكلات ذات الصلة</p> --}}
-                                            <a href="javascript:void(0)" id = 'petrol'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            {{-- <p class="description">يستوعب الفريق احتياجات العملاء العقارية ويتبع منهجآ عمليآ فى حل المش كلات ذات الصلة</p> --}}
+                                            <a href="javascript:void(0)" id = 'petrol' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1228,7 +1228,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">خدمة الضرائب والجمارك.</h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'gamarek'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'gamarek' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1249,7 +1249,7 @@ swalWithBootstrapButtons.fire({
                                                 <br>
                                             </h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'cinema'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'cinema' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1267,7 +1267,7 @@ swalWithBootstrapButtons.fire({
                                             <h4 class="name">ادارة الاملاك العقارية
                                                 <br> </h4>
                                             {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            <a href="javascript:void(0)" id = 'amlaak'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'amlaak' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1284,7 +1284,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name"> تٌملك العقارات والأراضي وتخصيصها وتقنينها.</h4>
                                             {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
-                                            <a href="javascript:void(0)" id = 'tamalok'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'tamalok' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1301,7 +1301,7 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name"> منازعات شؤون الأسرة وقضايا الاحوال الشخصية.</h4>
                                             {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
-                                            <a href="javascript:void(0)" id = 'osra'><span style="font-weight:bold;font-size:20px;">للمزيد اضغط هنا</span></a>
+                                            <a href="javascript:void(0)" id = 'osra' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
                                 </div>

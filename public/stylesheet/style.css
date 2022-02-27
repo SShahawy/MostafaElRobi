@@ -2830,6 +2830,25 @@ margin-top: -25px;
     background-color: #A75032;
     text-transform: uppercase;
 }
+.btn-read-more {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 37px 10px 37px;
+    background-color: #A75032;
+    text-transform: uppercase;
+}
+
+.btn-read-more:hover {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    display: inline-block;
+    padding: 10px 37px 10px 37px;
+    background-color: #A75032;
+    text-transform: uppercase;
+}
 .flat-slider .custom.tparrows {
     display: block;
     background: unset !important;
@@ -3517,7 +3536,7 @@ margin-top: -25px;
 }
 
 .title{
-    color:#CCA776;
+    color:#3F2217;
 }
 
 .subtitle {
@@ -3654,14 +3673,7 @@ body{
     width: 1170px;
   }
 }
-h3.title {
-    color: #faad81;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 1em;
-    font-weight: 600;
-    font-style: italic;
-}
+
 .team-grid {
     text-align: center;
 }
@@ -3704,7 +3716,7 @@ h3.title {
   }
 }
 h3.title {
-    color: #CCA776;
+    color: #3F2217;
     font-size: 50px;
     text-align: center;
     margin-bottom: 1em;
@@ -4345,7 +4357,7 @@ img {
     letter-spacing: 1px;
     text-align: center;
     font-size: 50px;
-    color: #9e634d;
+    color: #3F2217;
     z-index: 992131311;
     top: 50%;
     left: 50%;
@@ -4353,14 +4365,14 @@ img {
     /* transform: translate(-50%, -160%);   */
     /* font-variation-settings: "wght" var(--wght); */
     
-    text-shadow:  0 .1vw 0#ac3105,
-                  0 .2vw 0 #aa390f,
-                  0 .3vw 0 #a7411b,
-                  0 .4vw 0 #a34826,
-                  0 .5vw 0 white,
-                  0 .6vw 0  transparent,
-                  0 .7vw 0 transparent,
-                  0 .8vw 0 transparent,
+    text-shadow:  0 .1vw 0#724331,
+                  0 .2vw 0 #945d4a,
+                  0 .3vw 0 #66463c,
+                  0 .4vw 0 #795c52,
+                  0 .5vw 0 #b4897b,
+                  0 .6vw 0 #b6988f,
+                  0 .7vw 0 white,
+                  0 .8vw 0 white,
                   0 0 .5vw rgba(0,0,0,.05),
                   0 .1vw .3vw rgba(0,0,0,.05),
                   0 .3vw .5vw rgba(0,0,0,.05),
@@ -4469,7 +4481,7 @@ img {
 }
 .logo{position:relative;z-index:123;padding:10px;font:18px verdana;color:#6DDB07;float:left;}
 .logo img {
-    max-width: 170px;
+    max-width: 230px;
 }
 .logo a{color:#6DDB07;}
 #cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile{border:0;list-style:none;line-height:1;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
@@ -4713,7 +4725,7 @@ div#slider-home .carousel-item::before {
     }
   }
   .logo-slider {
-    height: 400px;
+    height: 500px;
     margin: auto;
     overflow: hidden;
     position: relative;

@@ -1,8 +1,28 @@
+@include('pages.header')
 
 <body>
     <div id="loading-overlay">
         <div class="loader"></div>
     </div>
+    @if(session()->has('message'))
+    <script>
+const swalWithBootstrapButtons = Swal.mixin({
+  customClass: {
+    confirmButton: 'btn btn-warning',
+  },
+  buttonsStyling: false
+})
+swalWithBootstrapButtons.fire({
+        html:
+        '<h3><b>تم ارسال بيانات التأسيس , سيتم التواصل</b></h3>',
+          showConfirmButton:true,
+
+          confirmButtonText:'<i style="padding:10px 50px;" class="btn-lg btn-warning">!تم</i> ',
+          
+      });
+        </script>
+    @endif
+
     <style>
         /* body {
           font-family: 'Source Sans Pro', sans-serif;
@@ -30,7 +50,6 @@
           white-space: nowrap;
         } 
       </style>
-    @include('pages.header')
     <div class="contact clearfix img-behind-hire">
         <div class="container second">
 
@@ -76,7 +95,7 @@
                             </div>
                         </div>
                         <div class="case-dt introduction-content">
-                            <h3 class="title texts"><a href="#">تأسيس شركات</a></h3>
+                            <h3 class="title texts">تأسيس شركات</h3>
                             <p>
                                 نقوم بتوفير كافة الخدمات القانونية للشركات الجديدة والقائمة بالعمل كوكيل للشركة. ويوفر مكتبنا كل ما يتعلق بخدمات تأسيس الشركات لدينا كجزء من خدمتنا مساعدة الأفراد الأجانب والكيانات التجارية الأخرى لتأسيس وجودهم قانونا. 
                             </p>
@@ -90,13 +109,13 @@
                                     <span class="rg-ct">Alexender Flame</span>
                                 </li> --}}
                                 <li>
-                                    <span class="categories nav-texts" >محامون . مستشارون</span>
+                                    <span class="categories " >محامون . مستشارون</span>
                                     <span class="rg-ct" >مصطفي الروبي</span>
                                 </li>
                             </ul><br>
                             
                                 {{-- <div class="btn4-wrapper"><div class="myBtn4"><a href="#">ابدأ بتأسيس الشركه الاَن</a></div></div> --}}
-                                <button type="button" data-toggle="modal" id="mediumButton" data-target="#mediumModal" class="btn btn-primary" >
+                                <button type="button" data-toggle="modal" id="mediumButton" data-target="#mediumModal" class="all-buttons" >
                                     <i class="fa fa-map-marker"></i>
                                     ابدأ بتأسيس الشركه الاَن
                                 </button>
@@ -113,9 +132,9 @@
             <div class="container" >
                 <div class="row">
                     <div class="col-lg-12 whitebox wow fadeIn">
-                <h1 class="texts">
+                <h3 class="title texts">
                     خبرتنا  
-                    <h1>
+                    <h3>
 
                         <p style="font-size: 20px;line-height:60px;">
                             خبرتنا المتخصصة ومعرفتنا الواسعة تؤهلنا لعمل إجراءات تأسيس الشركات بسرعة وكفاءة. يمكننا تسجيل الشركة المحدودة بالاسهم وشركة محدودة بالضمان و أيضا تسجيل الشركات الاجنبية فى مصر
