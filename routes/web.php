@@ -70,3 +70,4 @@ Route::get('_modal_com_show', function () {
 Route::post('estshara', [EstsharatController::class,'store'])->name('estshara');
 Route::post('tawzeef', [HiringController::class,'store'])->name('tawzeef');
 Route::post('company', [EstsharatController::class,'storeCom'])->name('company');
+// Route::post('/upload-file', [EstsharatController::class, 'fileUpload'])->name('fileUpload');

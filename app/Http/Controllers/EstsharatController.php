@@ -7,6 +7,8 @@ use App\Models\Estsharat;
 use App\Models\Company;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
+use App\Models\Upload;
+
 class EstsharatController extends Controller
 {
     /**
@@ -80,6 +82,7 @@ class EstsharatController extends Controller
         $com->location = $request->location;
         $com->attach = $request->attach;
 
+        $request->attach->store('attach');
         $com->save();
 
       
@@ -96,11 +99,11 @@ class EstsharatController extends Controller
               );
       
         //    Mail::to('combidino6@gmail.com')->send(new SendMail($data));
-          return redirect()->route('company-open')->with('message', 'تم ارسال بيانات الشركة');
+         
+        return redirect()->route('company-open')->with('message', 'تم ارسال بيانات الشركة');
+   }
 
-        //    return redirect()->route('index')
-        //    ->with('success', 'Created successfully.');
-    }
+
 
 
 

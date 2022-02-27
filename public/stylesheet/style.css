@@ -4717,3 +4717,8 @@ div#slider-home .carousel-item::before {
     animation-name: example;
   /* animation-duration: 6s; */
 }
+
+.dropzone {
+    margin-bottom: 20px;
+    min-height: auto;
+  }

@@ -86,7 +86,7 @@ swalWithBootstrapButtons.fire({
             <li data-target="#slider-home" data-slide-to="2"></li>
             <li data-target="#slider-home" data-slide-to="3"></li>
         </ul>
-        <div class="carousel-inner">
+        <div class="carousel-innerr">
             <div class="carousel-item active">
                 <img src="images/head/mostafaelrobi.jpg" alt="Los Angeles">
                 <div class="carousel-caption">
