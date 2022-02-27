@@ -96,9 +96,9 @@
                             </ul><br>
                             
                                 {{-- <div class="btn4-wrapper"><div class="myBtn4"><a href="#">ابدأ بتأسيس الشركه الاَن</a></div></div> --}}
-                                <button type="button" data-toggle="modal" id="mediumButton" data-target="#mediumModal" class=" all-buttons" >
+                                <button type="button" data-toggle="modal" id="mediumButton" data-target="#mediumModal" class="btn btn-primary" >
                                     <i class="fa fa-map-marker"></i>
-                                    أسس شركتك الاَن
+                                    ابدأ بتأسيس الشركه الاَن
                                 </button>
 
                         </div>
@@ -142,168 +142,269 @@
                             <li class="steps"   >
                                 <div class="steps-name" dir="rtl">
                                     <span class="number" style=" ">١</span>
-                                    <span class="name" > شركات المساهمة</span>
+                                    <span class="name" > شركات أشخاص</span>
                                 </div>
                             </li>
                             <li class="steps"  >
                                 <div class="steps-name" dir="rtl">
                                     <span class="number" style=" ">٢</span>
-                                    <span class="name" > شركات ذات الملكية الفردية </span>
+                                    <span class="name" > شركات أموال </span>
                                 </div>
                             </li>
-                            <li class="steps"   >
-                                <div class="steps-name" dir="rtl">
-                                    <span class="number" style=" ">٣</span>
-                                    <span class="name" > شركات ذات المسئولية المحدودة</span>
-                                </div>
-                            </li>
-                            <li class="steps"   >
-                                <div class="steps-name" dir="rtl">
-                                    <span class="number" style=" ">٤</span>
-                                    <span class="name" >شركات التوصية البسيط</span>
-                                </div>
-                            </li>
+                            
                         </ul>
                     </div>
                     </div>
 
-
-
-
+                    
                     <div class="case-results">
                         <div class="container">
-                        <div class="flat-portfolio">
+                        <div class="flat-portfolio ">
+                            <h3 class=" title texts">شركات أشخاص</h3>
+                            <p style="font-weight:bold; font-size:20px; text-align:center;">لشركات الاشخاص في القانون المصري أشكال ثلاثة هي شركة التضامن وشركة التوصية وشركة المحاصة ، وأهم مايميز هذه الشركات أنها تقوم علي الإعتبار الشخصي والثقة المتبادلة بين الشركاء ولشركات الأشخاص خصائص وأحكام مشتركة </p>
                                 <ul class="flat-filter-isotype">
-                                    <li class="active"><a href="#" data-filter=".mosahma"><button style="background-color:#B5735D !important;" class="all-buttons btn-read-more" >شركات المساهمة</button> </a></li>
-                                    <li><a href="#" data-filter=".fardya"><button style="background-color:#B5735D !important;" class="all-buttons btn-read-more ">الملكية الفردية</button></a></li>
-                                    <li><a href="#" data-filter=".ma7doda"><button style="background-color:#B5735D !important;" class="all-buttons btn-read-more">شركات ذات المسئولية المحدودة </button></a></li>
-                                    <li><a href="#" data-filter=".baseeta"><button style="background-color:#B5735D !important;" class="all-buttons btn-read-more"> شركات التوصية البسيطة </button></a></li>
+                                    <li class="active"><a href="#" data-filter=".tdamon"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more" >شركة التضامن </button> </a></li>
+                                    <li><a href="#" data-filter=".twsya"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more ">شركات التوصية البسيطة</button></a></li>
+                                    <li><a href="#" data-filter=".ma7asa"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more">
+                                       شركات المحاصة
+                                    </button></a></li>
+                                  
 
                                 </ul>
                             </div>
+                            <br><br>
                             <div class="flat-courses clearfix isotope-courses" >
-                                <div class="case clearfix mosahma" style="width:100% !important;">  
+                                <div class="case clearfix tdamon" style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title texts" >شركات مساهمة</h3>
+                                        <h3 class="title texts" style="color:#B5735D !important;" >شركة التضامن </h3>
                                         
                                         <p >
-                                            تعتبر شركات المساهمة كيان تجارى يمتلكه المساهمون. يمتلك حاملي الأسهم حصة في الشركة تتناسب مع ما يمتلكوه من أسهم الشركة (سندات الملكية). ويسمح هذا بالتفاوت فى الحصص المملوكة لبعض المساهمين الذين يملكون نسبة اكبر من أسهم الشركاء الآخرين, يستطيع حاملي الأسهم نقل اسهمهم للغير دون التأثير علي استمرار وجود الشركة    
+                                            هي الشركة التي تقوم بين شخصين فأكثر بقصد الإستغلال التجارى وذلك عن طريق عنوان مخصوص يضم إسم واحد أو أكثر من الشركاء ، ويكون كل شريك مسؤلا أمام الغير عن ديون الشركة مسؤلية شخصية في كل أمواله وبالتضامن مع الشركة ومع غيره من الشركاء .    
                                         </p>
                                         <hr style="border:1px #CCA776 solid;">
-                                        <p id="ti2" style="font-weight:500;color:#B5735D !important;">المطلوب لتأسيس الشركه</p>
+                                        <p id="ti2" style="font-weight:500;color:#B5735D !important;">خصائص شركة التضامن </p>
 
                                         <ul class="process-steps"> 
                                             <li class="steps">
                                                 <div class="steps-name" >
                                                     <span class="number" style="float:right;margin-left:10px;">١</span>
-                                                    <span class="name" > •	شهادة من البنك بإيداع 10% من قيمة رأس المال</span>
+                                                    <span class="name" >عدم جواز تداول حصة الشريك </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
                                                     <span class="number" style="float:right;margin-left:10px;">٢</span>
-                                                    <span class="name" > •	صور من البطاقات الشخصية أو جوازات السفر للمؤسسين أو شهادة ميلاد بالنسبة للقاصر. (إذا وجد)</span>
+                                                    <span class="name" > أن للشركة عنوانا يتألف من أسماء الشركة </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
                                                     <span class="number" style="float:right;margin-left:10px;">٣</span>
-                                                    <span class="name" > •	توكيل من المؤسسين</span>
+                                                    <span class="name" >أن جميع الشركاء في شركة التضامن يكتسبون صفة التاجر</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
                                                     <span class="number" style="float:right;margin-left:10px;">٤</span>
-                                                    <span class="name" > •	عقد الإيجار الأصلي بإسم الشركة الجديدة بعد الحصول علي السجل التجاري شريطة أن يكون تاريخة مسجل في الشهر العقاري بغرض الحصول علي البطاقة الضريبية للشركة</span>
+                                                    <span class="name" > أن جميع الشركاء مسئولون عن إلتزاماتها وديونها مسئولية شخصية وتضامنية </span>
+                                                </div>
+                                            </li>
+                                            
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="case clearfix twsya " style="width:100% !important;">  
+                                    <div class="process  mg-case-details">
+                                        <h3 class="title texts" style="color:#B5735D !important;">شركات التوصية البسيطة</h3>
+                                        
+                                        <p >
+                                            
+                                            هى الشركة التي تعقد بين شريك واحد أو أكثر مسؤلين ومتضامنين وبين شريك واحد أو أكثر يكونون أصحاب أموال فيها وخارجين عن الإدارة ويسمون موصين 
+                                        </p>
+                                        <hr style="border:1px #CCA776 solid;">
+                                        <p id="ti3" style="font-size: 25px;font-weight:500;color:#B5735D !important;">
+                                             خصائص شركة التوصية البسيطة
+                                        </p>
+
+                                        <ul class="process-steps"> 
+                                            <li class="steps">
+                                                <div class="steps-name" >
+                                                    <span class="number" style="float:right;margin-left:10px;">١</span>
+                                                    <span class="name" >	عدم جواز إنتقال حصة الشريك </span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٢</span>
+                                                    <span class="name" > 	صفة التاجر </span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٣</span>
+                                                    <span class="name" >عنوان الشركة </span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٤</span>
+                                                    <span class="name" >المسؤلية المحدودة للشريك الموصي </span>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="case clearfix ma7asa" style="width:100% !important;">  
+                                    <div class="process  mg-case-details">
+                                        <h3 class="title texts" style="color:#B5735D !important;">شركات المحاصة</h3>
+                                        
+                                        <p >
+                                            هى شركة مستترة تنعقد بين شخصين أو أكثر يقدم كل منهما حصة من مال أو عمل للقيام بعمل واحد أو سلسلة من الأعمال دون أن تكتسب هذه الشركة الشخصية المعنوية أو تخضع لإجراءات الشهر وذلك لإقتسام مايشأ عن هذه الشركة من أرباح أو خسائر .
+                                        </p>
+                                        <hr style="border:1px #CCA776 solid;">
+                                        <p style="font-size: 25px;font-weight:500">خصائص شركة المحاصة </p>
+
+                                        <ul class="process-steps"> 
+                                            <li class="steps">
+                                                <div class="steps-name" >
+                                                    <span class="number" style="float:right;margin-left:10px;">١</span>
+                                                    <span class="name" >	أنها شركة مستترة لا عنوان لها</span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٢</span>
+                                                    <span class="name" >إنعدام شخصيتها القانونية</span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٣</span>
+                                                    <span class="name" >أنها من شركات الأشخاص </span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٤</span>
+                                                    <span class="name" >أنها من الشركات التجارية </span>
+                                                </div>
+                                            </li>
+                                         
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+
+                    <div class="case-results">
+                        <div class="container">
+                        <div class="flat-portfolio ">
+                            <h3 class=" title texts">شركات الأموال</h3>
+                            <p style="font-weight:bold; font-size:20px; text-align:center;">
+                                هي شركات تقوم علي الإعتبار المالي ويتراجع فيها الإعتبار الشخصي . والشكل الذى تتخذه هذه الشركات هو     
+                            </p>
+                                <ul class="flat-filter-isotype">
+                                    <li class=""><a href="#" data-filter=".mosahma"><button style="padding:20px;background-color:#B5735D !important;" class="btn" >شركات المساهمة</button> </a></li>
+                                    <li><a href="#" data-filter=".asehom"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more ">شركات التوصية بالأسهم</button></a></li>
+                                    <li><a href="#" data-filter=".ma7doda"><button style="padding:20px;background-color:#B5735D !important;" class="btn-read-more">شركات ذات المسئولية المحدودة </button></a></li>
+                                  
+
+                                </ul>
+                            </div>
+                            <br><br>
+                            <div class="flat-courses clearfix isotope-courses" >
+                                <div class="case clearfix mosahma" style="width:100% !important;">  
+                                    <div class="process  mg-case-details">
+                                        <h3 class="title texts" style="color:#B5735D !important;" >شركات مساهمة</h3>
+                                        
+                                        <p>
+                                            تعرف بأنها شركة ينقسم رأسمالها إلي أسهم متساوية القيمة يمكن تداولها علي النحو المبين بالقانون , وتقتصر مسؤلية المساهم فيها علي أداء قمة الأسهم التي إكتتب فيها ولا يسأل عن ديون الشركة إلا في حدود ما اكتتب فيه من أسهم وتتخذ لها إسم تجارى يشتق من الغرض من إنشائها     
+                                        </p>
+                                        <hr style="border:1px #CCA776 solid;">
+                                        <p id="ti2" style="font-weight:500;color:#B5735D !important;">وخصائص شركة المساهمة </p>
+
+                                        <ul class="process-steps"> 
+                                            <li class="steps">
+                                                <div class="steps-name" >
+                                                    <span class="number" style="float:right;margin-left:10px;">١</span>
+                                                    <span class="name" >شركة المساهمة من شركات الأموال</span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٢</span>
+                                                    <span class="name" >شركة المساهة نظام قانوني </span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٣</span>
+                                                    <span class="name" >ضعف نية المشاركة لدى الشركاء المساهمين</span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٤</span>
+                                                    <span class="name" > 	إسم شركة المساهمة </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
                                                     <span class="number" style="float:right;margin-left:10px;">٥</span>
-                                                    <span class="name" > •	الحد الأدنى من رأس المال المسموح به “مائتين وخمسين الف جنيه مصرى (نسبة مساهمة الاجانب يمكن 100%</span>
+                                                    <span class="name" > رأس مال شركة المساهمة %</span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
                                                     <span class="number" style="float:right;margin-left:10px;">٦</span>
-                                                    <span class="name" > •	يجب الا يقل عدد أعضاء مجلس الادارة عن “ثلاثة”, ويمكن أن يكون جميع اعضاء مجلس الإدارة من أجانب</span>
+                                                    <span class="name" >مسؤلية الشريك المساهم </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
                                                     <span class="number" style="float:right;margin-left:10px;">٧</span>
-                                                    <span class="name" > •	أدنى قيمة العضوية لضمان حصة كل عضو “5000 جنيه مصرى”</span>
-                                                </div>
-                                            </li>
-                                            <li class="steps">
-                                                <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">٨</span>
-                                                    <span class="name" > •	يمكن لمجلس الإدارة ان يشمل علي الأكثر اثنين من ذوى الخبرة الذين لا يستوفون النصاب القانونى</span>
-                                                </div>
-                                            </li>
-                                            <li class="steps">
-                                                <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">٩</span>
-                                                    <span class="name" > •	يجب الا يقل عدد مؤسسو الشركة عن ثلاث (3) أشخاص طبيعين أو اعتباريين, شريطة وجود الأهلية </span>
-                                                </div>
-                                            </li>
-                                            <li class="steps">
-                                                <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">١٠</span>
-                                                    <span class="name" > القانونية لمؤسسى الشركة من الأشخاص الطبيعية وأن يكون الاشخاص الاعتباريين كيانات منفصلة<br>
-                                                        •	يجب الا تقل قيمة السهم عن خمسة جنيهات
-                                                        </span>
-                                                </div>
-                                            </li>
-                                            <li class="steps">
-                                                <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">١١</span>
-                                                    <span class="name" > •	يجب الا تزيد قيمة السهم عن ألف جنية</span>
-                                                </div>
-                                            </li>
-                                            <li class="steps">
-                                                <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">١٢</span>
-                                                    <span class="name" > •	يجب الا يقل رأس مال الشركة المدفوع عن 10% من رأس المال المسموح به</span>
-                                                </div>
-                                            </li>
-                                            <li class="steps">
-                                                <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">١٣</span>
-                                                    <span class="name" > •	يجب الا تقل قيمة الأسهم النقدية عن 25% من قيمة رأس المال المسموح به</span>
+                                                    <span class="name" >عدم إكتساب الشريك المساهم لصفة التاجر </span>
                                                 </div>
                                             </li>
                                             
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="case clearfix fardya " style="width:100% !important;">  
+                                <div class="case clearfix asehom " style="width:100% !important;">  
                                     <div class="process  mg-case-details">
-                                        <h3 class="title texts" style="color:#B5735D !important;">الملكية الفردية</h3>
+                                        <h3 class="title texts" style="color:#B5735D !important;">شركات التوصية بالأسهم</h3>
                                         
                                         <p >
-                                            تعتبر الشركات ذات الملكية الفردية الخيار المفترض أن تكون مالكا وحيداً. مع كون هذا الخيار الأقل شيوعاً والأقل تعقيداً يالنسبة لإجراءات تأسيسها عن الشركات التجارية الاخرى   
+                                            هى شركة يتكون رأس مالها من حصة أو أكثر يملكها شريك متضامن أو أكثر وأسهم متساوية القيمة يكتتب فيها مساهم أو أكثر ويمكن تداولها علي الوجه المبين في القانون , ويسأل الشريك أو الشركاء المتضامنون عن إلتزامات الشركة مسؤلية غيرمحدودة أما الشريك المساهم فلا يكون مسئولا إلا في حدود قيمة الأسهم التي إكتتب فيها ، ويتكون عنوان الشركة منإسم أو أكثر من أسماء الشركاء المتضامنين دون غيرهم .
                                         </p>
                                         <hr style="border:1px #CCA776 solid;">
-                                        <p id="ti3" style="font-size: 25px;font-weight:500;color:#B5735D !important;">المطلوب لتأسيس الشركه</p>
+                                        <p id="ti3" style="font-size: 25px;font-weight:500;color:#B5735D !important;">خصائص شركة التوصية بالأسهم </p>
 
                                         <ul class="process-steps"> 
                                             <li class="steps">
                                                 <div class="steps-name" >
                                                     <span class="number" style="float:right;margin-left:10px;">١</span>
-                                                    <span class="name" > •	صورة من البطاقة الشخصية أو جواز السفر للمؤسسين أو مالك الشركة وشهادة الميلاد بالنسبة للقاصر(إذا وجد)</span>
+                                                    <span class="name" >تضم نوعين من الشركاء </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
                                                     <span class="number" style="float:right;margin-left:10px;">٢</span>
-                                                    <span class="name" > •	توكيل من مؤسسي الشركة</span>
+                                                    <span class="name" > عنوان الشركة </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
                                                     <span class="number" style="float:right;margin-left:10px;">٣</span>
-                                                    <span class="name" >•	عقد الإيجار الأصلي أو التعهد بتقديمة خلال سنة واحدة من تاريخ تسجيله في الشهر العقاري</span>
+                                                    <span class="name" >رأس مال الشركة </span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -314,92 +415,55 @@
                                         <h3 class="title texts" style="color:#B5735D !important;">شركات ذات المسئولية المحدودة</h3>
                                         
                                         <p >
-                                            تختلف الشركة ذات المسئولية المحدودة عن الملكية الفردية في أن مسئولية الشركاء تنحصر في حدود مقدار حصصهم في رأس مال الشركة فقط وبذلك يوفر هذا النوع من الشركات حماية من المسئولية التضامنية ولكن توجد حالات استثنائية يتحمل فيها الشركاء مسئولية تضامنية كاستعمال طرق إحتيالية أو غير قانونية أو لم يتم الفصل بين أنشطة الشركة والذمة المالية الشخصية.
-ووفقا للقانون المصري لا يسمح للبنوك وشركات التأمين والمنطمات الغير الربحية أن تؤسس شركة ذات مسئولية محدودة
-
+                                            هي شركة لا يزيد عدد الشركاء فيها علي خمسين شريكا لا يكون كل منهم مسئولا إلا بقدر حصته . وأنه لا يجوز تأسيسها أو زيادة رأس مالها أو الإقتراض لحسابها عن طريق الإكتتاب العام ولا يجوز لها إصدارأسهم أو سندات قابلة للتداول , ويكون إنتقال حصص الشركاء فيها خاضعا لاسترداد الشركاء طبقا للشروط الخاصة التي يتضمنها عقد المشاركة فضلا عن الشروط المقررة في هذا القانون ويكون لها أن تتخذ إسما خاصا ويجوز أن يكون إسمها مستمدا من غراضها ويجوز أن يتضمن عنوانها إسم شريك أو اكثر
                                         </p>
                                         <hr style="border:1px #CCA776 solid;">
-                                        {{-- <p style="font-size: 25px;font-weight:500">المطلوب لتأسيس الشركه</p>
+                                        <p id="ti3" style="font-size: 25px;font-weight:500;color:#B5735D !important;">خصائص الشركة ذات المسؤلية المحدودة  </p>
 
                                         <ul class="process-steps"> 
                                             <li class="steps">
                                                 <div class="steps-name" >
-                                                    <span class="number" style="float:right;margin-left:10px;">1</span>
-                                                    <span class="name" > •	صورة من البطاقة الشخصية أو جواز السفر للمؤسسين أو مالك الشركة وشهادة الميلاد بالنسبة للقاصر(إذا وجد)</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">١</span>
+                                                    <span class="name" >عنوان الشركة  </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">2</span>
-                                                    <span class="name" > •	توكيل من مؤسسي الشركة</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٢</span>
+                                                    <span class="name" >المسؤلية المحدودة للشركاء  </span>
                                                 </div>
                                             </li>
                                             <li class="steps">
                                                 <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">3</span>
-                                                    <span class="name" >•	عقد الإيجار الأصلي أو التعهد بتقديمة خلال سنة واحدة من تاريخ تسجيله في الشهر العقاري</span>
+                                                    <span class="number" style="float:right;margin-left:10px;">٣</span>
+                                                    <span class="name" >عدم إكتساب الشريك صفة التاجر </span>
                                                 </div>
                                             </li>
-                                        </ul> --}}
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٤</span>
+                                                    <span class="name" > حظر الإكتتاب العام أو إصدار أوراق مالية قابلة للتداول  </span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٥</span>
+                                                    <span class="name" > تقييد التنازل عن حصة الشريك </span>
+                                                </div>
+                                            </li>
+                                            <li class="steps">
+                                                <div class="steps-name">
+                                                    <span class="number" style="float:right;margin-left:10px;">٦</span>
+                                                    <span class="name" >	إستمرارالشركة رغم الشريك أو إفلاسه أو إعساره أو الحجر عليه </span>
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="case clearfix baseeta" style="width:100% !important;">  
-                                    <div class="process  mg-case-details">
-                                        <h3 class="title texts" style="color:#B5735D !important;">شركات ذات المسئولية المحدودة</h3>
-                                        
-                                        <p >
-                                            تعتبر شركات التوصية البسيطة إذا كانت مسئولية كل الشركاء أو بعضهم مسئولية محدودة , لذلك فشركة التوصية من حيث الشكل تعتبر مناسبة إذا كنت لا ترغب في البقاء كمالك وحيد.
-تكون مسئولية الشركاء في شركة التوصية مسئولية شخصية عن ديون الشركة, ويكون أي شريك مسئول مسؤلية كاملة عن الشركة ويستطيع أي شريك أيضا أن يتخذ قرارات قد تؤثر الشركة.
-فى شركة التوصية البسيطة يتحمل أحد الشركاء مسؤولية اتخاذ القرارات ويكون مسؤولا مسئولية شخصية عن ديون الشركة أما باقي الشركاء يكونوا بمثابة مجرد مستثمرين فى الشركة. كل فرد لا يكون مسؤولا إلا فى حدود حصته في رأس المال المستثمر وبرغم من أن الشكل العام لشركة التضامن من الممكن أن يتغير إلا أن كل شريك يكون مسئولا فقط عن حصته في رأس المال
-
-
-                                        </p>
-                                        <hr style="border:1px #CCA776 solid;">
-                                        {{-- <p style="font-size: 25px;font-weight:500">المطلوب لتأسيس الشركه</p>
-
-                                        <ul class="process-steps"> 
-                                            <li class="steps">
-                                                <div class="steps-name" >
-                                                    <span class="number" style="float:right;margin-left:10px;">1</span>
-                                                    <span class="name" > •	صورة من البطاقة الشخصية أو جواز السفر للمؤسسين أو مالك الشركة وشهادة الميلاد بالنسبة للقاصر(إذا وجد)</span>
-                                                </div>
-                                            </li>
-                                            <li class="steps">
-                                                <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">2</span>
-                                                    <span class="name" > •	توكيل من مؤسسي الشركة</span>
-                                                </div>
-                                            </li>
-                                            <li class="steps">
-                                                <div class="steps-name">
-                                                    <span class="number" style="float:right;margin-left:10px;">3</span>
-                                                    <span class="name" >•	عقد الإيجار الأصلي أو التعهد بتقديمة خلال سنة واحدة من تاريخ تسجيله في الشهر العقاري</span>
-                                                </div>
-                                            </li>
-                                        </ul> --}}
-                                    </div>
-                            </div>
-                            {{-- <div class="flat-pagination text-center">
-                                <ul>
-                                    <li><a href="#" class="numbers">1</a></li>
-                                    <li><a href="#" class="numbers">2</a></li>
-                                    <li><a href="#" class="numbers">3</a></li>
-                                    <li><a href="#" class="numbers current">
-                                            <span class="fa fa-angle-right" aria-hidden="true"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> --}}
+                                
                         </div>
-                    </div><!-- case-results -->
-
-
-
-
-
-
-
-                    
+                    </div>
 
                 </div>
                 {{-- <div class="col-lg-3 col-md-12">
@@ -625,16 +689,9 @@
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
     <script src="javascript/main.js"></script>
 
-    {{-- <script>
-        var drop = new Dropzone('.dropzone', {
-          createImageThumbnails: false,
-          addRemoveLinks: true,
-          url: "{{ route('company') }}",
-          headers: {
-            'X-CSRF-TOKEN': document.head.querySelector('meta[name="csrf-token"]').content
-          }
-        });
-      </script> --}}
+    <script>
+       
+    </script>
 </body>
 @include('pages.footer')
 @include('pages.modals._modal_com_show')
