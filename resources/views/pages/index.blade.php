@@ -477,9 +477,9 @@ swalWithBootstrapButtons.fire({
  
     <div class="container" >
         <div class="row">
-            <div class="col-lg-5 whitebox wow fadeIn">
-        <h1 style="color: #A75032; font-size:30px;text-align:center; ">لدينا اقوي المحامين للدفاع عنك<br> 
-            و نقدم الحماية القانونية لك 
+            <div class="col-lg-12 whitebox wow fadeIn">
+        <h1 dir="rtl" style="color: #3E2217; font-size:25px; text-align:center; line-height:45px; padding-left:20px; padding-right:20px; text-align:justify; ">
+            مكتب محامون  بشكل محترف لتقديم الاستشارات والخدمات القانونية ومقر عمله الرئيسي فى مصر بالأسكندرية 170 طريق الحرية باب شرقي  وقد تأسس المكتب عام 1996  فأصبح أحد أهم المكاتب للأستشارات  القانونية  و تدعيم رجال الأقتصاد  ويضم فريق عمل مكون من حوالي 20 محاميآ وما يقرب  من 20 مساعدآ وموظفآ على درجه عاليه من الحرفيه والخبره يعملون جنبآ الى جنب في أكثر من  40 مجالآ من مجالات المحاماه والاستشارات القانونية الموثقة وبفضل حجم إعمال المكتب المتنوعة المجالات وما يملكه من موارد تكنولوجيه متقدمه يقدم المكتب جميع الخدمات القانونية للهيئات والشركات الكبري والمؤسسات على إختلاف حجم أعمالها فيما يتعلق بكافه المسائل المحليه والوطنيه والدولية .
             <h1>
         </div>
     </div>
@@ -489,7 +489,7 @@ swalWithBootstrapButtons.fire({
     <section class="about-home" id="rr" >
         <div class="container" >
             <div class="row">
-                <div class="col-lg-6 wow fadeIn">
+                <div class="col-lg-4 wow fadeIn">
                     <div class="featured-post">
                         <div class="entry-image" >
                             <br>
@@ -503,10 +503,10 @@ swalWithBootstrapButtons.fire({
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <div class="flat-spacer" data-desktop="36" data-sdesktop="20" data-mobi="0" data-smobi="0"></div>
                     <div class="content" style="text-align:right;">
-                        <div class="texts">رؤيتنا</div>
+                        <div class="title texts">رؤيتنا</div>
                         <p class="description " >
                             استثمار طاقتنا العلمية والمهنية لنكون في مركز الصدارة بين مؤسسات المحاماة والتحكيم في مصر والشرق الأوسط بما لدينا من فريق عمل يضم نخبة من كبار المحامين والمستشارين القانونين في كافة المعهود إليهم خدمات قانونية كبري لكافة الشركات متعدده الجنسيات والمصالح والمؤسسات العامة داخل مصر والشرق الاوسط لتحقق لعملائنا النتائج المرجوة.
                         </p>
@@ -523,7 +523,7 @@ swalWithBootstrapButtons.fire({
     </section><!-- about -->
     
 
-   
+<br><br><br><br>   
 
     <section class="facts" id="facts" >
         <div class="box1" style="position: relative" >
@@ -532,47 +532,65 @@ swalWithBootstrapButtons.fire({
      
         <div class="container">
             <div class="flat-counter" >
-                <div class="row " style="width:50% ;">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="row " >
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="counter">                      
                             <div class="content-counter" >
-                                <div class="whitebox">
+                                <div class="small-whitebox">
                                 <div class="numb-count-wrap">
-                                    <span  class="numb-count" data-from="0" data-to="42" data-speed="2000" data-inviewport="yes">25</span>
+                                    <span  class="numb-count" data-from="0" data-to="26" data-speed="2000" data-inviewport="yes">26</span>
                                 </div>
                                 <div class="name-count">سنوات الخبره</div>
-                                <div class="icon-count"><img src="images/home1/09.png" alt="images"></div>
+                                <div class="icon-count"><img src="images/icon/experince.png" alt="images"></div>
                             </div>
                             </div>
                         </div>
                     </div>
                 
-                    <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="counter">                            
                             <div class="content-counter">
-                                <div class="whitebox">
+                                <div class="small-whitebox">
                                 <div class="numb-count-wrap">
-                                    <span class="numb-count" data-from="0" data-to="2000" data-speed="2000" data-inviewport="yes">225</span>
+                                    <span class="numb-count" data-from="0" data-to="4000" data-speed="2000" data-inviewport="yes">4000</span>
                                     <span class="numb-bs">+</span>
                                 </div>
-                                <div class="name-count">عملاء سعداء</div>
-                                <div class="icon-count"><img src="images/home1/11.png" alt="images"></div>
+                                <div class="name-count">عدد العملاء </div>
+                                <div class="icon-count"><img src="images/icon/user.png" alt="images"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="counter">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="counter">                            
                             <div class="content-counter">
+                                <div class="small-whitebox">
                                 <div class="numb-count-wrap">
-                                    <span class="numb-count" data-from="0" data-to="99" data-speed="2000" data-inviewport="yes">99</span>
-                                    <span class="numb-bs">%</span>
+                                    <span class="numb-count" data-from="0" data-to="2000" data-speed="2000" data-inviewport="yes">2000</span>
+                                    <span class="numb-bs">+</span>
                                 </div>
-                                <div class="name-count">نسبه النجاح</div>
-                                <div class="icon-count"><img src="images/home1/12.png" alt="images"></div>
+                                <div class="name-count"> عدد القضايا الفائزة </div>
+                                <div class="icon-count"><img src="images/icon/law.png" alt="images"></div>
+                                </div>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="counter">                            
+                            <div class="content-counter">
+                                <div class="small-whitebox">
+                                <div class="numb-count-wrap">
+                                    <span class="numb-count" data-from="0" data-to="800" data-speed="2000" data-inviewport="yes">800</span>
+                                    <span class="numb-bs">+</span>
+                                </div>
+                                <div class="name-count">عدد الشركات </div>
+                                <div class="icon-count"><img src="images/icon/company.png" alt="images"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -593,7 +611,7 @@ swalWithBootstrapButtons.fire({
         <div class="practice-area practice-area-style2" >
             <div class="container">
                 <div class="title-section text-center">
-                    <h3 class="texts" >الخدمات</h3>
+                    <h3 class="title texts" >الخدمات</h3>
                     {{-- <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p> --}}
                 </div>
                 <div class="practice-area-wrap">
@@ -1158,6 +1176,7 @@ swalWithBootstrapButtons.fire({
                       
                         <p class="description" style="text-align: center;">
                             نضم فريق عمل مكون من حوالي 20 محاميآ وما يقرب من 20 مساعدآ وموظفآ على درجة عالية من الحرفية والخبرة يعملون جنبآ الى جنب في أكثر من 40 مجالآ من مجالات المحاماة والاستشارات القانونية الموثقة 
+                       
                         </p>
                     </div>
                 </div>
@@ -1226,29 +1245,59 @@ swalWithBootstrapButtons.fire({
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
-                            <img src="images/home1/testim1.jpg" class="img-circle img-responsive" />
-                            <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
-                            <h4>أ/ محمد كمال</h4>
-                            <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
+                            <img src="images/about/1.jpg" class="img-circle img-responsive" />
+                            <p>مؤسسة بجد رائعة يرأسها صديقى المحترم مصطفى بك الروبى السند القانونى الحقيقى لكافة  أعمالى فى مصر تشعر وأنت معهم بأنك واحد منهم وكأن أعمالك وأموالك و هي أموالهم  ، حقوقك معهم محمية بفضل حسن أدائهم ونظامهم</p>
+                            <h4>د/  صادق رضوان </h4>
+                            <h4>رجل اعمال مقيم بالمانيا</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://www.revolution.com/wp-content/uploads/2015/03/Meredith_Serious.jpg" class="img-circle img-responsive" />
-                            <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
-                            <h4>أ/ محمد كمال</h4>
-                            <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
-                            <h4>2</h4>
+                            <img src="images/about/2.jpg" class="img-circle img-responsive" />
+                            <p>بصرحة وعن تجربة افضل واصدق مكتب محاماه فى مصر بيتعامل باحترافية شديدة مع كل القضايا وكل العملاء كل معاملتي في مصر باعملها عندهم وانا اشعر انني في امان</p>
+                            <h4>أ/  محمد الحيدر  </h4>
+                            <h4>صحفى سعودى </h4>
+                          
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="images/home1/testim1.jpg" class="img-circle img-responsive" />
+                            <img src="images/about/3.jpg" class="img-circle img-responsive" />
 
-                            <p>شرف لشركتي ان المؤسسه هي المستشار القانوني لنا علاقتها بكافه القطاعات الحكوميه و هيئه الأستثمار ذللت لنا الكثير من العقبات قبل و اثناء العمل مما عاد علي شركتي بوفير الجهد و اقل نفقات ممكنه و الأستمرار في الانتاج دون ضغوط او إشكالات قانونيه</p>
-                            <h4>أ/ محمد كمال</h4>
-                            <h4>المدير التنفيزي لشركه جولد كيرافارما</h4>
-                            <h4>3</h4>
+                            <p>المؤسسة حماية لشركتى ومستشار قانونى ولا اروع من كدة لما تلاقي محاميك يدافع عن حقوقك بهذه القوة وهذا الأداء فأنت بجد بتمشي بسرعة في عملك وانت مطمئن لأن ظهرك مسنود علي سند قانوني رائع بجد بجد حماية وسند</p>
+                            <h4>د/ محمد حسن </h4>
+                            <h4>رئيس ادارة شركة براند العقارية</h4>
+                          
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="images/about/4.jpg" class="img-circle img-responsive" />
+
+                            <p>مكتب محاماة شديد الدقة  في العمل وعلي أعلي درجة في الكفاءة وإنجاز العمل أما عن الأحترام فحدث ولا حرج أنا بعتبر مكتبهم بيتي الثاني في مصر وإستثماراتي وأعماي في أمان</p>
+                            <h4>أ/ سيد محمود دياب </h4>
+                            <h4>رجل اعمال مصرى – ايطالى مقيم بإيطاليا </h4>
+                          
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="images/about/5.jpg" class="img-circle img-responsive" />
+
+                            <p>نفخر ان تكون المؤسسة هى المستشار القانونى بجميع اعمالنا ناس فاهمة وعندهم تفاني واخلاص في العمل و نتائجهم المبهرة تجعلك تفخر بأنك عميل لديهم</p>
+                            <h4>د/ حسام اسعد  </h4>
+                            <h4>المدير التنفيذى للمدينة اسكان للاشعة</h4>
+                          
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="images/about/6.jpg" class="img-circle img-responsive" />
+
+                            <p> تتشرف مجموعة شركاتى ان المؤسسة هى المستشار القانونى لها وبطبيعة الحال فإن رأس المال العامل بالسوق يحتاج لمؤسسة قانونية ذو خبرات كبيرة ومحترفة لحماية إدارة الأستثمارات نظرا لتعلق الأستثمارات بالكثير والكثير من المواقف الحرجة لتشعب التشريعات والقوانين الحاكمة وبفضل مؤسسة مصطفي الروبي استطاعت المؤسسة بالعبور بالمجموعة  الي بر الأمان والخروج الدائم من المواقف الحرجة  </p>
+                            <h4>د/ الدكتور حسين عزت  </h4>
+                            <h4>رئيس مجلس ادارة مجموعة شركات الحسين</h4>
+                          
                         </div>
                     </div>
                 </div>
@@ -1312,7 +1361,7 @@ swalWithBootstrapButtons.fire({
                     <div class="content-evaluation">
                         <div class="themesflat-content-box" data-padding="113px 0% 101px 100px" data-sdesktoppadding="113px 0% 101px 0" data-ssdesktoppadding="113px 0% 101px 0" data-mobipadding="50px 0 100px 0" data-smobipadding="50px 0 100px 0">
                             {{-- <div class="caption">تواصل</div> --}}
-                            <h4 class="heading title texts" style="color:#A75032;margin-right:40% !important;">احصل علي استشاره</h4>
+                            <h4 class="texts" style="color:#A75032;">احصل علي استشاره</h4>
                             <p class="description" style="font-size:25px;font-weight:bold;color:#3A1F0E;">
                                 تغطي مجالات عمل وخدمات المؤسسة نطاقاً واسعآ من المجالات والتخصصات إذا تقدم المؤسسة حلول مبتكرة واستشارات موجهة للأفراد والشركات فى جميع المراحل بداية من متطلبات انظمة إدارة حقوق الملكية الفكرية ويضمن التعاون الموثق بين إدارات المكتب ان يصبح مركزآ مؤهلاً لتلبية احتياجات العملاء. 
                             </p>
