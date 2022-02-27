@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\companyMail;
 use Illuminate\Http\Request;
 use App\Models\Estsharat;
 use App\Models\Company;
@@ -83,7 +84,6 @@ class EstsharatController extends Controller
         $com->attach = $request->file;
 
         $com->save();
-
       
               $data = array(
                   'type'      =>  $request->type,
@@ -96,23 +96,20 @@ class EstsharatController extends Controller
                   'email'   =>   $request->email,
                   'phone'   =>   $request->phone
               );
-              //    Mail::to('combidino6@gmail.com')->send(new SendMail($data));
               
               $fileName = auth()->id() . '_' . time() . '.'. $request->file->extension();  
-              dd($fileName);
-
-        $type = $request->file->getClientMimeType();
-        $size = $request->file->getSize();
-
-        $request->file->move(public_path('file'), $fileName);
-
-        File::create([
-            'user_id' => auth()->id(),
-            'name' => $fileName,
-            'type' => $type,
-            'size' => $size
-        ]);
-
+              
+              $type = $request->file->getClientMimeType();
+              $size = $request->file->getSize();
+            //   dd(public_path('file').'\\'.$fileName);
+              $request->file->move(public_path('file'), $fileName);
+              Upload::create([
+                  'company_id' => $com->id,
+                  'filename' => $fileName,
+                  'file_path' => public_path('file'),
+                ]);
+                
+                   Mail::to('combidino6@gmail.com')->send(new companyMail(public_path('file').'\\'.$fileName,$data));
         return redirect()->route('company-open')->with('message', 'تم ارسال بيانات الشركة');
    }
 

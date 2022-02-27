@@ -488,7 +488,7 @@
                             </div>
                         </div> --}}
                         {{-- {{ Form::open(array('route' => 'company', 'method' => 'post')) }} --}}
-                        <form action="{{ route('company') }}" method="post">
+                        <form action="{{ route('company') }}" method="post" enctype="multipart/form-data">
                         @csrf
                         @foreach ([
                                 'type' => 'نوع الشركه',
