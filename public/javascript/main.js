@@ -375,7 +375,7 @@
             if ( matchMedia( 'only screen and (max-width: 991px)' ).matches )
                 mode = 'mobile';
 
-            if ( matchMedia( 'only screen and (max-width: 767px)' ).matches )
+            if ( matchMedia( 'only screen and (max-width: 1px)' ).matches )
                 mode = 'smobile';
 
             $('.flat-spacer').each(function(){
@@ -434,7 +434,7 @@
             if ( matchMedia( 'only screen and (max-width: 991px)' ).matches ){
                 mode = 'mobile';
             } 
-            if ( matchMedia( 'only screen and (max-width: 767px)' ).matches ){
+            if ( matchMedia( 'only screen and (max-width: 1px)' ).matches ){
                 mode = 'smobile';
             }
 
@@ -472,7 +472,7 @@
         $(window).on('load resize', function () {
             setTimeout(function () {
                 $(document).imagesLoaded(function () {
-                    if ( matchMedia( 'only screen and (max-width: 767px)' ).matches ) {
+                    if ( matchMedia( 'only screen and (max-width: 1px)' ).matches ) {
                         $('.equalize').equalize({equalize: 'outerHeight', reset: true});
                         $('.equalize.sm-equalize-auto').children().css("height", "");
                         return false;

@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <title>مصطفي الروبي | محامون . مستشارون</title>
 
-    <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="images/logo/logo.png">
     <link rel="icon" type="images/logo/logo.png" sizes="32x32" href="images/logo/logo.png">
     <link rel="icon" type="images/logo/logo.png" sizes="16x16" href="images/logo/logo.png">
     <link rel="manifest" href="images/logo/logo.png">
     
-    <!-- Bootstrap-->
     <link rel="stylesheet" href="stylesheet/bootstrap.css">
 
-    <!-- Template Style-->
     <link rel="stylesheet" href="stylesheet/all.css">
     <link rel="stylesheet" href="stylesheet/animate.css">
     <link rel="stylesheet" href="stylesheet/style.css">
@@ -25,7 +22,15 @@
     <link rel="stylesheet" href="rev-slider/css/navigation.css">
     <link rel="stylesheet" href="rev-slider/css/settings.css">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-221597249-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-221597249-1');
+</script>
 </head>
 
 <body>
@@ -47,8 +52,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Johnson Doe</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                    
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -58,11 +62,7 @@
                                     <img src="images/cert/index1.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                     </div>
                                 </div>
-                                {{--  <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}} 
+                               
                             </div>
                         </div>
                     </div>
@@ -70,8 +70,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Hannan Crespos</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                   
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -80,11 +79,7 @@
                                     <img src="images/cert/index2.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -92,8 +87,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-end">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Ayesha Olivia</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                    
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -102,11 +96,7 @@
                                     <img src="images/cert/index3.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -114,8 +104,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Johnson Doe</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                   
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -124,11 +113,7 @@
                                     <img src="images/cert/index4.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -136,8 +121,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Hannan Crespos</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                    
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -146,11 +130,7 @@
                                     <img src="images/cert/index5.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -158,8 +138,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-end">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Ayesha Olivia</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                    
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -168,11 +147,7 @@
                                     <img src="images/cert/index6.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                               
                             </div>
                         </div>
                     </div>
@@ -180,8 +155,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Johnson Doe</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                  
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -190,11 +164,7 @@
                                     <img src="images/cert/index7.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -202,8 +172,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Hannan Crespos</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                   
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -212,11 +181,7 @@
                                     <img src="images/cert/index8.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -224,8 +189,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-end">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Ayesha Olivia</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                    
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -234,11 +198,7 @@
                                     <img src="images/cert/index9.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -246,8 +206,7 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Johnson Doe</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
+                                    
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -256,11 +215,7 @@
                                     <img src="images/cert/index10.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -268,8 +223,6 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Hannan Crespos</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -278,11 +231,6 @@
                                     <img src="images/cert/index11.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -290,8 +238,6 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-end">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Ayesha Olivia</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -300,11 +246,6 @@
                                     <img src="images/cert/index13.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -312,8 +253,6 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Johnson Doe</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -322,11 +261,6 @@
                                     <img src="images/cert/index12.jpg"  alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -334,8 +268,6 @@
                         <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
                             <div class="attorneys-content">
                                 <div class="content-wrap rotate-1">
-                                    {{-- <h3 class="name"><a href="#">Hannan Crespos</a></h3>
-                                    <p class="position">Senior Attorney</p> --}}
                                 </div>
                             </div>
                             <div class="attorneys-avatar hv-link-content">
@@ -344,11 +276,6 @@
                                     <img src="images/cert/index14.jpg" alt="images" style="height:350px;" onclick="change(this.src)">
                                 </div>
                                 </div>
-                                {{-- <div class="overlay-box">
-                                    <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -356,7 +283,7 @@
                 </div>
             </div>
         </div>
-    </div><!-- attorneys -->
+    </div>
     <div class="featured-banner">
         <div class="container">
             <div class="row">
@@ -366,33 +293,26 @@
                         <p>Lorem ipsum dolor sit amet, consecte dunt ut labore</p>
                     </div>
                 </div>
-                {{-- <div class="col-lg-4 col-sm-12">
-                    <div class="fl-btn">
-                        <a href="#" class="hvr-vertical">read more</a>
-                    </div>
-                </div> --}}
+                
             </div>
         </div>
-    </div><!-- featured-banner -->
+    </div>
     
     
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/plugins.js"></script>
     <script src="javascript/jquery-ui.js"></script>
     
-    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script> --}}
     <script src="javascript/jquery-isotope.js"></script>
     <script src="javascript/equalize.min.js"></script>
     <script src="javascript/jquery-countTo.js"></script>
     <script src="javascript/flex-slider.min.js"></script>
     <script src="javascript/main.js"></script>
 
-    <!-- slider -->
     <script src="rev-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="rev-slider/js/jquery.themepunch.revolution.min.js"></script>
     <script src="javascript/rev-slider.js"></script>
 
-    <!-- Load Extensions only on Local File Systems ! The following part can be removed on Server for On Demand Loading -->
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.actions.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.carousel.min.js"></script>
     <script src="rev-slider/js/extensions/extensionsrevolution.extension.kenburn.min.js"></script>

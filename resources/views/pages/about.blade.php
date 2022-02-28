@@ -588,7 +588,6 @@
     <script src="javascript/plugins.js"></script>
     <script src="javascript/jquery-ui.js"></script>
     
-    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script> --}}
     <script src="javascript/jquery-isotope.js"></script>
     <script src="javascript/equalize.min.js"></script>
     <script src="javascript/jquery-countTo.js"></script>

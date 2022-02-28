@@ -29,6 +29,7 @@
 /* @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i'); */
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Mirza&display=swap');   
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 @import url('font-awesome.css');
 
 
@@ -604,7 +605,7 @@ input::-webkit-input-placeholder {
     color: #cca776;
     font-size: 18px;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
 }
 .flat-information li.email:before {
     content: '\f003';
@@ -630,7 +631,7 @@ input::-webkit-input-placeholder {
     position: relative;
 }
 .flat-contact-us a.phone:before {
-    /* content: '\f095'; */
+    content: '\f095';
     width: 36px;
     height: 36px;
     line-height: 33px;
@@ -642,7 +643,7 @@ input::-webkit-input-placeholder {
     border: 2px solid #cca776;
     border-radius: 50%;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
 }
 .flat-contact-us a.cosulting {
     font-size: 18px;
@@ -966,19 +967,21 @@ input::-webkit-input-placeholder {
 .btn-submenu {
     width: 50px;
     height: 50px;
-    right: 15px;
+    left: 15px;
     top: 0;
     position: absolute;
-    /* font: 20px/50px 'FontAwesome'; */
-    text-align: center;
+    font: 20px/50px "Font Awesome 5 Free";
+    text-align: left;
     cursor: pointer;
 }
 .btn-submenu:before {
-   content: "\f107";
+    font-family: "Font Awesome 5 Free";
+   content: "\f35a";
    color: #fff;
 }
 .btn-submenu.active:before {
-   content: "\f106";
+    font-family: "Font Awesome 5 Free";
+   content: "\f35b";
 }
 
 /* Mobile navigation
@@ -1000,7 +1003,7 @@ input::-webkit-input-placeholder {
 #mainnav-mobi ul li {
     margin:0;
     position: relative;
-    text-align: left;
+    text-align: right;
     border-top: 1px solid rgba(204, 167, 118, 0.2);
     cursor: pointer;
 }
@@ -1159,12 +1162,12 @@ input::-webkit-input-placeholder {
     margin-left: 0;
 }
 .entry-content-bls ul li:before {
-    /* content: '\f07c'; */
+    content: '\f07c';
     top: 0;
     left: 0;
     color: #a4a09a;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
 }
 .entry-content-bls ul li.author:before {
     content: '\f007';
@@ -1280,7 +1283,7 @@ input::-webkit-input-placeholder {
     padding-right: 19px;
 }
 .post-navigation .prev-next a.prev:before {
-    /* content: '\f100'; */
+    content: '\f100';
     top: 50%;
     left: 0;
     font-size: 12px;
@@ -1291,10 +1294,10 @@ input::-webkit-input-placeholder {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
 }
 .post-navigation .prev-next a.next:after {
-    /* content: '\f101'; */
+    content: '\f101';
     top: 50%;
     right: 0;
     font-size: 12px;
@@ -1305,7 +1308,7 @@ input::-webkit-input-placeholder {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
 }
 .mg-bottom-bl {
     margin-bottom: 60px;
@@ -1340,12 +1343,12 @@ input::-webkit-input-placeholder {
     margin-left: 0;
 }
 .post-footer-bl li:before {
-    /* content: '\f007'; */
+    content: '\f007';
     top: 0;
     left: 0;
     color: #a4a09a;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
 }
 .post-footer-bl li.comment:before {
     content: '\f086';
@@ -1571,7 +1574,7 @@ input::-webkit-input-placeholder {
     position: relative;
 }
 .comment-content .comment-reply a:after {
-    /* content: '\f105'; */
+    content: '\f105';
     top: 50%;
     right: 0;
     font-size: 12px;
@@ -1582,7 +1585,7 @@ input::-webkit-input-placeholder {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
 }
 .leave-comment {
     padding: 63px 0 120px 0;
@@ -1761,12 +1764,12 @@ input::-webkit-input-placeholder {
     padding-left: 31px;
 }
 .footer-widgets .widget-twitter .tw-wrap:before {
-    /* content: '\f099'; */
+    content: '\f099';
     top: 0;
     left: 0;
     color: #fff;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
 }
 .footer-widgets .widget-twitter .tw-wrap .text-link {
     margin-bottom: 24px;
@@ -1894,6 +1897,8 @@ input::-webkit-input-placeholder {
     margin-bottom: 13px;
 }
 .contact-options .icon-box .content-info .info-wrap p a {
+    font-size: 14px;
+
     text-align: center;
 }
 .write-something {
@@ -2393,8 +2398,14 @@ margin-top: -25px;
     display: block;
     position: relative;
 }
+.building:before{
+    content: '\f1ad';
+    font-family: "Font Awesome 5 Free";
+
+}
 .challange .list-challange li .text:before {
-    /* content: '\f178'; */
+    content: '\f178';
+    font-family: "Font Awesome 5 Free";
     top: 50%;
     left: 0;
     color: #cca776;
@@ -2403,7 +2414,6 @@ margin-top: -25px;
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    /* font-family: 'FontAwesome'; */
     position: absolute;
 }
 .process p {
@@ -2677,7 +2687,7 @@ margin-top: -25px;
     position: relative;
 }
 .key-benefits .list-key-benefits li .text:before {
-    /* content: '\f00c'; */
+    content: '\f00c';
     top: 50%;
     left: 0;
     font-size: 14px;
@@ -2687,7 +2697,7 @@ margin-top: -25px;
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    /* font-family: 'FontAwesome'; */
+    font-family: "Font Awesome 5 Free";
     position: absolute;
 }
 
@@ -2854,7 +2864,7 @@ margin-top: -25px;
     background: unset !important;
 }
 .flat-slider .tparrows.tp-leftarrow:before {
-    /* content: '\f177 ' !important; */
+    content: '\f177 ' !important;
     width: 72px;
     height: 72px;
     line-height: 72px;
@@ -2864,7 +2874,7 @@ margin-top: -25px;
     border: 1px solid #fff;
     border-radius: 50%;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -2872,7 +2882,7 @@ margin-top: -25px;
     transition: all 0.3s ease;
 }
 .flat-slider .tparrows.tp-rightarrow:before {
-    /* content: '\f178 ' !important; */
+    content: '\f178 ' !important;
     width: 72px;
     height: 72px;
     line-height: 72px;
@@ -2882,7 +2892,7 @@ margin-top: -25px;
     border: 1px solid #fff;
     border-radius: 50%;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -3220,14 +3230,14 @@ margin-top: -25px;
     box-shadow: 0 0 30px 0 #906d3f33;
 }
 .testimonial-flexslider .col-right .flex-direction-nav a.flex-prev:before {
-    /* content: '\f177'; */
+    content: '\f177';
     top: 0;
     left: 0;
     right: 0;
     color: #a4a09a;
     font-size: 20px;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -3235,14 +3245,14 @@ margin-top: -25px;
     transition: all 0.3s ease;
 }
 .testimonial-flexslider .col-right .flex-direction-nav a.flex-next:before {
-    /* content: '\f178'; */
+    content: '\f178';
     top: 0;
     left: 0;
     right: 0;
     color: #a4a09a;
     font-size: 20px;
     position: absolute;
-    /* font-family: "FontAwesome"; */
+    font-family: "Font Awesome 5 Free";
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -4761,6 +4771,16 @@ div#slider-home .carousel-item::before {
     /* background-color: #A83E17; */
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+@media only screen and (max-width: 600px) {
+    .all-buttons{
+        transform: translateY(8px);
+    padding: 2px 25px;
+    }
+    .all-buttons:hover{    
+        box-shadow: 0 5px #666;
+        transform: translateY(12px);
+    }
 }
 .dropzone {
     margin-bottom: 20px;

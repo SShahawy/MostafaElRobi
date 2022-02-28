@@ -1,5 +1,14 @@
 @include('pages.header')
-
+<head><!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-221597249-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-221597249-1');
+    </script></head>
 <body>
     <div id="loading-overlay">
         <div class="loader"></div>
@@ -160,14 +169,12 @@ background-attachment: fixed;
                         <input required type="text" name="phone" style="" class="your-phone" placeholder="رقم التليفون">
                     </div>
                     <div class="wr-sm">
-                        <label for="date" style="float:right;color:#A15035">تاريخ الأستشاره</label>
-                        <input required type="date" style="" name="date" class="your-name">
+                        <label for="" style="float:right;color:#A15035">تاريخ الأستشاره</label>
+                        <input required type="date" style="" name="date" class="your-phone">
                     </div>
                 </div>
                 <textarea  name="details" required  id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
-                {{-- 
-                    <button class="hvr-vertical">احجز الاَن</button>
-                --}}
+                
                 <div class="fl-btn">
                     
                 <input type="submit"  class="hvr-vertical all-buttons" style="" value="احجز الاَن">
@@ -186,7 +193,6 @@ background-attachment: fixed;
     <script src="javascript/plugins.js"></script>
     <script src="javascript/jquery-ui.js"></script>
     
-    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script> --}}
     <script src="javascript/jquery-isotope.js"></script>
     <script src="javascript/equalize.min.js"></script>
     <script src="javascript/jquery-countTo.js"></script>

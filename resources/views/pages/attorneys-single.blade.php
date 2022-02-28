@@ -24,7 +24,16 @@
     <link rel="stylesheet" href="rev-slider/css/layers.css">
     <link rel="stylesheet" href="rev-slider/css/navigation.css">
     <link rel="stylesheet" href="rev-slider/css/settings.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-221597249-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-221597249-1');
+</script>
 
 </head>
 
@@ -32,31 +41,7 @@
     <div id="loading-overlay">
         <div class="loader"></div>
     </div>
-    {{-- <div class="top-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <ul class="flat-information d-lg-flex align-items-center">
-                        <li class="email"><a href="#" title="Email">hello@finelaw.com</a></li>
-                        <li class="address"><a href="#" title="Address">20 Bardeshi, Amin Bazar, Dhaka</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="flat-contact-us d-lg-flex align-items-center">
-                        <a href="#" class="phone">123.456.7890</a>
-                        <a href="#" class="cosulting hvr-vertical">FREE COSULTING
-                            <div class="border-animate">
-                                <div class="top"></div>
-                                <div class="right"></div>
-                                <div class="bottomb"></div>
-                                <div class="left"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- top-bar --> --}}
+
     @include('pages.header')
 
  
@@ -110,7 +95,6 @@ background-attachment: fixed;
                                 <ul class="attorneys-info-sn" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border: solid 2px #4F362C; padding:10px">
                                     <li>
                                         <h2 class="name-info name-size nav-texts"> مصطفي عبد الحي الروبي</h2>
-                                        {{-- <p>Senior Attorney</p> --}}
                                     </li>
                                     <li>
                                         <div class="name-info nav-texts">العنوان</div>
@@ -131,14 +115,7 @@ background-attachment: fixed;
                                             
                                             </p>
                                     </li>
-                                    {{-- <li>
-                                        <div class="name-info">Social Links</div>
-                                        <div class="list-socials">
-                                            <a href="#" class="icon-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                            <a href="#" class="icon-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                            <a href="#" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                        </div>
-                                    </li> --}}
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -151,9 +128,7 @@ background-attachment: fixed;
 تغطي مجالات عمل وخدمات المؤسسة نطاقاً واسعآ من المجالات والتخصصات إذا تقدم المؤسسة حلول مبتكرة واستشارات موجهة للأفراد والشركات فى جميع المراحل بداية من متطلبات انظمة إدارة حقوق الملكية الفكرية ويضمن التعاون الموثق بين إدارات المكتب ان يصبح مركزآ مؤهلاً لتلبية احتياجات العملاء. 
 
                                     </p>
-                                    {{-- <p>
-                                        nde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                                    </p> --}}
+                                    
                                 </div>
                             </div>
                             <div class="flat-question">
@@ -190,114 +165,7 @@ background-attachment: fixed;
                                             <li>&dotsquare;&emsp;وكيل عالمات تجارية وبراءات اختراع</li>
                                         </ol>
                                     </div>
-                                    {{-- <div class="accordion-toggle line">
-                                        <div class="toggle-title d-flex align-items-center">
-                                           <div class="icon"><i class="fa fa-address-book-o" aria-hidden="true"></i></div>
-                                            <h5 class="name d-flex align-items-sm-center">Education & Training</h5>
-                                        </div>
-                                        <div class="toggle-content">
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Primary Law</h6>
-                                                <h6 class="skill-bar-percent">90%</h6>
-                                                <div class="skillbar" data-percent="90%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Business Law</h6>
-                                                <h6 class="skill-bar-percent">97%</h6>
-                                                <div class="skillbar" data-percent="97%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Finalcial Law</h6>
-                                                <h6 class="skill-bar-percent">70%</h6>
-                                                <div class="skillbar" data-percent="70%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Immigration Law</h6>
-                                                <h6 class="skill-bar-percent">80%</h6>
-                                                <div class="skillbar" data-percent="80%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> --}}
-                                    {{-- <div class="accordion-toggle line">
-                                        <div class="toggle-title d-flex align-items-center">
-                                            <div class="icon"><i class="fa fa-folder-o" aria-hidden="true"></i></div>
-                                            <h5 class="name d-flex align-items-sm-center">Career & Experience</h5>
-                                        </div>
-                                        <div class="toggle-content">
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Primary Law</h6>
-                                                <h6 class="skill-bar-percent">90%</h6>
-                                                <div class="skillbar" data-percent="90%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Business Law</h6>
-                                                <h6 class="skill-bar-percent">97%</h6>
-                                                <div class="skillbar" data-percent="97%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Finalcial Law</h6>
-                                                <h6 class="skill-bar-percent">70%</h6>
-                                                <div class="skillbar" data-percent="70%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Immigration Law</h6>
-                                                <h6 class="skill-bar-percent">80%</h6>
-                                                <div class="skillbar" data-percent="80%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> --}}
-                                    {{-- <div class="accordion-toggle line">
-                                        <div class="toggle-title d-flex align-items-center">
-                                            <div class="icon"><i class="fa fa-trophy" aria-hidden="true"></i></div>
-                                            <h5 class="name d-flex align-items-sm-center">Awards & Achivment</h5>
-                                        </div>
-                                        <div class="toggle-content">
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Primary Law</h6>
-                                                <h6 class="skill-bar-percent">90%</h6>
-                                                <div class="skillbar" data-percent="90%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Business Law</h6>
-                                                <h6 class="skill-bar-percent">97%</h6>
-                                                <div class="skillbar" data-percent="97%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Finalcial Law</h6>
-                                                <h6 class="skill-bar-percent">70%</h6>
-                                                <div class="skillbar" data-percent="70%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skillbar-item">
-                                                <h6 class="skillbar-title">Immigration Law</h6>
-                                                <h6 class="skill-bar-percent">80%</h6>
-                                                <div class="skillbar" data-percent="80%">
-                                                    <div class="skillbar-bar"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> --}}
+                                    
                                 </div>
                             </div>
                         </div>
@@ -318,10 +186,8 @@ background-attachment: fixed;
                         </div>
                         <div class="widget widget-dowload-cv" >
                             
-                            {{-- <h3 class="widget-title"><span>Download CV</span></h3> --}}
                             <div class="description" >
                                 <br><br><br><br><br><br><br><br><br>
-                                {{-- <p>Architecto beatae vitae dicta su nt explicabo. Nemo enimu ta em qui asper</p> --}}
                                 <a href="images/cv.pdf" class="btn-download hvr-vertical">السيره الذاتيه <img src="images/icon/icon 2.png" style="height: 28px;" aria-hidden="true"></a>
                                 <br><br><br>
                                 <a href="sh" class="btn-download hvr-vertical">الشهادات <img src="images/icon/icon 1.png" style="height: 30px;" aria-hidden="true"></a>
@@ -339,7 +205,6 @@ background-attachment: fixed;
     <script src="javascript/plugins.js"></script>
     <script src="javascript/jquery-ui.js"></script>
     
-    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script> --}}
     <script src="javascript/jquery-isotope.js"></script>
     <script src="javascript/equalize.min.js"></script>
     <script src="javascript/jquery-countTo.js"></script>

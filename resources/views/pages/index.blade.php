@@ -1,3 +1,15 @@
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-221597249-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-221597249-1');
+</script>
+</head>
 <style>
 
 .image-box-law .featured-post .entry-image .tt{
@@ -89,14 +101,14 @@ swalWithBootstrapButtons.fire({
                 <img src="images/head/mostafaelrobi.jpg" alt="Los Angeles">
                 <div class="carousel-caption">
               
-                    <a class="btn" href="#">اسس شركتك</a>
+                    <a class="all-buttons" href="#">اسس شركتك</a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="images/head/mostafaelrobi2.jpg" alt="Chicago">
                 <div class="carousel-caption">
                   
-                    <a class="btn" href="#">احجز استشاره</a>
+                    <a class="all-buttons" href="#">احجز استشاره</a>
                 </div>
             </div>
         </div>
@@ -113,71 +125,7 @@ swalWithBootstrapButtons.fire({
 
 
 
-    {{-- <div class="flat-slider clearfix" >
-        <div class="rev_slider_wrapper fullwidthbanner-container" >
-            <div id="rev-slider1" class="rev_slider fullwidthabanner">
-                <ul>
-                    <!-- Slide 1 -->
-                    <li data-transition="random" >
-                        <!-- Main Image -->
-                        <div class="carousel-item active">
-                        <img src="images/head/mostafaelrobi.jpg"  class="d-block w-100"  alt="مصطفي الروبي" name="محامون مستشارون" style="object-fit: cover;" data-bgposition="center center" data-no-retina>
-                        <div class="carousel-caption  d-md-block" style="">
-       
-                            <div class="text-center btn-read-more wow fadeInUp " style="margin-top: -20%;" ><a href="company-open" class="btn-read-more" style="font-size: 25px;" target="_blank" class=" cta hvr-vertical ">اسس شركتك</a>
-                            
-                               
-                            </div>
-                         </div>
-                        </div>
-                     
-                    </li>
-                    <!-- /End Slide 1 -->
-
-          
-                    
-              
-                </ul>
-           
-        </div>
-    </div><!-- flat-slider -->
-    </div> --}}
-
-
-
-
-
-    {{-- <div class="slideshow-container">
-
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="img1.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="img2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="img3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    </div>
-    <br>
-
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div> --}}
+    
 
 
     <div class="logo-slider">
@@ -196,8 +144,6 @@ swalWithBootstrapButtons.fire({
                                             </div>
                                             <div class="content-law">
                                                 <h4 class="name"><a  id="yy" href="#rr">الخدمات </a></h4>
-                                                {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                                {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                                             </div>
                                         </div>
                                     </div>
@@ -216,8 +162,6 @@ swalWithBootstrapButtons.fire({
                         </div>
                         <div class="content-law">
                             <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
-                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                            {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                         </div>
                     </div>
                 </div>
@@ -235,8 +179,6 @@ swalWithBootstrapButtons.fire({
                         </div>
                         <div class="content-law">
                             <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
-                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                            {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                         </div>
                     </div>
                 </div>
@@ -254,8 +196,6 @@ swalWithBootstrapButtons.fire({
                         </div>
                         <div class="content-law">
                             <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
-                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                            {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                         </div>
                     </div>
                 </div>
@@ -274,8 +214,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name"><a  id="yy" href="#rr">الخدمات </a></h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                            {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -294,8 +232,6 @@ swalWithBootstrapButtons.fire({
                     </div>
                     <div class="content-law">
                         <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
-                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                     </div>
                 </div>
             </div>
@@ -313,8 +249,6 @@ swalWithBootstrapButtons.fire({
                     </div>
                     <div class="content-law">
                         <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
-                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                     </div>
                 </div>
             </div>
@@ -332,8 +266,6 @@ swalWithBootstrapButtons.fire({
                     </div>
                     <div class="content-law">
                         <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
-                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                     </div>
                 </div>
             </div>
@@ -352,8 +284,6 @@ swalWithBootstrapButtons.fire({
                                     </div>
                                     <div class="content-law">
                                         <h4 class="name"><a  id="yy" href="#rr">الخدمات </a></h4>
-                                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                                        {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                                     </div>
                                 </div>
                             </div>
@@ -372,8 +302,6 @@ swalWithBootstrapButtons.fire({
                 </div>
                 <div class="content-law">
                     <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
-                    {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                    {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                 </div>
             </div>
         </div>
@@ -391,8 +319,6 @@ swalWithBootstrapButtons.fire({
                 </div>
                 <div class="content-law">
                     <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
-                    {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                    {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                 </div>
             </div>
         </div>
@@ -410,312 +336,24 @@ swalWithBootstrapButtons.fire({
                 </div>
                 <div class="content-law">
                     <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
-                    {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
-                    {{-- <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a> --}}
                 </div>
             </div>
         </div>
     </div>
-            {{-- <div class="slide">
-                <img src="images/logo/10.jpg" height="100" width="250" alt="" />
-            </div>
-            <div class="slide">
-                <img src="images/logo/11.jpg" height="100" width="250" alt="" />
-            </div>
-            <div class="slide">
-                <img src="images/logo/12.jpg" height="100" width="250" alt="" />
-            </div>
-            <div class="slide">
-                <img src="images/logo/13.jpg" height="100" width="250" alt="" />
-            </div> --}}
-            {{-- <div class="slide">
-                <img src="images/logo/5.jpg" style="height: 140px; width:180px;" alt="" />
-            </div> --}}
+            
             
         
         </div>
     </div>
 
-    {{-- <Section class="img-slider">
-        <div class="slider-container ">
-          
-          <div class="slide">
-
-                <div class="col-lg-12 col-md-6 col-sm-6 col-12">
-                                    <div class="image-box-law">
-                                        <div class="featured-post">
-                                            <div class="entry-image">
-                                                <a id="yy" href="#services"><img src="images/services/company1.jpg" class="tt" alt="الخدمات"></a>
-                                            </div>
-                                            <div class="icon">
-                                                <a id="yy" href="#services" ><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
-                                            </div>
-                                        </div>
-                                        <div class="content-law">
-                                            <h4 class="name"><a  id="yy" href="#rr">الخدمات </a></h4>
-
-                                        </div>
-                                    </div>
-                                </div>
-          </div>
-          
-          <div class="slide">
-
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
-                <div class="image-box-law">
-                    <div class="featured-post">
-                        <div class="entry-image">
-                            <a  id="yy" href="#rr"><img src="images/about/vision.jpg" class="tt" alt="رؤيتنا"></a>
-                        </div>
-                        <div class="icon">
-                            <a  id="yy" href="#rr"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
-                        </div>
-                    </div>
-                    <div class="content-law">
-                        <h4 class="name"><a id="yy" href="#rr">رؤيتنا</a></h4>
-
-                    </div>
-                </div>
-            </div>
-
-          </div>
-
-
-          <div class="slide" >
-
-            <div class="col-lg-12 col-md-6 col-sm-6 col-12" >
-                <div class="image-box-law">
-                    <div class="featured-post">
-                        <div class="entry-image">
-                            <a id="yy" href="/company-open"><img src="images/about/company.jpg" class="tt" alt="اسس شركتك"></a>
-                        </div>
-                        <div class="icon">
-                            <a id="yy" href="/company-open" id = ''><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
-                        </div>
-                    </div>
-                    <div class="content-law">
-                        <h4 class="name"><a id="yy" href="/company-open">اسس شركتك</a></h4>
-
-                    </div>
-                </div>
-            </div>
-
-          </div>
-
-
-          <div class="slide">
-
-            <div class="col-lg-12 col-md-6 col-sm-6 col-12">
-                <div class="image-box-law">
-                    <div class="featured-post">
-                        <div class="entry-image">
-                            <a id="yy" href="/request"><img src="images/about/res.jpg" class="tt" alt="حجز استشاره"></a>
-                        </div>
-                        <div class="icon">
-                            <a id="yy" href="/request"><img src="images/services/hammer.png" style="margin-top: 15%;"  alt="images"></a>
-                        </div>
-                    </div>
-                    <div class="content-law">
-                        <h4 class="name"><a id="yy" href="/request">حجز استشاره</a></h4>
-
-                    </div>
-                </div>
-            </div>
-
-          </div>
-
-
-
-      
-          
-          
-        </div>
-      </Section> --}}
+    
       <br><br><br><br><br><br>
 
 
 
 <center>
     
-    {{-- <div id="wrap" style="background-image: url('images/services/slide_.png') !important;padding-top:200px;"> --}}
-    {{-- <div id="wrap" >
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-22" >
-                    
     
-                    <div class="row rev_slider fullwidthabanner">
-                        <div class="col-lg-12 col-md-12">
-    
-                            <section class="carousel-wrap" >
-                                <ul class="carousel">
-                                    <li class="items main-pos" data-transition="random" id="1">
-                                        <div class="review-card text-center">
-                                            <section class="iconbox-home clearfix">
-                                                <div >
-                                                    <div class="iconbox-features type2">
-                                            <div class="iconbox iconbox-1">
-
-
-
-                    <div class="bck-stand"></div>
-                    <div class="bnc" style="" >
-                        <div class="iconbox-wrap">
-                            {{-- <div class="iconbox-icon" >
-                                <img src="images/home1/01.png" alt="images">
-                            </div> 
-                            <center>
-                                <div class="iconbox-content">
-                                    <h5 class="title slidertitle" ><a href="#services"  >الخدمات </a></h5>
-                                        
-                                    {{-- <p class="description">
-                                        
-                                    </p> 
-                                    {{-- <div class="fl-btn">
-                                        <a href="#">read more</a>
-                                    </div> 
-                                </div>
-                                <br>
-                            <div class="iconbox-image" style="">
-                                <img src="images/services/company.jpg"  alt="images">
-                            </div></center>
-                            
-                        </div>
-                    </div>
-                </div>
-                                                    </div></div></section>
-
-
-
-
-                                        </div>
-                                    </li>
-                                    <li class="items right-pos" data-transition="random" id="2">
-                                        <div class="review-card text-center">
-                                            <section class="iconbox-home clearfix">
-                                                <div style="width: 100%">
-                                                    <div class="iconbox-features type2">
-                                            <div class="iconbox iconbox-1">
-
-
-
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                           
-                            <center>
-                            <div class="iconbox-content">
-                                <h5 class="title slidertitle"><a href="#rr">رؤيتنا</a></h5>
-                                {{-- <p class="description">
-                                    Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                </p> 
-                                {{-- <div class="fl-btn">
-                                    <a href="#">read more</a>
-                                </div> 
-                            </div>
-
-                            <br>
-                            <div class="iconbox-image" style="">
-                                <img src="images/about/vision.jpg"  alt="images">
-                            </div></center>
-                        </div>
-                    </div>
-                </div>
-                                                    </div></div></section>
-
-
-
-
-                                        </div>
-                                    </li>
-                                    <li class="items right-pos" data-transition="random" id="3">
-                                        <div class="review-card text-center">
-                                            <section class="iconbox-home clearfix">
-                                                <div style="width: 100%">
-                                                    <div class="iconbox-features type2">
-                                            <div class="iconbox iconbox-1">
-
-
-
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                            <center>
-                                <div class="iconbox-content">
-                                    <h5 class="title slidertitle"><a href="/company-open">اسس شركتك</a></h5>
-                                    {{-- <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                    </p> --}}
-                                    {{-- <div class="fl-btn">
-                                        <a href="#">read more</a>
-                                    </div> 
-                                </div>
-    
-                                <br>
-                                <div class="iconbox-image" style="">
-                                    <img  src="images/services/companyy.jpg"  style="height: 200px;" alt="images">
-                                </div></center>
-                        </div>
-                    </div>
-                </div>
-                                                    </div></div></section>
-
-
-
-
-                                        </div>
-                                    </li>
-                                    <li class="items left-pos" data-transition="random" id="4">
-                                        <div class="review-card text-center">
-                                            <section class="iconbox-home clearfix">
-                                                <div style="width: 100%">
-                                                    <div class="iconbox-features type2">
-                                            <div class="iconbox iconbox-1">
-
-
-
-                    <div class="bck-stand"></div>
-                    <div class="bnc">
-                        <div class="iconbox-wrap">
-                            <center>
-                                <div class="iconbox-content">
-                                    <h5 class="title slidertitle"><a href="/request">حجز استشاره</a></h5>
-                                    {{-- <p class="description">
-                                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dolore magna aliqua. Ut enim ad minim veis nostrud
-                                    </p> --}}
-                                    {{-- <div class="fl-btn">
-                                        <a href="#">read more</a>
-                                    </div> 
-                                </div>
-    
-                                <br>
-                                <div class="iconbox-image" style="">
-                                    <img src="images/about/res.jpg"  alt="images">
-                                </div></center>
-                        </div>
-                    </div>
-                </div>
-                                                    </div></div></section>
-
-
-
-
-                                        </div>
-                                    </li>
-                                    
-                                </ul>
-                                <span class="slider">
-                                  <a href="javascript:void(0);" value="Prev" id="prev"><i class="material-icons">&#xE314;</i></a>
-                                  <a href="javascript:void(0);" value="Next" id="next"><i class="material-icons">&#xE315;</i></a>
-                                  {{-- 5alek faker 
-                                </span>
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
     </div>
 
 </center>
@@ -762,9 +400,7 @@ swalWithBootstrapButtons.fire({
                         <p class="description">
                             والأنجازات المنشودة والتعامل بإخراج العميل من المواقف الصعبة وثقتنا الشديده وإيمانا بالأعمال التى تسند إلينا هو الطريق الأمثل لأنجاز كل المهام التى تسند إلينا معتبرين عملائنا هم شركائنا الحقيقون في النجاح الذي نستمد منهم قوتنا المهنية والمزيد من النجاح وتوسعة قاعدة عملائنا يومآ بعد يوم هو نتائج جهد وطاقات مبذولة عن بصيرة وسعي دائم ونتائج مرضية لجميع العملاء.
                         </p>
-                        {{-- <div class="fl-btn">
-                            <a href="#" class="hvr-vertical">read more</a>
-                        </div> --}}
+                        
                     </div>
                 </div>
             </div>
@@ -861,7 +497,6 @@ swalWithBootstrapButtons.fire({
             <div class="container">
                 <div class="title-section text-center">
                     <h3 class="title texts" >الخدمات</h3>
-                    {{-- <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p> --}}
                 </div>
                 <div class="practice-area-wrap">
                     <div class="row">
@@ -880,7 +515,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">صياغة العقود الدولية والمحلية</h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'العقود' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -897,7 +531,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">الاستشارات القانونية والاقتصادية.</h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'الاستشارات'  class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -914,7 +547,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">إدارة القضايا والمنازعات بكافة انواعها  </h4>
-                                            {{-- <p class="description">يستوعب الفريق احتياجات العملاء العقارية ويتبع منهجآ عمليآ فى حل المشكلات ذات الصلة</p> --}}
                                             <a href="javascript:void(0)" id = 'monaz3at' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -931,7 +563,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">تأسيس الشركات وهيكلتها بكافة انواعها.</h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="/company-open" id = 'sharekat' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -950,7 +581,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">التعامل مع مصر للمقاصة والقيد والإيداع المركزي.</h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'للمقاصة' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -967,7 +597,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">منازعات التحكيم التجاري الدولي والمحلي  </h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'التحكيم' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -984,7 +613,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">التصديق على الأوراق الرسمية.</h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'التصديق' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1001,7 +629,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">تحصيل وتسوية الديون من القطاع المصرفي.</h4>
-                                            {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
                                             <a href="javascript:void(0)" id = 'الديون' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1023,7 +650,6 @@ swalWithBootstrapButtons.fire({
                                     </div>
                                     <div class="content-law">
                                         <h4 class="name">المسؤولية التقصيرية والتعويض</h4>
-                                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = 'mas2olya' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
@@ -1042,7 +668,6 @@ swalWithBootstrapButtons.fire({
                                         <h4 class="name">خدمات التأمينات الاجتماعية.
                                             <br>
                                         </h4>
-                                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = 'ta2menat' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
@@ -1059,7 +684,6 @@ swalWithBootstrapButtons.fire({
                                     </div>
                                     <div class="content-law">
                                         <h4 class="name">القضايا الإدارية ومجلس الدولة </h4>
-                                        {{-- <p class="description">يستوعب الفريق احتياجات العملاء العقارية ويتبع منهجآ عمليآ فى حل المشكلات ذات الصلة</p> --}}
                                         <a href="javascript:void(0)" id = 'dawla' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
@@ -1076,7 +700,6 @@ swalWithBootstrapButtons.fire({
                                     </div>
                                     <div class="content-law">
                                         <h4 class="name">إقامة العمل وتصاريح عمل الأجانب.</h4>
-                                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = 'tasaree7' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
@@ -1097,7 +720,6 @@ swalWithBootstrapButtons.fire({
                                         <h4 class="name">مصلحة الشهر العقاري.
                                             <br>
                                         </h4>
-                                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = '3akary' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
@@ -1114,7 +736,6 @@ swalWithBootstrapButtons.fire({
                                     </div>
                                     <div class="content-law">
                                         <h4 class="name">حقوق الملكية الفكرية وبراءة الاختراع </h4>
-                                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = 'e5tra3' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
@@ -1133,7 +754,6 @@ swalWithBootstrapButtons.fire({
                                         <h4 class="name">كسب الجنسية.
                                             <br>
                                         </h4>
-                                        {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                         <a href="javascript:void(0)" id = 'gensya' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
@@ -1152,7 +772,6 @@ swalWithBootstrapButtons.fire({
                                         <h4 class="name"> الجرائم الإلكترونية.
                                             <br>
                                         </h4>
-                                        {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
                                         <a href="javascript:void(0)" id = 'elec' class="btn-read-more">للمزيد اضغط هنا</a>
                                     </div>
                                 </div>
@@ -1176,7 +795,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">زواج ومنازعات الأجانب</h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'zawag' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1193,7 +811,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">الهجرة.</h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'hegra' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1210,7 +827,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">قطاع البترول </h4>
-                                            {{-- <p class="description">يستوعب الفريق احتياجات العملاء العقارية ويتبع منهجآ عمليآ فى حل المش كلات ذات الصلة</p> --}}
                                             <a href="javascript:void(0)" id = 'petrol' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1227,7 +843,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name">خدمة الضرائب والجمارك.</h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'gamarek' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1248,7 +863,6 @@ swalWithBootstrapButtons.fire({
                                             <h4 class="name">الإنتاج الفني والسينمائي.
                                                 <br>
                                             </h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'cinema' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1266,7 +880,6 @@ swalWithBootstrapButtons.fire({
                                         <div class="content-law">
                                             <h4 class="name">ادارة الاملاك العقارية
                                                 <br> </h4>
-                                            {{-- <p class="description">Yens nessiecte dunt ut labore et dolore magna aliqu tonesl not enim</p> --}}
                                             <a href="javascript:void(0)" id = 'amlaak' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1283,7 +896,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name"> تٌملك العقارات والأراضي وتخصيصها وتقنينها.</h4>
-                                            {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
                                             <a href="javascript:void(0)" id = 'tamalok' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1300,7 +912,6 @@ swalWithBootstrapButtons.fire({
                                         </div>
                                         <div class="content-law">
                                             <h4 class="name"> منازعات شؤون الأسرة وقضايا الاحوال الشخصية.</h4>
-                                            {{-- <p class="description">تضم المؤسسة فريقآ متحصصأ فى إعداد وصياغة ومراجعة كافة انواع العقود القانونية وترجمتها من العربية الى اللغات الاجنبية والعكس</p> --}}
                                             <a href="javascript:void(0)" id = 'osra' class="btn-read-more">للمزيد اضغط هنا</a>
                                         </div>
                                     </div>
@@ -1321,48 +932,13 @@ swalWithBootstrapButtons.fire({
             <a href="javascript:void(0);" class="circle" id="num4" onclick="page4()" style="margin-right:20px;">4&emsp;</a> 
             <a href="javascript:void(0);" class="circle" id="num5" onclick="page5()" style="margin-right:20px;">5&emsp;</a> 
             <a href="javascript:void(0);" class="circle" id="num6" onclick="page6()" style="margin-right:20px;">6&emsp;</a> 
-            {{-- <a href="javascript:void(0);" onclick="page2()"><div class="circle" id="num2">2&emsp;</div></a> 
-            <a href="javascript:void(0);" onclick="page3()"><div class="circle" id="num3">3&emsp;</div></a>
-            <a href="javascript:void(0);" onclick="page4()"><div class="circle" id="num4">4&emsp;</div></a>
-            <a href="javascript:void(0);" onclick="page5()"><div class="circle" id="num5">5&emsp;</div></a>
-            <a href="javascript:void(0);" onclick="page6()"><div class="circle" id="num6">6&emsp;</div></a> --}}
+            
         </div>
         </center>
             <br>
             
         </div><!-- practice -->
-        {{-- <span style="font-size: 25px;margin-left:40%;"><a href="javascript:void(0)"  id="p1" class="numberCircle">1</a>   &emsp;<a id="p2" onclick="p2()" href="javascript:void(0)" class="numberCircle">2</a>&emsp;<a id="p3" onclick="p3()" href="javascript:void(0)" class="numberCircle">3</a></span> --}}
-        {{-- <img src="images/transparent-head/logo.png" alt="" > --}}
-
-        {{-- <div class="featured featured-style2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="featured-post">
-                            <div class="entry-image">
-                                <img src="images/home1/14.png" alt="images">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="flat-spacer" data-desktop="63" data-sdesktop="63" data-mobi="30" data-smobi="30"></div>
-                        <div class="content">
-                            <div class="caption">Our commitment</div>
-                            <h4 class="heading">We bring justification against all curruption and injustice</h4>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consecte dunt ut labore et dot enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                            </p>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consecte dunt ut labore et dot enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                            </p>
-                            <div class="fl-btn">
-                                <a href="#" class="hvr-vertical">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- featured --> --}}
+        
     </section><!-- practice-featured --> 
 
    
@@ -1405,17 +981,10 @@ swalWithBootstrapButtons.fire({
             <div class="slide">
                 <img src="images/logo/4.jpg" style="height: 140px; width:180px;" alt="" />
             </div>
-            {{-- <div class="slide">
-                <img src="images/logo/5.jpg" style="height: 140px; width:180px;" alt="" />
-            </div> --}}
             
-        
         </div>
     </div>
-
-
-
-	<div class="team" id="team">
+	{{-- <div class="team" id="team">
 		<div class="container" id="att">
 			<h3 class="title texts" >  فريق العمل</h3>
          
@@ -1474,14 +1043,8 @@ swalWithBootstrapButtons.fire({
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
-
-
-    
-
-
-   
     <section class="testimonial text-center" id="rev">
         <div class="container">
 
@@ -1572,7 +1135,6 @@ swalWithBootstrapButtons.fire({
                             <form action="{{ route('estshara') }}" method="post"   class="form-evaluation">
                                 @csrf
                                 <div class="wrap-evaluation" >
-                                    {{-- <h5 class="title">Free Case Evaluation</h5> --}}
                                     <div class="your-name mg-text">
                                         <label for="" style="float:right;color:#A15035">الاَسم</label>
                         <input required type="text" name="name" style="" class="your-name" placeholder="اسمك بالكامل">
@@ -1589,9 +1151,7 @@ swalWithBootstrapButtons.fire({
                                         <label for="date" style="float:right;color:#A15035">تاريخ الأستشاره</label>
                         <input required type="date" style="" name="date" class="your-name">
                                     </div>
-                                    {{-- <div class="subject mg-text">
-                                        <input type="text" class="subject" placeholder="Subject">
-                                    </div> --}}
+                                    
                                     <div class="message-wrap mg-text">
 
                                         <textarea  name="details" required  id="comment-message" rows="8" placeholder="تفاصيل"></textarea>
@@ -1609,7 +1169,6 @@ swalWithBootstrapButtons.fire({
                    <div class="col-lg-7 col-md-12" >
                     <div class="content-evaluation">
                         <div class="themesflat-content-box" data-padding="113px 0% 101px 100px" data-sdesktoppadding="113px 0% 101px 0" data-ssdesktoppadding="113px 0% 101px 0" data-mobipadding="50px 0 100px 0" data-smobipadding="50px 0 100px 0">
-                            {{-- <div class="caption">تواصل</div> --}}
                             <h4 class="texts" style="color:#A75032;">احصل علي استشاره</h4>
                             <p class="description" style="font-size:25px;font-weight:bold;color:#3A1F0E;">
                                 تغطي مجالات عمل وخدمات المؤسسة نطاقاً واسعآ من المجالات والتخصصات إذا تقدم المؤسسة حلول مبتكرة واستشارات موجهة للأفراد والشركات فى جميع المراحل بداية من متطلبات انظمة إدارة حقوق الملكية الفكرية ويضمن التعاون الموثق بين إدارات المكتب ان يصبح مركزآ مؤهلاً لتلبية احتياجات العملاء. 
@@ -1619,14 +1178,11 @@ swalWithBootstrapButtons.fire({
                                 <div class="text" style="color:#A75032;">
                                     او اتصل بنا 
                                 </div>
-                                {{-- <h3 class="phone-number"> --}}
                                     <br>
 
                                     <a class="phone-number1" style="color: #43200F; font-size:20px;" href="tel:00201278823809">+201278823809</a><br><br>
-                                    {{-- <a class="phone-number2" style="color:white;;font-size:40px;"  href="tel:02035902759">02035902759</a><br><br> --}}
                                     <a class="phone-number3" style="color: #43200F; font-size:20px;"  href="tel:00201272653225">+201272653225</a>
  
-                                {{-- </h3> --}}
                             </div>
                         </div>
                     </div>
@@ -1645,7 +1201,6 @@ swalWithBootstrapButtons.fire({
     <script src="javascript/plugins.js"></script>
     <script src="javascript/jquery-ui.js"></script>
     
-    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script> --}}
     <script src="javascript/jquery-isotope.js"></script>
     <script src="javascript/equalize.min.js"></script>
     <script src="javascript/jquery-countTo.js"></script>

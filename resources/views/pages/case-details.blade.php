@@ -1,5 +1,16 @@
 @include('pages.header')
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-221597249-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-221597249-1');
+</script>
+</head>
 <body>
     <div id="loading-overlay">
         <div class="loader"></div>
@@ -24,9 +35,7 @@ swalWithBootstrapButtons.fire({
     @endif
 
     <style>
-        /* body {
-          font-family: 'Source Sans Pro', sans-serif;
-        } */
+        
         .img-behind-hire {
           background:  url("images/head/sharekat.jpg");
           background-size: cover;
@@ -100,24 +109,15 @@ swalWithBootstrapButtons.fire({
                                 نقوم بتوفير كافة الخدمات القانونية للشركات الجديدة والقائمة بالعمل كوكيل للشركة. ويوفر مكتبنا كل ما يتعلق بخدمات تأسيس الشركات لدينا كجزء من خدمتنا مساعدة الأفراد الأجانب والكيانات التجارية الأخرى لتأسيس وجودهم قانونا. 
                             </p>
                             <ul class="case-info">
-                                {{-- <li>
-                                    <span class="categories">Case Group</span>
-                                    <span class="rg-ct">Family Law</span>
-                                </li>
-                                <li>
-                                    <span class="categories">Client Name</span>
-                                    <span class="rg-ct">Alexender Flame</span>
-                                </li> --}}
+                               
                                 <li>
                                     <span class="categories " >محامون . مستشارون</span>
                                     <span class="rg-ct" >مصطفي الروبي</span>
                                 </li>
                             </ul><br>
                             
-                                {{-- <div class="btn4-wrapper"><div class="myBtn4"><a href="#">ابدأ بتأسيس الشركه الاَن</a></div></div> --}}
                                 <button type="button" data-toggle="modal" id="mediumButton" data-target="#mediumModal" class="all-buttons" >
-                                    <i class="fa fa-map-marker"></i>
-                                    ابدأ بتأسيس الشركه الاَن
+                                    <span class="building">   ابدأ بتأسيس الشركه الاَن</span> 
                                 </button>
 
                         </div>
@@ -154,9 +154,7 @@ swalWithBootstrapButtons.fire({
                     <div class="challange case-dt mg-case-details">
                         <div class="container">
                         <h3 class=" title texts">انواع الشركات</h3>
-                        {{-- <p>
-                            Duis aute irure dolor in reprehenderit in vount in culpa qui officia deserunt mollit anim id est laborum. Sediste natus error sit voluptatem accusantium doloremque laudariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                        </p> --}}
+                        
                         <ul class="process-steps" style="margin-right: 20px;" > 
                             <li class="steps"   >
                                 <div class="steps-name" dir="rtl">
@@ -485,53 +483,10 @@ swalWithBootstrapButtons.fire({
                     </div>
 
                 </div>
-                {{-- <div class="col-lg-3 col-md-12">
-                    <div class="sidebar-case">
-                        <div class="widget">
-                            <h3 class="widget-title"><span>Similar Case</span></h3>
-                        </div>
-                        <div class="similar-case">
-                            <div class="featured-post">
-                                <div class="entry-image">
-                                    <img src="images/case/11.png" alt="images">
-                                </div>
-                            </div>
-                            <div class="case-content">
-                                <h3 class="title"><a href="#">Eamod tempor inc ididunt</a></h3>
-                            </div>
-                        </div>
-                        <div class="similar-case">
-                            <div class="featured-post">
-                                <div class="entry-image">
-                                    <img src="images/case/12.png" alt="images">
-                                </div>
-                            </div>
-                            <div class="case-content">
-                                <h3 class="title"><a href="#">Tumi jodi nodi hoy ami hobo</a></h3>
-                            </div>
-                        </div>
-                        <div class="similar-case">
-                            <div class="featured-post">
-                                <div class="entry-image">
-                                    <img src="images/case/13.png" alt="images">
-                                </div>
-                            </div>
-                            <div class="case-content">
-                                <h3 class="title"><a href="#">Tomar chatok chokhe</a></h3>
-                            </div>
-                        </div>
-                        <div class="img-media">
-                            <div class="featured-post">
-                                <div class="entry-image">
-                                    <img src="images/case/14.png" alt="images">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
+                
             </div>
         </div>
-    </div><!-- case-details -->
+    </div>
 
 
 
@@ -558,19 +513,7 @@ swalWithBootstrapButtons.fire({
                             <p>Error message</p>
                         </div>
         
-                        {{-- <div class="form-group row alert alert-success d-none" id="js-div-notification">
-                            <div class="col-sm-10">
-                                <label id="js-label-verified-address"></label>
-                                <input type="hidden" id="js-hidden-confirm-address" value="" />
-                                <input type="hidden" id="js-hidden-confirm-city" value="" />
-                                <input type="hidden" id="js-hidden-confirm-state" value="" />
-                                <input type="hidden" id="js-hidden-confirm-zip" value="" />
-                            </div>
-                            <div class="col-sm-2">
-                                <button type="button" class="btn btn-primary btn-block" id="js-btn-save-address">Fill</button>
-                            </div>
-                        </div> --}}
-                        {{-- {{ Form::open(array('route' => 'company', 'method' => 'post')) }} --}}
+                        
                         <form action="{{ route('company') }}" method="post" enctype="multipart/form-data">
                         @csrf
                         @foreach ([
@@ -601,25 +544,19 @@ swalWithBootstrapButtons.fire({
 
 
                                             @elseif($key == 'attach')
-                                            {{-- {!! Form::file('attach',['class' => 'dropzone']) !!} --}}
                                             <input type="file" name="file" class="form-control" accept=".jpg,.jpeg,.bmp,.png,.gif,.doc,.docx,.csv,.rtf,.xlsx,.xls,.txt,.pdf,.zip">
-                                            {{-- {!! Form::label('attach', "ارفع مستنداتك", ['class' => 'col-sm-5 col-form-label text-right font-weight-bold required' ]) !!} --}}
                                     @else
-                                        {{-- {!! Form::text($key, NULL, ['class' => 'form-control', ]) !!} --}}
                                         <input type="text" name="{{$key}}" class="form-control">
                                         
                                     @endif
                                 </div>
                                 <label for="{{$key}}" class="col-sm-4 col-form-label text-right font-weight-bold required"> : {{ $value }}</label>
-                                {{-- {!! Form::label($key, ' : '.$value, ['class' => 'col-sm-4 col-form-label text-right font-weight-bold required' ]) !!} --}}
 
                             </div>
                         @endforeach
                         <div class="modal-footer">
                             <div class="modal-button-default">
                                 <input type="submit" value="تقديم البيانات!" class="all-buttons btn btn-primary">
-                                {{-- {{ Form::submit('تقديم البيانات!',['class'=> ' all-buttons btn btn-primary']) }} --}}
-                                {{-- <button type="button" class="btn btn-primary" id="js-btn-save-new-location">تقديم البيانات</button> --}}
                             </div>
                         </form>
                         </div>
@@ -662,30 +599,13 @@ swalWithBootstrapButtons.fire({
     </script>
 
 
-    {{-- <div class="featured-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-sm-12">
-                    <div class="content">
-                        <h6 class="title">Lets solve your problem today</h6>
-                        <p>Lorem ipsum dolor sit amet, consecte dunt ut labore</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="fl-btn">
-                        <a href="#" class="hvr-vertical">read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- featured-banner --> --}}
+    
     </div>
     
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/plugins.js"></script>
     <script src="javascript/jquery-ui.js"></script>
     
-    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script> --}}
     <script src="javascript/jquery-isotope.js"></script>
     <script src="javascript/equalize.min.js"></script>
     <script src="javascript/jquery-countTo.js"></script>

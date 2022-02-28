@@ -11,7 +11,6 @@
                             <div class="content">
                                 <div class="images-logo" >
                               
-                                    {{-- <img src="images/logo/l w.png" style="background-size:10% 10%;height:80px; " alt="images"> --}}
                                     <img src="images/logo/logo-01.png"  alt="images" style="float: right;" data-retina="images/logo/logo-01.png">
                                     <div class="text">
                                     <div class="col-lg-8 col-md-6 col-sm-6"> 
@@ -87,15 +86,7 @@
                                 All rights reserved  ©  <a href="#">Solasta</a>  2022
                             </div>
                         </div>
-                        {{-- <div class="col-lg-7 col-md-12">
-                            <div class="menu-footer">
-                                <ul>
-                                    <li><a href="#">Terms & Condition</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Legal</a></li>
-                                </ul>
-                            </div>
-                        </div> --}}
+                       
                     </div>
                 </div>
             </div>

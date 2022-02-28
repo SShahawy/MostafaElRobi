@@ -1,5 +1,16 @@
 @include('pages.header')
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-221597249-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-221597249-1');
+</script>
+</head>
 
 
 <body>
@@ -125,7 +136,6 @@ swalWithBootstrapButtons.fire({
                             <li><option value="Female">انثي</option></li>
                         </select>
                         </ul>
-                        {{-- <input type="text" style="text-align: right;" class="your-email" placeholder="إميل"> --}}
                     </div>
 
                     <div class="wr-sm">
@@ -159,7 +169,6 @@ swalWithBootstrapButtons.fire({
     <script src="javascript/plugins.js"></script>
     <script src="javascript/jquery-ui.js"></script>
     
-    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script> --}}
     <script src="javascript/jquery-isotope.js"></script>
     <script src="javascript/equalize.min.js"></script>
     <script src="javascript/jquery-countTo.js"></script>

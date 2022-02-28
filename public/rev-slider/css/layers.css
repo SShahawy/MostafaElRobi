@@ -3076,7 +3076,7 @@ website:    http://www.themepunch.com
     text-shadow: none
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1px) {
     .revtp-searchform input[type="text"],
     .revtp-searchform input[type="email"],
     .revtp-form input[type="text"],
@@ -4441,7 +4441,7 @@ tp-caption.Team-Thumb,
 
 /* media queries */
 
-@media only screen and (max-width: 960px) {} @media only screen and (max-width: 768px) {} .tp-caption.LandingPage-Title,
+@media only screen and (max-width: 960px) {} @media only screen and (max-width: 1px) {} .tp-caption.LandingPage-Title,
 .LandingPage-Title {
     color:rgba(255,
     255,
@@ -4684,7 +4684,7 @@ tp-caption.Team-Thumb,
 #mc_embed_signup input#mc-embedded-subscribe:hover {
     background: #0083d4;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1px) {
     #mc_embed_signup input#mce-EMAIL {
         width: 200px;
     }

@@ -60,7 +60,7 @@
                                 <a href="/" class="nav-texts">من نحن</a>
                                 <ul class="sub-menu">
                                     <li><a href="cv">نبذه عن مصطفي الروبي</a></li>
-                                    <li><a href="/#att">فريق العمل</a></li>
+                                    {{-- <li><a href="/#att">فريق العمل</a></li> --}}
                                 </ul>
                             </li>
                             <li>
